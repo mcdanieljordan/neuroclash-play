@@ -1,0 +1,176 @@
+{
+ "id": "ep3_r1",
+ "order": 1,
+ "name": "Seedling Row",
+ "difficulty": 2,
+ "item_reward": "ep3_charm_1",
+ "boss": {
+  "name": "Sprout Sprite",
+  "element": "plant",
+  "color": "#8fd05a",
+  "color2": "#ffffff",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Sprout Sprite grows in funny spurts and keeps losing its pattern. Dodge the seeds!",
+  "after": "Sprout Sprite grows in a nice, steady row and waves a tiny leaf.",
+  "patterns": [
+   {
+    "type": "rain",
+    "count": 3,
+    "speed": 110,
+    "every": 1.4
+   },
+   {
+    "type": "ring",
+    "count": 8,
+    "speed": 100,
+    "every": 3
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep3_r1_arrival",
+  "boss_intro": "ep3_r1_boss_intro",
+  "boss_defeated": "ep3_r1_boss_defeated",
+  "item": "ep3_r1_item"
+ },
+ "map": {
+  "id": "ep3_r1",
+  "name": "Seedling Row",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "row",
+   "order": [
+    10,
+    12,
+    14
+   ],
+   "hint": "Count by twos: 2, 4, 6, 8, then 10, 12, 14.",
+   "flag": "ep3_r1_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep3_grove",
+    "spawn": "from_r1",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep3_r1_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep3_r1"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The seedlings grew in a pattern: 2, 4, 6, 8..."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "The seedlings grew in a pattern: 2, 4, 6, 8... Touch the next three numbers in order."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep3_charm_1",
+    "if": "ep3_r1_boss_done",
+    "actions": [
+     {
+      "flag": "ep3_r1_item"
+     },
+     {
+      "cutscene": "ep3_r1_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 4,
+    "y": 10,
+    "n": 0,
+    "value": 12,
+    "label": 12
+   },
+   {
+    "type": "pillar",
+    "x": 8,
+    "y": 13,
+    "n": 1,
+    "value": 6,
+    "label": 6
+   },
+   {
+    "type": "pillar",
+    "x": 12,
+    "y": 10,
+    "n": 2,
+    "value": 10,
+    "label": 10
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 3,
+    "value": 14,
+    "label": 14
+   },
+   {
+    "type": "pillar",
+    "x": 20,
+    "y": 10,
+    "n": 4,
+    "value": 9,
+    "label": 9
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep3_r1_arrived",
+    "flag": "ep3_r1_arrived",
+    "cutscene": "ep3_r1_arrival"
+   }
+  ]
+ }
+}

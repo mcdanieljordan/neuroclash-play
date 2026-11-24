@@ -1,0 +1,158 @@
+{
+ "id": "ep2_r3",
+ "order": 3,
+ "name": "Vane Valley",
+ "difficulty": 2,
+ "requires_item": "ep2_charm_2",
+ "item_reward": "ep2_charm_3",
+ "boss": {
+  "name": "Gusty the Gale",
+  "element": "wind",
+  "color": "#ffe066",
+  "color2": "#ffffff",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Gusty the Gale blows in all directions and forgets which way is which. Dodge the breezes!",
+  "after": "Gusty puffs into a gentle breeze and tickles your hair.",
+  "patterns": [
+   {
+    "type": "spiral",
+    "count": 3,
+    "speed": 115,
+    "every": 0.6
+   },
+   {
+    "type": "sweep",
+    "count": 8,
+    "speed": 95,
+    "every": 2.6
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep2_r3_arrival",
+  "boss_intro": "ep2_r3_boss_intro",
+  "boss_defeated": "ep2_r3_boss_defeated",
+  "item": "ep2_r3_item"
+ },
+ "map": {
+  "id": "ep2_r3",
+  "name": "Vane Valley",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "vane",
+   "flag": "ep2_r3_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep2_dock",
+    "spawn": "from_r3",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep2_r3_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep2_r3"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Three wind-vanes need a nudge."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Three wind-vanes need a nudge. Touch a vane to turn it. Left one: East. Middle one: South. Right one: West."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep2_charm_3",
+    "if": "ep2_r3_boss_done",
+    "actions": [
+     {
+      "flag": "ep2_r3_item"
+     },
+     {
+      "cutscene": "ep2_r3_item"
+     }
+    ]
+   },
+   {
+    "type": "vane",
+    "x": 5,
+    "y": 10,
+    "n": 0,
+    "start": "N",
+    "want": "E",
+    "label": "N"
+   },
+   {
+    "type": "vane",
+    "x": 11,
+    "y": 12,
+    "n": 1,
+    "start": "W",
+    "want": "S",
+    "label": "W"
+   },
+   {
+    "type": "vane",
+    "x": 18,
+    "y": 10,
+    "n": 2,
+    "start": "E",
+    "want": "W",
+    "label": "E"
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep2_r3_arrived",
+    "flag": "ep2_r3_arrived",
+    "cutscene": "ep2_r3_arrival"
+   }
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+Art in this folder is by Kenney (www.kenney.nl), released under Creative Commons Zero (CC0, public domain).
+  tiny-town.png     from "Tiny Town" 1.1        https://kenney.nl/assets/tiny-town
+  tiny-dungeon.png  from "Tiny Dungeon" 1.0     https://kenney.nl/assets/tiny-dungeon
+Both are the packs' own "tilemap_packed.png" (16 x 16 pixel tiles, 12 columns). The licence files sit beside them.
+Credit is not required, and is gratefully given.
+
+Pixel creatures are drawn by src/creature-pixels.js, which adapts the body-growing method of Deep-Fold's SpriteGenerator
+(https://github.com/Deep-Fold/SpriteGenerator, MIT License, Copyright (c) 2021 Deep-Fold). The notice is also kept in that file.

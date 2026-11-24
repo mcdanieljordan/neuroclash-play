@@ -1,0 +1,37 @@
+{
+ "id": "ep3",
+ "title": "Episode 3: The Orchard of Equations",
+ "blurb": "The orchard trees bloom out of order. Wake six Grove Temples and help Mother Quince.",
+ "requires": [
+  "ep2"
+ ],
+ "complete_flag": "ep3_done",
+ "start": {
+  "map": "ep3_grove",
+  "spawn": "default",
+  "items": []
+ },
+ "files": [
+  "dialogue",
+  "cutscenes",
+  "story",
+  "items",
+  "quests",
+  "creatures",
+  "regions"
+ ],
+ "maps": [
+  "ep3_grove",
+  "ep3_hill",
+  "ep3_creek",
+  "ep3_dell"
+ ],
+ "temples": [
+  "ep3_r1",
+  "ep3_r2",
+  "ep3_r3",
+  "ep3_r4",
+  "ep3_r5",
+  "ep3_r6"
+ ]
+}

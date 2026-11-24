@@ -1,0 +1,202 @@
+{
+ "id": "t1",
+ "order": 1,
+ "name": "Counting Cloister",
+ "difficulty": 1,
+ "requires_item": "bubble_wand",
+ "item_reward": "glow_lantern",
+ "boss": {
+  "name": "Abacuss the Muddled",
+  "color": "#e0a030",
+  "color2": "#7a5a1a",
+  "hearts": 3,
+  "dizzy_after_sec": 9,
+  "intro": "Abacuss lost count and cannot stop spinning. Dodge the beads until it gets dizzy!",
+  "after": "Abacuss is counting quietly to itself, perfectly happy.",
+  "patterns": [
+   {
+    "type": "ring",
+    "count": 8,
+    "speed": 110,
+    "every": 2.2
+   },
+   {
+    "type": "aimed",
+    "count": 1,
+    "speed": 150,
+    "every": 1.6
+   }
+  ],
+  "element": "earth"
+ },
+ "cutscenes": {
+  "arrival": "t1_arrival",
+  "boss_intro": "t1_boss_intro",
+  "boss_defeated": "t1_boss_defeated",
+  "item": "t1_item"
+ },
+ "map": {
+  "id": "t1",
+  "name": "Counting Cloister",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccOcccccccccccccc##",
+   "##cccccOcccccccccccccc##",
+   "##cccccOcccccccccccccc##",
+   "##cccccOcccccccccccccc##",
+   "##cccccOcccccccccccccc##",
+   "##cccccOcccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "sequence",
+   "flag": "t1_puzzle",
+   "hint": "Count in order: 1, 2, 3, 4. Start again from 1."
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t1",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t1_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t1"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Long ago the Cloister counted every Spark in Lumeria. Then the Hush came, and the numbers slipped off the walls."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "glow_lantern",
+    "if": "t1_boss_done",
+    "actions": [
+     {
+      "flag": "t1_item"
+     },
+     {
+      "cutscene": "t1_item"
+     }
+    ]
+   },
+   {
+    "type": "plate",
+    "x": 10,
+    "y": 10,
+    "n": 1,
+    "label": 1
+   },
+   {
+    "type": "plate",
+    "x": 19,
+    "y": 13,
+    "n": 2,
+    "label": 2
+   },
+   {
+    "type": "plate",
+    "x": 4,
+    "y": 13,
+    "n": 3,
+    "label": 3
+   },
+   {
+    "type": "plate",
+    "x": 4,
+    "y": 10,
+    "n": 4,
+    "label": 4
+   },
+   {
+    "type": "pickup",
+    "x": 3,
+    "y": 9,
+    "item": "brass_gear",
+    "once": true
+   },
+   {
+    "type": "pickup",
+    "x": 20,
+    "y": 9,
+    "item": "brass_gear",
+    "once": true
+   },
+   {
+    "type": "pickup",
+    "x": 17,
+    "y": 5,
+    "item": "brass_gear",
+    "once": true
+   },
+   {
+    "type": "pickup",
+    "x": 2,
+    "y": 14,
+    "item": "lost_page",
+    "once": true
+   },
+   {
+    "type": "pickup",
+    "x": 21,
+    "y": 14,
+    "item": "lost_page",
+    "once": true
+   },
+   {
+    "type": "pickup",
+    "x": 8,
+    "y": 5,
+    "item": "lost_page",
+    "once": true
+   },
+   {
+    "type": "sign",
+    "x": 14,
+    "y": 9,
+    "text": "Step on the plates in counting order: 1, 2, 3, 4. Pop the bubbles to reach them all."
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "t1_arrived",
+    "flag": "t1_arrived",
+    "cutscene": "t1_arrival"
+   }
+  ]
+ }
+}

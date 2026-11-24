@@ -1,0 +1,159 @@
+{
+ "id": "ep2_r1",
+ "order": 1,
+ "name": "Breezy Run",
+ "difficulty": 1,
+ "item_reward": "ep2_charm_1",
+ "boss": {
+  "name": "Weathervane Wob",
+  "element": "spark",
+  "color": "#9ad7ff",
+  "color2": "#ffffff",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Wob the weathervane spins in circles and points at everything. Dodge the gusts!",
+  "after": "Wob settles on a rooftop and points, calmly, north.",
+  "patterns": [
+   {
+    "type": "ring",
+    "count": 8,
+    "speed": 95,
+    "every": 3
+   },
+   {
+    "type": "aimed",
+    "count": 3,
+    "speed": 110,
+    "every": 2.2
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep2_r1_arrival",
+  "boss_intro": "ep2_r1_boss_intro",
+  "boss_defeated": "ep2_r1_boss_defeated",
+  "item": "ep2_r1_item"
+ },
+ "map": {
+  "id": "ep2_r1",
+  "name": "Breezy Run",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "sequence",
+   "hint": "Count in order: 1, 2, 3, 4. Start again from 1.",
+   "flag": "ep2_r1_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep2_dock",
+    "spawn": "from_r1",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep2_r1_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep2_r1"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The wind-boats lined up here by number."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "The wind-boats lined up here by number. Step on the plates in order: 1, 2, 3, 4."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep2_charm_1",
+    "if": "ep2_r1_boss_done",
+    "actions": [
+     {
+      "flag": "ep2_r1_item"
+     },
+     {
+      "cutscene": "ep2_r1_item"
+     }
+    ]
+   },
+   {
+    "type": "plate",
+    "x": 4,
+    "y": 10,
+    "n": 1,
+    "label": 1
+   },
+   {
+    "type": "plate",
+    "x": 9,
+    "y": 12,
+    "n": 2,
+    "label": 2
+   },
+   {
+    "type": "plate",
+    "x": 15,
+    "y": 10,
+    "n": 3,
+    "label": 3
+   },
+   {
+    "type": "plate",
+    "x": 19,
+    "y": 13,
+    "n": 4,
+    "label": 4
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep2_r1_arrived",
+    "flag": "ep2_r1_arrived",
+    "cutscene": "ep2_r1_arrival"
+   }
+  ]
+ }
+}

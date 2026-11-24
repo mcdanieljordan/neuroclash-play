@@ -1,0 +1,92 @@
+[
+ {
+  "id": "ep3_charm_1",
+  "name": "Sprout Charm",
+  "kind": "key",
+  "shape": "leaf",
+  "color": "#8fd05a",
+  "color2": "#ffffff",
+  "desc": "A tiny green sprout that wiggles when numbers line up."
+ },
+ {
+  "id": "ep3_charm_2",
+  "name": "Honey Charm",
+  "kind": "key",
+  "shape": "drop",
+  "color": "#ffc84a",
+  "color2": "#fff3c0",
+  "desc": "A golden drop of honey that never drips."
+ },
+ {
+  "id": "ep3_charm_3",
+  "name": "Quince Charm",
+  "kind": "key",
+  "shape": "gem",
+  "color": "#e0c040",
+  "color2": "#ffffff",
+  "desc": "A shiny little quince with a wise smile."
+ },
+ {
+  "id": "ep3_charm_4",
+  "name": "Glass Charm",
+  "kind": "key",
+  "shape": "orb",
+  "color": "#9ad7ff",
+  "color2": "#ffffff",
+  "desc": "A clear glass bead that fogs up when it is happy."
+ },
+ {
+  "id": "ep3_charm_5",
+  "name": "Gourd Charm",
+  "kind": "key",
+  "shape": "star",
+  "color": "#ff9a3a",
+  "color2": "#ffe066",
+  "desc": "A round gourd that rattles like a tiny drum."
+ },
+ {
+  "id": "ep3_charm_6",
+  "name": "Heart Charm",
+  "kind": "key",
+  "shape": "orb",
+  "color": "#ff7ac8",
+  "color2": "#ffffff",
+  "desc": "The Greenhouse Heart beats softly inside it."
+ },
+ {
+  "id": "ep3_honey",
+  "name": "Honey Drop",
+  "kind": "material",
+  "shape": "drop",
+  "color": "#ffc84a",
+  "color2": "#fff3c0",
+  "desc": "A sweet drop of honey from Honey Hill."
+ },
+ {
+  "id": "ep3_seed",
+  "name": "Orchard Seed",
+  "kind": "material",
+  "shape": "leaf",
+  "color": "#8fd05a",
+  "color2": "#ffffff",
+  "desc": "A plump seed that wants to grow."
+ },
+ {
+  "id": "ep3_orchard_keeper",
+  "name": "Orchard Keeper Badge",
+  "kind": "badge",
+  "shape": "star",
+  "color": "#e0a030",
+  "color2": "#4ccf6a",
+  "desc": "Earned by waking all six Grove Temples."
+ },
+ {
+  "id": "ep3_basket_pin",
+  "name": "Basket Pin",
+  "kind": "badge",
+  "shape": "gear",
+  "color": "#c9a26a",
+  "color2": "#ffffff",
+  "desc": "A pin for anyone who helps gather honey."
+ }
+]

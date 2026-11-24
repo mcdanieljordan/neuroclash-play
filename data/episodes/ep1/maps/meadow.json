@@ -1,0 +1,366 @@
+{
+ "id": "meadow",
+ "name": "Glimmer Meadow",
+ "music": "calm",
+ "background": "#2f7a3f",
+ "freeroam": true,
+ "goal": "Free roam: gather things, greet creatures, or play Hide-and-Seek with Ranger Fennel.",
+ "tiles": [
+  "tttttttttttttttttttttttttttttttttttt",
+  "tgggggggggggggggg.gggggggggggggggggt",
+  "tgggggggggggggggg.gggggggggggggggggt",
+  "tggggtgggggggwggg.ggggwgggggtggggggt",
+  "tgggggggggggggggg.gggggggggggggggggt",
+  "tggg...........................gwggt",
+  "tggggggwggggggggg.gggggggggggggggggt",
+  "tgggggggggggggggg.gggggggtgggggggggt",
+  "tggggggggtggggggg.gggggggggggggggggt",
+  "tggggggggggggg~~~~~~~~gggggggggtgggt",
+  "tggggggggggggg~~~~~~~~gggggggggggggt",
+  "tggggggggggwgg~~~~~~~~gggggggggggggt",
+  "tggtgggggggggg~~~~~~~~gggggggggggggt",
+  "tggggggggggggg~~~~~~~~gggggtgggggggt",
+  "tgggggggggtggggggggggggggggggggggggt",
+  "tggggggggggggggggggggggwgggggggggggt",
+  "tgggggggwgggggggggggggggggggggtggggt",
+  "tggggggggggggggggggwgggggggggggggggt",
+  "tgggggtggggggggggggggggggggggggggggt",
+  "tgggggggggggggggggggggggtggggggggggt",
+  "tgggggggggggtggggggggggggggggwgggggt",
+  "tgggwggggggggggggggggggggggggggggggt",
+  "tggggggggggggggggggggggggggggggggggt",
+  "tttttttttttttttttttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   17,
+   3
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 17,
+   "y": 1,
+   "to": "academy",
+   "spawn": "from_meadow",
+   "color": "#ffe9a8"
+  },
+  {
+   "type": "sign",
+   "x": 18,
+   "y": 2,
+   "text": "Glimmer Meadow. Gather what you find. Greet a creature and answer its question to become friends."
+  },
+  {
+   "type": "npc",
+   "id": "ranger_fennel",
+   "x": 15,
+   "y": 4,
+   "sprite": "gardener",
+   "name": "Ranger Fennel",
+   "minigame": "hide_seek",
+   "verb": "Play"
+  },
+  {
+   "type": "bush",
+   "id": "bush0",
+   "x": 3,
+   "y": 8
+  },
+  {
+   "type": "bush",
+   "id": "bush1",
+   "x": 8,
+   "y": 11
+  },
+  {
+   "type": "bush",
+   "id": "bush2",
+   "x": 12,
+   "y": 17
+  },
+  {
+   "type": "bush",
+   "id": "bush3",
+   "x": 22,
+   "y": 8
+  },
+  {
+   "type": "bush",
+   "id": "bush4",
+   "x": 26,
+   "y": 11
+  },
+  {
+   "type": "bush",
+   "id": "bush5",
+   "x": 31,
+   "y": 13
+  },
+  {
+   "type": "bush",
+   "id": "bush6",
+   "x": 20,
+   "y": 20
+  },
+  {
+   "type": "bush",
+   "id": "bush7",
+   "x": 5,
+   "y": 15
+  },
+  {
+   "type": "bush",
+   "id": "bush8",
+   "x": 28,
+   "y": 18
+  },
+  {
+   "type": "bush",
+   "id": "bush9",
+   "x": 33,
+   "y": 20
+  },
+  {
+   "type": "pickup",
+   "x": 6,
+   "y": 9,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 9,
+   "y": 19,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 25,
+   "y": 16,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 31,
+   "y": 7,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 7,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 23,
+   "y": 21,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 4,
+   "y": 17,
+   "item": "brass_gear"
+  },
+  {
+   "type": "pickup",
+   "x": 29,
+   "y": 4,
+   "item": "brass_gear"
+  },
+  {
+   "type": "pickup",
+   "x": 11,
+   "y": 13,
+   "item": "brass_gear"
+  },
+  {
+   "type": "pickup",
+   "x": 32,
+   "y": 17,
+   "item": "brass_gear"
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 11,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "pickup",
+   "x": 22,
+   "y": 13,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "pickup",
+   "x": 18,
+   "y": 15,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "pickup",
+   "x": 16,
+   "y": 8,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "pickup",
+   "x": 7,
+   "y": 21,
+   "item": "lost_page"
+  },
+  {
+   "type": "pickup",
+   "x": 26,
+   "y": 20,
+   "item": "lost_page"
+  },
+  {
+   "type": "pickup",
+   "x": 33,
+   "y": 11,
+   "item": "lost_page"
+  },
+  {
+   "type": "pickup",
+   "x": 2,
+   "y": 3,
+   "item": "old_map_piece"
+  },
+  {
+   "type": "pickup",
+   "x": 33,
+   "y": 2,
+   "item": "old_map_piece"
+  },
+  {
+   "type": "pickup",
+   "x": 2,
+   "y": 20,
+   "item": "old_map_piece"
+  },
+  {
+   "type": "creature",
+   "id": "wild_cogletta",
+   "x": 6,
+   "y": 12,
+   "creature": "cogletta",
+   "unless": "friend_cogletta"
+  },
+  {
+   "type": "creature",
+   "id": "wild_windlekey",
+   "x": 10,
+   "y": 4,
+   "creature": "windlekey",
+   "unless": "friend_windlekey"
+  },
+  {
+   "type": "creature",
+   "id": "wild_prismo",
+   "x": 24,
+   "y": 5,
+   "creature": "prismo",
+   "unless": "friend_prismo"
+  },
+  {
+   "type": "creature",
+   "id": "wild_quartzee",
+   "x": 30,
+   "y": 11,
+   "creature": "quartzee",
+   "unless": "friend_quartzee"
+  },
+  {
+   "type": "creature",
+   "id": "wild_flickerby",
+   "x": 8,
+   "y": 20,
+   "creature": "flickerby",
+   "unless": "friend_flickerby"
+  },
+  {
+   "type": "creature",
+   "id": "wild_shimmoo",
+   "x": 21,
+   "y": 17,
+   "creature": "shimmoo",
+   "unless": "friend_shimmoo"
+  },
+  {
+   "type": "creature",
+   "id": "wild_boltlet",
+   "x": 27,
+   "y": 21,
+   "creature": "boltlet",
+   "unless": "friend_boltlet"
+  },
+  {
+   "type": "creature",
+   "id": "wild_rivetail",
+   "x": 32,
+   "y": 15,
+   "creature": "rivetail",
+   "unless": "friend_rivetail"
+  },
+  {
+   "type": "creature",
+   "id": "wild_embergear",
+   "x": 3,
+   "y": 5,
+   "creature": "embergear",
+   "unless": "friend_embergear"
+  },
+  {
+   "type": "creature",
+   "id": "wild_novaling",
+   "x": 12,
+   "y": 9,
+   "creature": "novaling",
+   "unless": "friend_novaling"
+  },
+  {
+   "type": "creature",
+   "id": "wild_cometkin",
+   "x": 23,
+   "y": 10,
+   "creature": "cometkin",
+   "unless": "friend_cometkin"
+  },
+  {
+   "type": "creature",
+   "id": "wild_tikwing",
+   "x": 19,
+   "y": 21,
+   "creature": "tikwing",
+   "unless": "friend_tikwing"
+  },
+  {
+   "type": "creature",
+   "id": "wild_glimbit",
+   "x": 5,
+   "y": 19,
+   "creature": "glimbit",
+   "unless": "friend_glimbit"
+  },
+  {
+   "type": "creature",
+   "id": "wild_pixlet",
+   "x": 29,
+   "y": 8,
+   "creature": "pixlet",
+   "unless": "friend_pixlet"
+  },
+  {
+   "type": "creature",
+   "id": "wild_twinklet",
+   "x": 14,
+   "y": 15,
+   "creature": "twinklet",
+   "unless": "friend_twinklet"
+  }
+ ]
+}

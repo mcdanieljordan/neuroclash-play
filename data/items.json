@@ -1,0 +1,222 @@
+[
+ {
+  "id": "bubble_wand",
+  "name": "Bubble Wand",
+  "kind": "key",
+  "shape": "wand",
+  "color": "#9ad7ff",
+  "color2": "#ffffff",
+  "desc": "Pops the sleepy bubbles that block a path. Just walk into them!"
+ },
+ {
+  "id": "glow_lantern",
+  "name": "Glow Lantern",
+  "kind": "key",
+  "shape": "orb",
+  "color": "#ffe066",
+  "color2": "#fff7c0",
+  "desc": "Its warm light melts Hush fog as you walk through it."
+ },
+ {
+  "id": "hop_boots",
+  "name": "Hop Boots",
+  "kind": "key",
+  "shape": "boot",
+  "color": "#e07a30",
+  "color2": "#ffe066",
+  "desc": "Springy boots that carry you over gaps.",
+  "grants": [
+   "gap"
+  ]
+ },
+ {
+  "id": "echo_whistle",
+  "name": "Echo Whistle",
+  "kind": "key",
+  "shape": "tube",
+  "color": "#b06ad9",
+  "color2": "#ffffff",
+  "desc": "One clear note wakes the old echo gates."
+ },
+ {
+  "id": "tide_charm",
+  "name": "Tide Charm",
+  "kind": "key",
+  "shape": "drop",
+  "color": "#3a8fd0",
+  "color2": "#c0ecff",
+  "desc": "Water calms under your feet so you can walk across.",
+  "grants": [
+   "water"
+  ]
+ },
+ {
+  "id": "star_compass",
+  "name": "Star Compass",
+  "kind": "key",
+  "shape": "star",
+  "color": "#ffe066",
+  "color2": "#2a2f6a",
+  "desc": "It always points to the Star Archive, and opens its gate."
+ },
+ {
+  "id": "spark_berry",
+  "name": "Spark Berry",
+  "kind": "material",
+  "shape": "leaf",
+  "color": "#e0564f",
+  "color2": "#3f8f4a",
+  "desc": "A sweet, glowing berry. Creatures love them."
+ },
+ {
+  "id": "brass_gear",
+  "name": "Brass Gear",
+  "kind": "material",
+  "shape": "gear",
+  "color": "#d9a03a",
+  "color2": "#7a5a1a",
+  "desc": "A little gear that fell off something bigger."
+ },
+ {
+  "id": "dew_crystal",
+  "name": "Dew Crystal",
+  "kind": "material",
+  "shape": "gem",
+  "color": "#7fe0ff",
+  "color2": "#ffffff",
+  "desc": "Morning dew that decided to stay."
+ },
+ {
+  "id": "lost_page",
+  "name": "Lost Page",
+  "kind": "material",
+  "shape": "gem",
+  "color": "#fff7e0",
+  "color2": "#c9a26a",
+  "desc": "A page that slipped out of an old book."
+ },
+ {
+  "id": "old_map_piece",
+  "name": "Old Map Piece",
+  "kind": "material",
+  "shape": "star",
+  "color": "#c9a26a",
+  "color2": "#6b4a2a",
+  "desc": "A corner of a map of Lumeria."
+ },
+ {
+  "id": "gear_badge",
+  "name": "Gear Badge",
+  "kind": "badge",
+  "shape": "gear",
+  "color": "#ffe066",
+  "color2": "#e07a30",
+  "desc": "A badge for tinkerers who count carefully."
+ },
+ {
+  "id": "ink_ribbon",
+  "name": "Ink Ribbon",
+  "kind": "badge",
+  "shape": "tube",
+  "color": "#3a7bd5",
+  "color2": "#ffffff",
+  "desc": "A ribbon for story savers."
+ },
+ {
+  "id": "leaf_pin",
+  "name": "Leaf Pin",
+  "kind": "badge",
+  "shape": "leaf",
+  "color": "#3fae5a",
+  "color2": "#6b4a2a",
+  "desc": "A pin for patient growers."
+ },
+ {
+  "id": "atlas_pin",
+  "name": "Atlas Pin",
+  "kind": "badge",
+  "shape": "star",
+  "color": "#b06ad9",
+  "color2": "#2a2f6a",
+  "desc": "A pin for people who know their way around."
+ },
+ {
+  "id": "archive_key",
+  "name": "Friendship Bookmark",
+  "kind": "badge",
+  "shape": "gem",
+  "color": "#ff9ad7",
+  "color2": "#ffffff",
+  "desc": "A gift from the First Archivist. It marks your place in every story."
+ },
+ {
+  "id": "rocket_skates",
+  "name": "Rocket Skates",
+  "kind": "key",
+  "shape": "boot",
+  "color": "#ff5aa0",
+  "color2": "#ffe066",
+  "grants": [
+   "sprint"
+  ],
+  "desc": "Tiny rockets on the heels. You zip around much faster!"
+ },
+ {
+  "id": "wind_glider",
+  "name": "Wind Glider",
+  "kind": "key",
+  "shape": "leaf",
+  "color": "#7fe0ff",
+  "color2": "#ffffff",
+  "grants": [
+   "glide"
+  ],
+  "desc": "A light folding wing. It carries you across wind gaps."
+ },
+ {
+  "id": "skyberry_fizz",
+  "name": "Skyberry Fizz",
+  "kind": "potion",
+  "shape": "drop",
+  "color": "#b06ad9",
+  "color2": "#ffffff",
+  "desc": "A bubbly potion. For 45 seconds you float across wind gaps."
+ },
+ {
+  "id": "hover_skiff",
+  "name": "Hover Skiff",
+  "kind": "key",
+  "shape": "drop",
+  "color": "#3a8fd0",
+  "color2": "#ffffff",
+  "grants": [
+   "water",
+   "rapids"
+  ],
+  "desc": "A little hovering boat. It rides over water and straight across rushing rapids."
+ },
+ {
+  "id": "gadget_drill",
+  "name": "Gadget Drill",
+  "kind": "key",
+  "shape": "gear",
+  "color": "#e0a030",
+  "color2": "#ffffff",
+  "grants": [
+   "drill"
+  ],
+  "desc": "A spinning drill. Walk into rubble and it clears the way."
+ },
+ {
+  "id": "sky_whistle",
+  "name": "Sky Whistle",
+  "kind": "key",
+  "shape": "tube",
+  "color": "#ffe066",
+  "color2": "#ffffff",
+  "grants": [
+   "fly"
+  ],
+  "desc": "Blow it and Captain Pip's wind-boat carries you to any place you have visited."
+ }
+]

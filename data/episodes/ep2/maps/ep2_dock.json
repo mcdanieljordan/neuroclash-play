@@ -1,0 +1,524 @@
+{
+ "id": "ep2_dock",
+ "name": "Sky Dock",
+ "fly_to": "Sky Dock",
+ "music": "calm",
+ "background": "#3a8fd0",
+ "tiles": [
+  "tttttttttttttttttttttttttttttttttttttt",
+  "tttt.ttttt.ttttt.ttttt.ttttt.ttttt.ttt",
+  "tttt.ttttt.ttttt.ttttt.ttttt.ttttt.ttt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tggg.gggwg.ggwgg.ggggg.ggbgg.ggwgg.ggt",
+  "tggb.ggggg.ggggg.ggggg.ggggg.ggggg.gwt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tg..................................gt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggwgggg.....gggbgggggggggggt",
+  "tggbggggggggggggg.....gggggggggwgggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tggggggwggggggggg.....gggggggggggggwgt",
+  "tttWttggggggggggg.....gggggggggggggggt",
+  "tttWttggggggggggg.....gggggggggggggggt",
+  "ttgggt...........................ggggt",
+  "ttgggt.gggggggggggg.gggggggggggg.ggggt",
+  "ttgggt.gggbgggggggg.ggggggggwggg.ggggt",
+  "tttttt.tttttttttttt.tttttttttttt.ttttt",
+  "tttttt.tttttttttttt.tttttttttttt.ttttt",
+  "tttttttttttttttttttttttttttttttttttttt"
+ ],
+ "scenery": [
+  {
+   "prop": "house_red",
+   "x": 7,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "shop",
+   "x": 13,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "workshop",
+   "x": 19,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "house_blue",
+   "x": 25,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "lighthouse",
+   "x": 31,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "crates",
+   "x": 9,
+   "y": 12,
+   "w": 2,
+   "block": true
+  },
+  {
+   "prop": "dock",
+   "x": 11,
+   "y": 15,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "windboat",
+   "x": 29,
+   "y": 14,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "lamp_post",
+   "x": 15,
+   "y": 11,
+   "w": 2
+  },
+  {
+   "prop": "lamp_post",
+   "x": 23,
+   "y": 11,
+   "w": 2
+  }
+ ],
+ "spawn": {
+  "default": [
+   19,
+   9
+  ],
+  "from_light": [
+   6,
+   20
+  ],
+  "from_yard": [
+   19,
+   20
+  ],
+  "from_garden": [
+   32,
+   20
+  ],
+  "from_r1": [
+   4,
+   3
+  ],
+  "from_r2": [
+   10,
+   3
+  ],
+  "from_r3": [
+   16,
+   3
+  ],
+  "from_r4": [
+   22,
+   3
+  ],
+  "from_r5": [
+   28,
+   3
+  ],
+  "from_r6": [
+   34,
+   3
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 4,
+   "y": 1,
+   "to": "ep2_r1",
+   "spawn": "default",
+   "color": "#9ad7ff"
+  },
+  {
+   "type": "sign",
+   "x": 5,
+   "y": 4,
+   "text": "Breezy Run. Wind-boats line up in numbers here."
+  },
+  {
+   "type": "door",
+   "x": 10,
+   "y": 1,
+   "to": "ep2_r2",
+   "spawn": "default",
+   "color": "#c9a26a"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r2",
+   "x": 10,
+   "y": 2,
+   "requires": "ep2_charm_1",
+   "color": "#c9a26a",
+   "open_text": "The Breeze Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 4,
+   "text": "Rope Loft. You need the Breeze Charm. Ropes tangled in every size."
+  },
+  {
+   "type": "door",
+   "x": 16,
+   "y": 1,
+   "to": "ep2_r3",
+   "spawn": "default",
+   "color": "#ffe066"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r3",
+   "x": 16,
+   "y": 2,
+   "requires": "ep2_charm_2",
+   "color": "#ffe066",
+   "open_text": "The Rope Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 17,
+   "y": 4,
+   "text": "Vane Valley. You need the Rope Charm. Vanes that lost their way."
+  },
+  {
+   "type": "door",
+   "x": 22,
+   "y": 1,
+   "to": "ep2_r4",
+   "spawn": "default",
+   "color": "#e0a030"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r4",
+   "x": 22,
+   "y": 2,
+   "requires": "ep2_charm_3",
+   "color": "#e0a030",
+   "open_text": "The Vane Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 23,
+   "y": 4,
+   "text": "Crate Cove. You need the Vane Charm. Crates that need a place to sit."
+  },
+  {
+   "type": "door",
+   "x": 28,
+   "y": 1,
+   "to": "ep2_r5",
+   "spawn": "default",
+   "color": "#7fe0ff"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r5",
+   "x": 28,
+   "y": 2,
+   "requires": "ep2_charm_4",
+   "color": "#7fe0ff",
+   "open_text": "The Crate Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 29,
+   "y": 4,
+   "text": "Foghorn Reef. You need the Crate Charm. A reef where the fog sings."
+  },
+  {
+   "type": "door",
+   "x": 34,
+   "y": 1,
+   "to": "ep2_r6",
+   "spawn": "default",
+   "color": "#ffd23f"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r6",
+   "x": 34,
+   "y": 2,
+   "requires": "ep2_charm_5",
+   "color": "#ffd23f",
+   "open_text": "The Foghorn Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 35,
+   "y": 4,
+   "text": "The Tangled Bell. You need the Foghorn Charm. The Dock Bell is tangled up!"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_pip",
+   "x": 19,
+   "y": 12,
+   "sprite": "keeper",
+   "name": "Captain Pip",
+   "actions": [
+    {
+     "unless": "ep2_met_pip",
+     "say": "ep2_pip_intro"
+    },
+    {
+     "if": "ep2_met_pip & !ep2_r1_item",
+     "say": "ep2_pip_h1"
+    },
+    {
+     "if": "ep2_r1_item & !ep2_r2_item",
+     "say": "ep2_pip_h2"
+    },
+    {
+     "if": "ep2_r2_item & !ep2_r3_item",
+     "say": "ep2_pip_h3"
+    },
+    {
+     "if": "ep2_r3_item & !ep2_r4_item",
+     "say": "ep2_pip_h4"
+    },
+    {
+     "if": "ep2_r4_item & !ep2_r5_item",
+     "say": "ep2_pip_h5"
+    },
+    {
+     "if": "ep2_r5_item & !ep2_r6_item",
+     "say": "ep2_pip_h6"
+    },
+    {
+     "if": "ep2_thread",
+     "say": "ep2_pip_after"
+    },
+    {
+     "if": "ep2_r6_item & !ep2_thread",
+     "say": "ep2_pip_finale"
+    },
+    {
+     "if": "ep2_r6_item & !ep2_thread",
+     "give": "ep2_harbor_pilot"
+    },
+    {
+     "if": "ep2_r6_item",
+     "flag": "ep2_done"
+    },
+    {
+     "flag": "ep2_met_pip"
+    },
+    {
+     "if": "ep2_r6_item & !ep2_thread",
+     "flag": "ep2_thread",
+     "cutscene": "ep2_ending"
+    }
+   ]
+  },
+  {
+   "type": "npc",
+   "id": "ep2_nib",
+   "x": 21,
+   "y": 12,
+   "sprite": "archivist",
+   "name": "Nib",
+   "quest": "ep2_q_puzzle"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_orrin",
+   "x": 12,
+   "y": 10,
+   "sprite": "elder",
+   "name": "Harbormaster Orrin",
+   "quest": "ep2_q_chat"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_tully",
+   "x": 27,
+   "y": 10,
+   "sprite": "kid",
+   "name": "Dockhand Tully",
+   "quest": "ep2_q_shells"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_mabel",
+   "x": 8,
+   "y": 14,
+   "sprite": "scholar",
+   "name": "Rigger Mabel",
+   "quest": "ep2_q_coils"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_sam",
+   "x": 30,
+   "y": 15,
+   "sprite": "bot",
+   "name": "Signal Sam",
+   "quest": "ep2_q_sharp"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_wren",
+   "x": 14,
+   "y": 16,
+   "sprite": "gardener",
+   "name": "Net-Mender Wren",
+   "quest": "ep2_q_friend"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_tess",
+   "x": 24,
+   "y": 13,
+   "sprite": "guide",
+   "name": "Engineer Tess",
+   "actions": [
+    {
+     "unless": "ep2_met_tess",
+     "say": "ep2_tess_intro"
+    },
+    {
+     "if": "ep2_met_tess",
+     "say": "ep2_tess_again"
+    },
+    {
+     "flag": "ep2_met_tess"
+    },
+    {
+     "scene": "Workshop"
+    }
+   ]
+  },
+  {
+   "type": "sign",
+   "x": 4,
+   "y": 15,
+   "text": "A wind gap! The wind is too strong to walk across. A Wind Glider, or a Skyberry Fizz potion, would carry you over. Engineer Tess can help."
+  },
+  {
+   "type": "chest",
+   "id": "ep2_pocket",
+   "x": 3,
+   "y": 19,
+   "sparks": 30
+  },
+  {
+   "type": "pickup",
+   "x": 2,
+   "y": 18,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 4,
+   "y": 20,
+   "item": "spark_berry"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_pip_boat",
+   "x": 24,
+   "y": 16,
+   "sprite": "keeper",
+   "name": "Captain Pip's Mate",
+   "quest": "ep2_q_boss"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_gull_fan",
+   "x": 33,
+   "y": 11,
+   "sprite": "kid",
+   "name": "Dockhand Dee",
+   "dialogue": "ep2_dee"
+  },
+  {
+   "type": "npc",
+   "id": "ep2_old_tam",
+   "x": 4,
+   "y": 11,
+   "sprite": "elder",
+   "name": "Old Tam",
+   "dialogue": "ep2_tam"
+  },
+  {
+   "type": "sign",
+   "x": 18,
+   "y": 10,
+   "text": "SKY DOCK. Six routes lead off from the top. Wake them one by one, and the wind-boats will find their way again."
+  },
+  {
+   "type": "sign",
+   "x": 7,
+   "y": 19,
+   "text": "Lantern Rock: shells, a gentle gull and a friendly lighthouse keeper."
+  },
+  {
+   "type": "sign",
+   "x": 20,
+   "y": 19,
+   "text": "The Rope Yard: coils and knots and a very proud little knot-tier."
+  },
+  {
+   "type": "sign",
+   "x": 33,
+   "y": 19,
+   "text": "The Cloud Garden: berries, breezes and a bobbing buoy."
+  },
+  {
+   "type": "door",
+   "x": 6,
+   "y": 22,
+   "to": "ep2_light",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "door",
+   "x": 19,
+   "y": 22,
+   "to": "ep2_yard",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "door",
+   "x": 32,
+   "y": 22,
+   "to": "ep2_garden",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "battle",
+   "id": "ep2_spar",
+   "x": 27,
+   "y": 17,
+   "name": "Dock Sparring Bot"
+  }
+ ],
+ "on_enter": []
+}

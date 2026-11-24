@@ -1,0 +1,292 @@
+[
+ {
+  "id": "opening",
+  "title": "A Gray Morning",
+  "description": "The hero arrives at the Spark Academy as the Hush dims the morning bells.",
+  "duration_sec": 28,
+  "video": null,
+  "captions": [
+   "Lumeria: a sky full of floating islands, where science and magic grew into one thing.",
+   "Everything here runs on Sparks, the little glow that learning makes.",
+   "But this morning a gray fog drifts between the islands. People call it the Hush.",
+   "Where the Hush settles, things forget. Numbers slip off signs. Maps fade. The Academy bell forgets how to ring.",
+   "And in a brand-new apprentice's satchel, an egg begins to wobble..."
+  ]
+ },
+ {
+  "id": "class_choice",
+  "title": "A Path and a Friend",
+  "description": "The hero chooses a class and the egg hatches into a baby companion.",
+  "duration_sec": 20,
+  "video": null,
+  "captions": [
+   "Every apprentice chooses a path. You chose yours: {class}.",
+   "Crack. Crackle. POP! The egg hatches, and out tumbles {companion}.",
+   "{companion} looks at you. You look at {companion}. That settles it: friends.",
+   "Professor Quill is waiting in the plaza."
+  ]
+ },
+ {
+  "id": "t1_arrival",
+  "title": "Counting Cloister",
+  "description": "The hero steps into the Counting Cloister.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "The numbers have slipped off the walls and lie in little heaps on the floor.",
+   "Somewhere inside, something is muddled. Time to help."
+  ]
+ },
+ {
+  "id": "t1_boss_intro",
+  "title": "Abacuss the Muddled",
+  "description": "Abacuss the Muddled appears, muddled by the Hush.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "A round, rattling golem spins in circles, muttering \"one, two, seven, banana\".",
+   "It is not mean. It is muddled. Dodge until it gets dizzy, then help it remember!"
+  ]
+ },
+ {
+  "id": "t1_boss_defeated",
+  "title": "Abacuss the Muddled Remembers",
+  "description": "Abacuss the Muddled remembers, and the temple wakes.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Abacuss blinks. \"...three! It was THREE!\" It counts every bead, twice, beaming.",
+   "The fog in the temple thins. A chest glimmers nearby."
+  ]
+ },
+ {
+  "id": "t1_item",
+  "title": "Glow Lantern",
+  "description": "The hero earns the Glow Lantern.",
+  "duration_sec": 10,
+  "video": null,
+  "captions": [
+   "You hold up the Glow Lantern. {companion} does a little spin.",
+   "It melts Hush fog. The Lantern Library is next, north of the plaza."
+  ]
+ },
+ {
+  "id": "t2_arrival",
+  "title": "Lantern Library",
+  "description": "The hero steps into the Lantern Library.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Shelves stretch into the fog. Every book is dark, and very quiet.",
+   "Somewhere inside, something is muddled. Time to help."
+  ]
+ },
+ {
+  "id": "t2_boss_intro",
+  "title": "Dimwick",
+  "description": "Dimwick appears, muddled by the Hush.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "A big fuzzy moth flutters into shelves, bumping and apologising to the books.",
+   "It is not mean. It is muddled. Dodge until it gets dizzy, then help it remember!"
+  ]
+ },
+ {
+  "id": "t2_boss_defeated",
+  "title": "Dimwick Remembers",
+  "description": "Dimwick remembers, and the temple wakes.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Dimwick remembers: glow comes from inside. The whole Library lights up, page by page.",
+   "The fog in the temple thins. A chest glimmers nearby."
+  ]
+ },
+ {
+  "id": "t2_item",
+  "title": "Hop Boots",
+  "description": "The hero earns the Hop Boots.",
+  "duration_sec": 10,
+  "video": null,
+  "captions": [
+   "You hold up the Hop Boots. {companion} does a little spin.",
+   "Springy! The gap in the north-east will not stop you now."
+  ]
+ },
+ {
+  "id": "t3_arrival",
+  "title": "Skip-Stone Sanctum",
+  "description": "The hero steps into the Skip-Stone Sanctum.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Stepping stones hang over a starry drop. Some have wandered off.",
+   "Somewhere inside, something is muddled. Time to help."
+  ]
+ },
+ {
+  "id": "t3_boss_intro",
+  "title": "Boingle",
+  "description": "Boingle appears, muddled by the Hush.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "A springy hop-bot bounces off the ceiling, the wall, and its own foot.",
+   "It is not mean. It is muddled. Dodge until it gets dizzy, then help it remember!"
+  ]
+ },
+ {
+  "id": "t3_boss_defeated",
+  "title": "Boingle Remembers",
+  "description": "Boingle remembers, and the temple wakes.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Boingle lands. Exactly where it meant to. It is so surprised that it sits down.",
+   "The fog in the temple thins. A chest glimmers nearby."
+  ]
+ },
+ {
+  "id": "t3_item",
+  "title": "Echo Whistle",
+  "description": "The hero earns the Echo Whistle.",
+  "duration_sec": 10,
+  "video": null,
+  "captions": [
+   "You hold up the Echo Whistle. {companion} does a little spin.",
+   "One clear note wakes the gate at the far north-east."
+  ]
+ },
+ {
+  "id": "t4_arrival",
+  "title": "Echo Hall",
+  "description": "The hero steps into the Echo Hall.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "A hall built for sound, holding its breath.",
+   "Somewhere inside, something is muddled. Time to help."
+  ]
+ },
+ {
+  "id": "t4_boss_intro",
+  "title": "Hushaby Bell",
+  "description": "Hushaby Bell appears, muddled by the Hush.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "A huge bell swings on its rope, searching for its own ring.",
+   "It is not mean. It is muddled. Dodge until it gets dizzy, then help it remember!"
+  ]
+ },
+ {
+  "id": "t4_boss_defeated",
+  "title": "Hushaby Bell Remembers",
+  "description": "Hushaby Bell remembers, and the temple wakes.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "The answer rings out, and so does the bell: one warm note that rolls across every island.",
+   "The fog in the temple thins. A chest glimmers nearby."
+  ]
+ },
+ {
+  "id": "t4_item",
+  "title": "Tide Charm",
+  "description": "The hero earns the Tide Charm.",
+  "duration_sec": 10,
+  "video": null,
+  "captions": [
+   "You hold up the Tide Charm. {companion} does a little spin.",
+   "Water grows calm beneath it. The Tide Vault is south-west."
+  ]
+ },
+ {
+  "id": "t5_arrival",
+  "title": "Tide Vault",
+  "description": "The hero walks across the water into the Tide Vault.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "Under the tide, the oldest memories of Lumeria sleep in glass shells.",
+   "Someone has been here. The shelves are stuffed. More and more and more."
+  ]
+ },
+ {
+  "id": "t5_boss_intro",
+  "title": "Old Driftwhirl",
+  "description": "The tide turtle has forgotten which way the current goes.",
+  "duration_sec": 12,
+  "video": null,
+  "captions": [
+   "An ancient turtle paddles in worried circles, stirring up swirls.",
+   "It is not mean. It is muddled. Dodge until it gets dizzy, then help it remember!"
+  ]
+ },
+ {
+  "id": "t5_boss_defeated",
+  "title": "The Reveal",
+  "description": "Old Driftwhirl remembers who the Hush really is.",
+  "duration_sec": 30,
+  "video": null,
+  "captions": [
+   "Old Driftwhirl grows calm. \"Thank you, little one. Now I remember. I remember HER.\"",
+   "\"Long ago the First Archivist, Ellowen, promised to keep every bit of knowledge safe. Every number. Every story. Every song.\"",
+   "\"She gathered and stored and gathered. She never stopped. Not even when she became a ghost.\"",
+   "\"The Hush is not a monster, child. It is Ellowen: still collecting, all alone, and she has forgotten how to stop.\"",
+   "\"She does not need fighting. She needs someone to teach her back.\""
+  ]
+ },
+ {
+  "id": "t5_item",
+  "title": "Star Compass",
+  "description": "The hero earns the Star Compass.",
+  "duration_sec": 10,
+  "video": null,
+  "captions": [
+   "The Star Compass spins once and points south-east, steady as a promise.",
+   "{companion} tugs your sleeve. Time to meet the Hush."
+  ]
+ },
+ {
+  "id": "t6_boss_intro",
+  "title": "The Hush",
+  "description": "The hero meets the Hush: the lonely ghost of Archivist Ellowen.",
+  "duration_sec": 26,
+  "video": null,
+  "captions": [
+   "Every story, every number, every song, shelved up to the stars.",
+   "And in the middle, a soft gray shape, sorting and sorting and sorting.",
+   "\"Must keep it safe. All of it. Mine to keep. Must not lose a single page...\"",
+   "Pages swirl around her like snow. She cannot hear you yet.",
+   "Dodge the drifting pages. When she pauses, teach her what she forgot!"
+  ]
+ },
+ {
+  "id": "t6_boss_defeated",
+  "title": "Teaching It Back",
+  "description": "Finale: the hero teaches the Hush back by answering questions, and Ellowen remembers.",
+  "duration_sec": 28,
+  "video": null,
+  "captions": [
+   "With every answer you share, a little colour comes back into the gray.",
+   "\"Oh,\" says Ellowen. \"Knowledge is not for keeping. It is for giving away. You just gave it to me, and you still have it.\"",
+   "She laughs, and it sounds like a hundred pages turning. \"I forgot the best part. I forgot to share.\"",
+   "All across Lumeria the fog lifts. The numbers climb back onto their signs. The bell remembers its ring."
+  ]
+ },
+ {
+  "id": "t6_ending",
+  "title": "A Bright Morning",
+  "description": "Ending: Ellowen becomes the Academy librarian and the hero's friend.",
+  "duration_sec": 24,
+  "video": null,
+  "captions": [
+   "Ellowen is the Academy librarian now. She lends every book she has, and she waves when they leave.",
+   "Professor Quill pins a ribbon on your coat. {companion} gets a smaller one.",
+   "There are still creatures to befriend, ghosts to cheer up, and questions to wonder about.",
+   "After all, every question is a little light. Thank you for playing, {nick}."
+  ]
+ }
+]

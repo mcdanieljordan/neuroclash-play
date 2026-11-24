@@ -1,0 +1,530 @@
+{
+ "id": "ep3_grove",
+ "name": "Quince Grove",
+ "fly_to": "Quince Grove",
+ "music": "calm",
+ "background": "#e0a030",
+ "tiles": [
+  "tttttttttttttttttttttttttttttttttttttt",
+  "tttt.ttttt.ttttt.ttttt.ttttt.ttttt.ttt",
+  "tttt.ttttt.ttttt.ttttt.ttttt.ttttt.ttt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tggg.gggwg.ggwgg.ggggg.ggbgg.ggwgg.ggt",
+  "tggb.ggggg.ggggg.ggggg.ggggg.ggggg.gwt",
+  "tggg.ggggg.ggggg.ggggg.ggggg.ggggg.ggt",
+  "tg..................................gt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tgggggggggggwgggg.....gggbgggggggggggt",
+  "tggbggggggggggggg.....gggggggggwgggggt",
+  "tgggggggggggggggg.....gggggggggggggggt",
+  "tggggggwggggggggg.....gggggggggggggwgt",
+  "tttWttggggggggggg.....gggggggggggggggt",
+  "tttWttggggggggggg.....gggggggggggggggt",
+  "ttgggt...........................ggggt",
+  "ttgggt.gggggggggggg.gggggggggggg.ggggt",
+  "ttgggt.gggbgggggggg.ggggggggwggg.ggggt",
+  "tttttt.tttttttttttt.tttttttttttt.ttttt",
+  "tttttt.tttttttttttt.tttttttttttt.ttttt",
+  "tttttttttttttttttttttttttttttttttttttt"
+ ],
+ "scenery": [
+  {
+   "prop": "tree_orange",
+   "x": 7,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "house_green",
+   "x": 13,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "tree_green",
+   "x": 19,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "tree_orange",
+   "x": 25,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "house_red",
+   "x": 31,
+   "y": 7,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "tree_pine",
+   "x": 9,
+   "y": 12,
+   "w": 2,
+   "block": true
+  },
+  {
+   "prop": "tree_orange",
+   "x": 11,
+   "y": 15,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "tree_green",
+   "x": 29,
+   "y": 14,
+   "w": 3,
+   "block": true
+  },
+  {
+   "prop": "lamp_post",
+   "x": 15,
+   "y": 11,
+   "w": 2
+  },
+  {
+   "prop": "lamp_post",
+   "x": 23,
+   "y": 11,
+   "w": 2
+  },
+  {
+   "prop": "bush_flowers",
+   "x": 2,
+   "y": 8,
+   "w": 2
+  }
+ ],
+ "spawn": {
+  "default": [
+   19,
+   9
+  ],
+  "from_hill": [
+   6,
+   20
+  ],
+  "from_creek": [
+   19,
+   20
+  ],
+  "from_dell": [
+   32,
+   20
+  ],
+  "from_r1": [
+   4,
+   3
+  ],
+  "from_r2": [
+   10,
+   3
+  ],
+  "from_r3": [
+   16,
+   3
+  ],
+  "from_r4": [
+   22,
+   3
+  ],
+  "from_r5": [
+   28,
+   3
+  ],
+  "from_r6": [
+   34,
+   3
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 4,
+   "y": 1,
+   "to": "ep3_r1",
+   "spawn": "default",
+   "color": "#8fd05a"
+  },
+  {
+   "type": "sign",
+   "x": 5,
+   "y": 4,
+   "text": "Seedling Row. Seedlings that lost their pattern."
+  },
+  {
+   "type": "door",
+   "x": 10,
+   "y": 1,
+   "to": "ep3_r2",
+   "spawn": "default",
+   "color": "#ffc84a"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r2",
+   "x": 10,
+   "y": 2,
+   "requires": "ep3_charm_1",
+   "color": "#ffc84a",
+   "open_text": "The Sprout Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 4,
+   "text": "Honey Hollow. You need the Sprout Charm. Baskets of honey to balance."
+  },
+  {
+   "type": "door",
+   "x": 16,
+   "y": 1,
+   "to": "ep3_r3",
+   "spawn": "default",
+   "color": "#e0c040"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r3",
+   "x": 16,
+   "y": 2,
+   "requires": "ep3_charm_2",
+   "color": "#e0c040",
+   "open_text": "The Honey Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 17,
+   "y": 4,
+   "text": "Quince Maze. You need the Honey Charm. A hedge maze with crates inside."
+  },
+  {
+   "type": "door",
+   "x": 22,
+   "y": 1,
+   "to": "ep3_r4",
+   "spawn": "default",
+   "color": "#9ad7ff"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r4",
+   "x": 22,
+   "y": 2,
+   "requires": "ep3_charm_3",
+   "color": "#9ad7ff",
+   "open_text": "The Quince Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 23,
+   "y": 4,
+   "text": "Greenhouse Glass. You need the Quince Charm. Fogged-up glass and glowing pots."
+  },
+  {
+   "type": "door",
+   "x": 28,
+   "y": 1,
+   "to": "ep3_r5",
+   "spawn": "default",
+   "color": "#ff9a3a"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r5",
+   "x": 28,
+   "y": 2,
+   "requires": "ep3_charm_4",
+   "color": "#ff9a3a",
+   "open_text": "The Glass Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 29,
+   "y": 4,
+   "text": "Vine Cellar. You need the Glass Charm. Numbers glowing on cellar vines."
+  },
+  {
+   "type": "door",
+   "x": 34,
+   "y": 1,
+   "to": "ep3_r6",
+   "spawn": "default",
+   "color": "#ff7ac8"
+  },
+  {
+   "type": "gate",
+   "id": "gate_r6",
+   "x": 34,
+   "y": 2,
+   "requires": "ep3_charm_5",
+   "color": "#ff7ac8",
+   "open_text": "The Gourd Charm glows, and the gate swings open!"
+  },
+  {
+   "type": "sign",
+   "x": 35,
+   "y": 4,
+   "text": "The Overgrown Greenhouse. You need the Gourd Charm. The orchard heart is tangled up!"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_quince",
+   "x": 19,
+   "y": 12,
+   "sprite": "gardener",
+   "name": "Mother Quince",
+   "actions": [
+    {
+     "unless": "ep3_met_quince",
+     "say": "ep3_quince_intro"
+    },
+    {
+     "if": "ep3_met_quince & !ep3_r1_item",
+     "say": "ep3_quince_h1"
+    },
+    {
+     "if": "ep3_r1_item & !ep3_r2_item",
+     "say": "ep3_quince_h2"
+    },
+    {
+     "if": "ep3_r2_item & !ep3_r3_item",
+     "say": "ep3_quince_h3"
+    },
+    {
+     "if": "ep3_r3_item & !ep3_r4_item",
+     "say": "ep3_quince_h4"
+    },
+    {
+     "if": "ep3_r4_item & !ep3_r5_item",
+     "say": "ep3_quince_h5"
+    },
+    {
+     "if": "ep3_r5_item & !ep3_r6_item",
+     "say": "ep3_quince_h6"
+    },
+    {
+     "if": "ep3_thread",
+     "say": "ep3_quince_after"
+    },
+    {
+     "if": "ep3_r6_item & !ep3_thread",
+     "say": "ep3_quince_finale"
+    },
+    {
+     "if": "ep3_r6_item & !ep3_thread",
+     "give": "ep3_orchard_keeper"
+    },
+    {
+     "if": "ep3_r6_item",
+     "flag": "ep3_done"
+    },
+    {
+     "flag": "ep3_met_quince"
+    },
+    {
+     "if": "ep3_r6_item & !ep3_thread",
+     "flag": "ep3_thread",
+     "cutscene": "ep3_ending"
+    }
+   ]
+  },
+  {
+   "type": "npc",
+   "id": "ep3_nib",
+   "x": 21,
+   "y": 12,
+   "sprite": "archivist",
+   "name": "Nib",
+   "quest": "ep3_q_puzzle"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_thyme",
+   "x": 12,
+   "y": 10,
+   "sprite": "elder",
+   "name": "Grandpa Thyme",
+   "quest": "ep3_q_chat"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_rue",
+   "x": 27,
+   "y": 10,
+   "sprite": "gardener",
+   "name": "Farmer Rue",
+   "quest": "ep3_q_seeds"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_bao",
+   "x": 8,
+   "y": 14,
+   "sprite": "keeper",
+   "name": "Beekeeper Bao",
+   "quest": "ep3_q_honey"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_tally",
+   "x": 30,
+   "y": 15,
+   "sprite": "bot",
+   "name": "Tally the Counter",
+   "quest": "ep3_q_sharp"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_fig",
+   "x": 14,
+   "y": 16,
+   "sprite": "guide",
+   "name": "Forager Fig",
+   "quest": "ep3_q_friend"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_tess",
+   "x": 24,
+   "y": 13,
+   "sprite": "guide",
+   "name": "Engineer Tess",
+   "actions": [
+    {
+     "unless": "ep3_met_tess",
+     "say": "ep3_tess_intro"
+    },
+    {
+     "if": "ep3_met_tess",
+     "say": "ep3_tess_again"
+    },
+    {
+     "flag": "ep3_met_tess"
+    },
+    {
+     "scene": "Workshop"
+    }
+   ]
+  },
+  {
+   "type": "sign",
+   "x": 4,
+   "y": 15,
+   "text": "A wind gap! The wind is too strong to walk across. A Wind Glider, or a Skyberry Fizz potion, would carry you over."
+  },
+  {
+   "type": "chest",
+   "id": "ep3_pocket",
+   "x": 3,
+   "y": 19,
+   "sparks": 30
+  },
+  {
+   "type": "pickup",
+   "x": 2,
+   "y": 18,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 4,
+   "y": 20,
+   "item": "spark_berry"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_ivy",
+   "x": 24,
+   "y": 16,
+   "sprite": "gardener",
+   "name": "Gardener Ivy",
+   "quest": "ep3_q_boss"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_olly",
+   "x": 33,
+   "y": 11,
+   "sprite": "kid",
+   "name": "Orchard-hand Olly",
+   "dialogue": "ep3_olly"
+  },
+  {
+   "type": "npc",
+   "id": "ep3_pear",
+   "x": 4,
+   "y": 11,
+   "sprite": "elder",
+   "name": "Auntie Pear",
+   "dialogue": "ep3_pear"
+  },
+  {
+   "type": "sign",
+   "x": 18,
+   "y": 10,
+   "text": "QUINCE GROVE. Six temples lead off from the top. Wake them one by one, and the orchard will bloom in order again."
+  },
+  {
+   "type": "sign",
+   "x": 7,
+   "y": 19,
+   "text": "Honey Hill: honey drops, a sleepy beekeeper and a humming bun."
+  },
+  {
+   "type": "sign",
+   "x": 20,
+   "y": 19,
+   "text": "Creek Bend: fish, berries and fast water."
+  },
+  {
+   "type": "sign",
+   "x": 33,
+   "y": 19,
+   "text": "Mushroom Dell: seeds, mossy bells and quiet shade."
+  },
+  {
+   "type": "door",
+   "x": 6,
+   "y": 22,
+   "to": "ep3_hill",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "door",
+   "x": 19,
+   "y": 22,
+   "to": "ep3_creek",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "door",
+   "x": 32,
+   "y": 22,
+   "to": "ep3_dell",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "battle",
+   "id": "ep3_spar",
+   "x": 27,
+   "y": 17,
+   "name": "Grove Sparring Bot"
+  }
+ ],
+ "on_enter": []
+}

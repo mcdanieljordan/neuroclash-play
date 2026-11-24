@@ -1,0 +1,402 @@
+{
+ "id": "academy",
+ "name": "Spark Academy",
+ "music": "calm",
+ "background": "#2f7a3f",
+ "tiles": [
+  "tttttttttttttttttttttttttttttttttt",
+  "tggtttttgtttttgggggggtttttgtttttgt",
+  "tggt...tgt...tgggggggt...tgt...tgt",
+  "tggt...tgt...tgggggggt...tgt...tgt",
+  "tggttottgttfttBBBBBBgtt^ttgtt.ttgt",
+  "tggttottgttfttBBBBBBgtt^ttgtt.ttgt",
+  "tgggg.ggggg.ggBBBBBBggg.ggggg.gggt",
+  "tgggg.ggggg.ggBBBBBBggg.ggggg.gggt",
+  "tgggg.ggggg.............ggggg.gggt",
+  "tgggg.wgggg.............gggwg.gggt",
+  "tgggg.ggggg.............ggggg.gggt",
+  "t................................t",
+  "tggggggg.gg............gg.gggggggt",
+  "tggggggg.wg............gw.gggggggt",
+  "tggggggg.gg............gg.gggggggt",
+  "tggwgggg.ggggggg.gggggggg.ggggwggt",
+  "tgggggtt~ttggggg.ggggggtt.ttgggggt",
+  "tgggggtt~ttggwgg.gggwggtt.ttgggggt",
+  "tgggggt...tggggg.ggggggt...tgggggt",
+  "tgggggt...tggggg.ggggggt...tgggggt",
+  "tgggggtttttggggg.ggggggtttttgggggt",
+  "tttttttttttttttttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   16,
+   11
+  ],
+  "from_t1": [
+   5,
+   7
+  ],
+  "from_t2": [
+   11,
+   7
+  ],
+  "from_t3": [
+   23,
+   7
+  ],
+  "from_t4": [
+   29,
+   7
+  ],
+  "from_t5": [
+   8,
+   14
+  ],
+  "from_t6": [
+   25,
+   14
+  ],
+  "from_meadow": [
+   16,
+   19
+  ],
+  "from_habitat": [
+   2,
+   11
+  ],
+  "from_ghost": [
+   31,
+   11
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 5,
+   "y": 2,
+   "to": "t1",
+   "spawn": "default",
+   "color": "#ffe9a8"
+  },
+  {
+   "type": "sign",
+   "x": 6,
+   "y": 7,
+   "text": "Counting Cloister. Sleepy bubbles block the way. A Bubble Wand pops them."
+  },
+  {
+   "type": "door",
+   "x": 11,
+   "y": 2,
+   "to": "t2",
+   "spawn": "default",
+   "color": "#ffe066"
+  },
+  {
+   "type": "sign",
+   "x": 12,
+   "y": 7,
+   "text": "Lantern Library. Hush fog lies ahead. You need a light."
+  },
+  {
+   "type": "door",
+   "x": 23,
+   "y": 2,
+   "to": "t3",
+   "spawn": "default",
+   "color": "#e07a30"
+  },
+  {
+   "type": "sign",
+   "x": 24,
+   "y": 7,
+   "text": "Skip-Stone Sanctum. Mind the gap! Springy boots would help."
+  },
+  {
+   "type": "door",
+   "x": 29,
+   "y": 2,
+   "to": "t4",
+   "spawn": "default",
+   "color": "#b06ad9"
+  },
+  {
+   "type": "sign",
+   "x": 30,
+   "y": 7,
+   "text": "Echo Hall. The gate only wakes for a clear note."
+  },
+  {
+   "type": "door",
+   "x": 8,
+   "y": 19,
+   "to": "t5",
+   "spawn": "default",
+   "color": "#3a8fd0"
+  },
+  {
+   "type": "sign",
+   "x": 9,
+   "y": 14,
+   "text": "Tide Vault. The water will not let you pass without a charm."
+  },
+  {
+   "type": "door",
+   "x": 25,
+   "y": 19,
+   "to": "t6",
+   "spawn": "default",
+   "color": "#ffffff"
+  },
+  {
+   "type": "sign",
+   "x": 26,
+   "y": 14,
+   "text": "Star Archive. Only the Star Compass opens this gate."
+  },
+  {
+   "type": "gate",
+   "id": "echo_gate",
+   "x": 29,
+   "y": 4,
+   "requires": "echo_whistle",
+   "color": "#b06ad9",
+   "open_text": "The Echo Whistle sings, and the gate swings open!"
+  },
+  {
+   "type": "gate",
+   "id": "star_gate",
+   "x": 25,
+   "y": 17,
+   "requires": "star_compass",
+   "color": "#ffe066",
+   "open_text": "The Star Compass spins, and the gate opens like a book!"
+  },
+  {
+   "type": "npc",
+   "id": "prof_quill",
+   "x": 16,
+   "y": 9,
+   "sprite": "elder",
+   "name": "Professor Quill",
+   "actions": [
+    {
+     "unless": "met_prof",
+     "say": "prof_intro"
+    },
+    {
+     "if": "met_prof",
+     "say": "prof_hint"
+    },
+    {
+     "flag": "met_prof"
+    }
+   ]
+  },
+  {
+   "type": "sign",
+   "x": 18,
+   "y": 8,
+   "text": "SPARK ACADEMY. \"Every question is a little light.\""
+  },
+  {
+   "type": "battle",
+   "id": "spar_bot",
+   "x": 17,
+   "y": 13,
+   "name": "Sparring Bot"
+  },
+  {
+   "type": "door",
+   "x": 16,
+   "y": 20,
+   "to": "meadow",
+   "spawn": "default",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 17,
+   "y": 19,
+   "text": "Glimmer Meadow this way. Free roam: gather, explore and make friends."
+  },
+  {
+   "type": "door",
+   "x": 1,
+   "y": 11,
+   "to": "habitat",
+   "spawn": "default",
+   "color": "#ffd0a0"
+  },
+  {
+   "type": "sign",
+   "x": 2,
+   "y": 10,
+   "text": "Cozy Habitat. Your creature friends live here."
+  },
+  {
+   "type": "portal",
+   "x": 32,
+   "y": 11,
+   "scene": "Ghost",
+   "data": {
+    "back": {
+     "map": "academy",
+     "spawn": "from_ghost"
+    }
+   }
+  },
+  {
+   "type": "sign",
+   "x": 31,
+   "y": 10,
+   "text": "The Old Wing. Friendly ghosts live here. Bring a lantern and kind words."
+  },
+  {
+   "type": "npc",
+   "id": "kid_pim",
+   "x": 13,
+   "y": 9,
+   "sprite": "kid",
+   "name": "Pim",
+   "dialogue": "kid_pim"
+  },
+  {
+   "type": "npc",
+   "id": "keeper_oda",
+   "x": 21,
+   "y": 9,
+   "sprite": "keeper",
+   "name": "Keeper Oda",
+   "dialogue": "keeper_oda"
+  },
+  {
+   "type": "npc",
+   "id": "mw_gears_giver",
+   "x": 12,
+   "y": 13,
+   "sprite": "bot",
+   "name": "Tinker Bram",
+   "quest": "mw_gears",
+   "if": "class:mechanical_wizard"
+  },
+  {
+   "type": "npc",
+   "id": "mw_sharp_giver",
+   "x": 22,
+   "y": 13,
+   "sprite": "bot",
+   "name": "Tinker Bram's helper",
+   "quest": "mw_sharp",
+   "if": "class:mechanical_wizard"
+  },
+  {
+   "type": "npc",
+   "id": "cs_pages_giver",
+   "x": 12,
+   "y": 13,
+   "sprite": "scholar",
+   "name": "Scribe Lila",
+   "quest": "cs_pages",
+   "if": "class:code_scriber"
+  },
+  {
+   "type": "npc",
+   "id": "cs_greet_giver",
+   "x": 22,
+   "y": 13,
+   "sprite": "scholar",
+   "name": "Scribe Lila's helper",
+   "quest": "cs_greet",
+   "if": "class:code_scriber"
+  },
+  {
+   "type": "npc",
+   "id": "ba_berries_giver",
+   "x": 12,
+   "y": 13,
+   "sprite": "gardener",
+   "name": "Gardener Moss",
+   "quest": "ba_berries",
+   "if": "class:bio_alchemist"
+  },
+  {
+   "type": "npc",
+   "id": "ba_friends_giver",
+   "x": 22,
+   "y": 13,
+   "sprite": "gardener",
+   "name": "Gardener Moss's helper",
+   "quest": "ba_friends",
+   "if": "class:bio_alchemist"
+  },
+  {
+   "type": "npc",
+   "id": "qs_maps_giver",
+   "x": 12,
+   "y": 13,
+   "sprite": "guide",
+   "name": "Guide Nori",
+   "quest": "qs_maps",
+   "if": "class:quantum_sage"
+  },
+  {
+   "type": "npc",
+   "id": "qs_ghost_giver",
+   "x": 22,
+   "y": 13,
+   "sprite": "guide",
+   "name": "Guide Nori's helper",
+   "quest": "qs_ghost",
+   "if": "class:quantum_sage"
+  }
+ ],
+ "fly_to": "Spark Academy",
+ "scenery": [
+  {
+   "prop": "academy",
+   "x": 14,
+   "y": 7,
+   "w": 6
+  },
+  {
+   "prop": "tree_orange",
+   "x": 1,
+   "y": 9,
+   "w": 2,
+   "block": true
+  },
+  {
+   "prop": "tree_pine",
+   "x": 8,
+   "y": 10,
+   "w": 2,
+   "block": true
+  },
+  {
+   "prop": "tree_green",
+   "x": 25,
+   "y": 10,
+   "w": 2,
+   "block": true
+  },
+  {
+   "prop": "lamp_post",
+   "x": 6,
+   "y": 7,
+   "w": 2
+  },
+  {
+   "prop": "lamp_post",
+   "x": 28,
+   "y": 7,
+   "w": 2
+  },
+  {
+   "prop": "bush_flowers",
+   "x": 30,
+   "y": 8,
+   "w": 1
+  }
+ ]
+}

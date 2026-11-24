@@ -1,0 +1,182 @@
+{
+ "id": "t4",
+ "order": 4,
+ "name": "Echo Hall",
+ "difficulty": 4,
+ "requires_item": "echo_whistle",
+ "item_reward": "tide_charm",
+ "boss": {
+  "name": "Hushaby Bell",
+  "color": "#b06ad9",
+  "color2": "#ffffff",
+  "hearts": 4,
+  "dizzy_after_sec": 11,
+  "intro": "The great bell lost its ring and swings about looking for it. Dodge the wobbles!",
+  "after": "The bell rings one soft, happy note.",
+  "patterns": [
+   {
+    "type": "sweep",
+    "count": 7,
+    "speed": 130,
+    "every": 1.8
+   },
+   {
+    "type": "aimed",
+    "count": 2,
+    "speed": 160,
+    "every": 1.4
+   },
+   {
+    "type": "ring",
+    "count": 10,
+    "speed": 110,
+    "every": 3.5
+   }
+  ],
+  "element": "light"
+ },
+ "cutscenes": {
+  "arrival": "t4_arrival",
+  "boss_intro": "t4_boss_intro",
+  "boss_defeated": "t4_boss_defeated",
+  "item": "t4_item"
+ },
+ "map": {
+  "id": "t4",
+  "name": "Echo Hall",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccc#ccccccccccccccc##",
+   "##cccc#ccccccccccccccc##",
+   "##cccc#ccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccc#ccccccccccccccc##",
+   "##cccc#ccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "sequence",
+   "flag": "t4_puzzle",
+   "hint": "Count by twos: 2, 4, 6, 8, 10. Start again from 2."
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t4",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t4_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t4"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Every sound ever made in Lumeria echoed here. When the Hush arrived, the Hall went quiet for the first time."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "tide_charm",
+    "if": "t4_boss_done",
+    "actions": [
+     {
+      "flag": "t4_item"
+     },
+     {
+      "cutscene": "t4_item"
+     }
+    ]
+   },
+   {
+    "type": "gate",
+    "id": "inner_echo",
+    "x": 6,
+    "y": 12,
+    "requires": "echo_whistle",
+    "color": "#b06ad9",
+    "open_text": "Your whistle echoes, and the inner gate opens."
+   },
+   {
+    "type": "plate",
+    "x": 9,
+    "y": 10,
+    "n": 1,
+    "label": 2
+   },
+   {
+    "type": "plate",
+    "x": 18,
+    "y": 13,
+    "n": 2,
+    "label": 4
+   },
+   {
+    "type": "plate",
+    "x": 14,
+    "y": 11,
+    "n": 3,
+    "label": 6
+   },
+   {
+    "type": "plate",
+    "x": 20,
+    "y": 10,
+    "n": 4,
+    "label": 8
+   },
+   {
+    "type": "plate",
+    "x": 3,
+    "y": 11,
+    "n": 5,
+    "label": 10
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 9,
+    "text": "Step on the plates counting by twos: 2, 4, 6, 8, 10."
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "t4_arrived",
+    "flag": "t4_arrived",
+    "cutscene": "t4_arrival"
+   }
+  ]
+ }
+}

@@ -1,0 +1,147 @@
+[
+ {
+  "id": "academy_grounds",
+  "name": "Spark Academy Grounds",
+  "maps": [
+   "academy"
+  ],
+  "blurb": "Tidy lawns and tiny fairies tinkering about.",
+  "wanderers": {
+   "count": 1,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "tikwing",
+     "w": 3
+    },
+    {
+     "id": "pixlet",
+     "w": 2
+    },
+    {
+     "id": "twinklet",
+     "w": 1
+    },
+    {
+     "id": "inkling",
+     "w": 2
+    },
+    {
+     "id": "tallybug",
+     "w": 2
+    },
+    {
+     "id": "pagepip",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "training"
+  ]
+ },
+ {
+  "id": "glimmer_meadow",
+  "name": "Glimmer Meadow",
+  "maps": [
+   "meadow"
+  ],
+  "blurb": "Soft grass, glowing crystals and shy sprites.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "glimbit",
+     "w": 3
+    },
+    {
+     "id": "shimmoo",
+     "w": 2
+    },
+    {
+     "id": "windlekey",
+     "w": 2
+    },
+    {
+     "id": "novaling",
+     "w": 1
+    },
+    {
+     "id": "dewdot",
+     "w": 2
+    },
+    {
+     "id": "lumifly",
+     "w": 2
+    },
+    {
+     "id": "pebblewink",
+     "w": 2
+    },
+    {
+     "id": "mapmoth",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden"
+  ]
+ },
+ {
+  "id": "habitat_dome",
+  "name": "Habitat Dome",
+  "maps": [
+   "habitat"
+  ],
+  "blurb": "A warm dome of steam, gears and little dragons.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w",
+    "."
+   ],
+   "pool": [
+    {
+     "id": "boltlet",
+     "w": 3
+    },
+    {
+     "id": "embergear",
+     "w": 2
+    },
+    {
+     "id": "rivetail",
+     "w": 2
+    },
+    {
+     "id": "cogletta",
+     "w": 2
+    },
+    {
+     "id": "cinderpup",
+     "w": 2
+    },
+    {
+     "id": "gizmoss",
+     "w": 2
+    },
+    {
+     "id": "snoozlet",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "trio"
+  ]
+ }
+]

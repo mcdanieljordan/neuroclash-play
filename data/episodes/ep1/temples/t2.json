@@ -1,0 +1,166 @@
+{
+ "id": "t2",
+ "order": 2,
+ "name": "Lantern Library",
+ "difficulty": 2,
+ "requires_item": "glow_lantern",
+ "item_reward": "hop_boots",
+ "boss": {
+  "name": "Dimwick",
+  "color": "#b8a0ff",
+  "color2": "#ffe066",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Dimwick the lantern moth forgot how to glow, so it flutters in a fluster. Dodge the dust!",
+  "after": "Dimwick glows softly on a bookshelf, reading upside down.",
+  "patterns": [
+   {
+    "type": "spiral",
+    "count": 3,
+    "speed": 120,
+    "every": 0.5
+   },
+   {
+    "type": "ring",
+    "count": 10,
+    "speed": 100,
+    "every": 3
+   }
+  ],
+  "element": "wind"
+ },
+ "cutscenes": {
+  "arrival": "t2_arrival",
+  "boss_intro": "t2_boss_intro",
+  "boss_defeated": "t2_boss_defeated",
+  "item": "t2_item"
+ },
+ "map": {
+  "id": "t2",
+  "name": "Lantern Library",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##ccccccccccccFFFFFFFF##",
+   "##ccccccccccccFFFFFFFF##",
+   "##ccccccccccccFFFFFFFF##",
+   "##ccccccccccccFFFFFFFF##",
+   "##ccccccccccccFFFFFFFF##",
+   "##ccccccccccccFFFFFFFF##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "memory",
+   "flag": "t2_puzzle",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ]
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t2",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t2_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t2"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Every book here once glowed. The Hush dimmed them one by one, so nobody could read the way out."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "hop_boots",
+    "if": "t2_boss_done",
+    "actions": [
+     {
+      "flag": "t2_item"
+     },
+     {
+      "cutscene": "t2_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 10,
+    "n": 0
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 10,
+    "n": 1
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 2
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 13,
+    "n": 3
+   },
+   {
+    "type": "chime",
+    "x": 10,
+    "y": 11
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 9,
+    "text": "Ring the chime and watch the lanterns. Then touch them in the same order. Your Glow Lantern melts the fog."
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "t2_arrived",
+    "flag": "t2_arrived",
+    "cutscene": "t2_arrival"
+   }
+  ]
+ }
+}

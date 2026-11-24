@@ -1,0 +1,306 @@
+{
+ "families": [
+  {
+   "id": "clockwork_fairy",
+   "name": "Clockwork-Fairy",
+   "desc": "Tiny winged tinkerers that tick when they are happy."
+  },
+  {
+   "id": "crystal_android",
+   "name": "Crystal-Android",
+   "desc": "Gentle crystal helpers that glow when they think."
+  },
+  {
+   "id": "holo_sprite",
+   "name": "Holo-Sprite",
+   "desc": "Flickery light sprites that love stories."
+  },
+  {
+   "id": "mecha_dragon",
+   "name": "Mecha-Dragon",
+   "desc": "Small clanky dragons that puff warm steam."
+  },
+  {
+   "id": "star_elf",
+   "name": "Star-Elf",
+   "desc": "Sleepy star folk that hum old songs."
+  }
+ ],
+ "creatures": [
+  {
+   "id": "tikwing",
+   "name": "Tikwing",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#e0a030",
+   "color2": "#fff3c0",
+   "feature": "wings",
+   "blurb": "A baby Clockwork-Fairy. It ticks faster when you count out loud.",
+   "element": "spark"
+  },
+  {
+   "id": "cogletta",
+   "name": "Cogletta",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#d97a4a",
+   "color2": "#ffe066",
+   "feature": "gears",
+   "blurb": "Collects round things and sorts them by size.",
+   "element": "fire"
+  },
+  {
+   "id": "windlekey",
+   "name": "Windlekey",
+   "family": "clockwork_fairy",
+   "subject": "tech",
+   "color": "#c9a26a",
+   "color2": "#c0ecff",
+   "feature": "wings",
+   "blurb": "Winds itself up every morning, then naps by noon.",
+   "element": "wind"
+  },
+  {
+   "id": "glimbit",
+   "name": "Glimbit",
+   "family": "crystal_android",
+   "subject": "science",
+   "color": "#5fd0c0",
+   "color2": "#ffffff",
+   "feature": "crystal",
+   "blurb": "A baby Crystal-Android. It glows green when it learns something new.",
+   "element": "plant"
+  },
+  {
+   "id": "prismo",
+   "name": "Prismo",
+   "family": "crystal_android",
+   "subject": "science",
+   "color": "#7fa0ff",
+   "color2": "#ffd0f0",
+   "feature": "crystal",
+   "blurb": "Splits sunlight into rainbows, just to share them.",
+   "element": "water"
+  },
+  {
+   "id": "quartzee",
+   "name": "Quartzee",
+   "family": "crystal_android",
+   "subject": "health",
+   "color": "#e39ad0",
+   "color2": "#ffffff",
+   "feature": "crystal",
+   "blurb": "Reminds everyone to stretch.",
+   "element": "earth"
+  },
+  {
+   "id": "pixlet",
+   "name": "Pixlet",
+   "family": "holo_sprite",
+   "subject": "ela",
+   "color": "#5a9aff",
+   "color2": "#c0ecff",
+   "feature": "holo",
+   "blurb": "A baby Holo-Sprite. It flickers into the shape of its favourite letters.",
+   "element": "light"
+  },
+  {
+   "id": "flickerby",
+   "name": "Flickerby",
+   "family": "holo_sprite",
+   "subject": "ela",
+   "color": "#b06ad9",
+   "color2": "#f0d0ff",
+   "feature": "holo",
+   "blurb": "Tells very short stories with very big endings.",
+   "element": "wind"
+  },
+  {
+   "id": "shimmoo",
+   "name": "Shimmoo",
+   "family": "holo_sprite",
+   "subject": "tech",
+   "color": "#30c9b8",
+   "color2": "#d0fff7",
+   "feature": "holo",
+   "blurb": "Shy until you ask it a question.",
+   "element": "water"
+  },
+  {
+   "id": "boltlet",
+   "name": "Boltlet",
+   "family": "mecha_dragon",
+   "subject": "tech",
+   "color": "#ffd23f",
+   "color2": "#c0392b",
+   "feature": "horns",
+   "blurb": "Puffs warm steam that smells like toast.",
+   "element": "spark"
+  },
+  {
+   "id": "rivetail",
+   "name": "Rivetail",
+   "family": "mecha_dragon",
+   "subject": "math",
+   "color": "#c9544d",
+   "color2": "#ffd0a0",
+   "feature": "horns",
+   "blurb": "Counts its own rivets and always gets a different number.",
+   "element": "fire"
+  },
+  {
+   "id": "embergear",
+   "name": "Embergear",
+   "family": "mecha_dragon",
+   "subject": "science",
+   "color": "#e07a30",
+   "color2": "#fff3c0",
+   "feature": "horns",
+   "blurb": "Keeps campfires company.",
+   "element": "fire"
+  },
+  {
+   "id": "twinklet",
+   "name": "Twinklet",
+   "family": "star_elf",
+   "subject": "social",
+   "color": "#b8a0ff",
+   "color2": "#ffe066",
+   "feature": "star",
+   "blurb": "A baby Star-Elf. It hums the songs of far-away islands.",
+   "element": "light"
+  },
+  {
+   "id": "novaling",
+   "name": "Novaling",
+   "family": "star_elf",
+   "subject": "social",
+   "color": "#ff9ad7",
+   "color2": "#fff3c0",
+   "feature": "star",
+   "blurb": "Knows which way is north, even upside down.",
+   "element": "wind"
+  },
+  {
+   "id": "cometkin",
+   "name": "Cometkin",
+   "family": "star_elf",
+   "subject": "health",
+   "color": "#7fe0ff",
+   "color2": "#ffffff",
+   "feature": "star",
+   "blurb": "Zooms in circles when it is excited, then needs a long nap.",
+   "element": "spark"
+  },
+  {
+   "id": "inkling",
+   "name": "Inkling",
+   "element": "wind",
+   "family": "holo_sprite",
+   "subject": "ela",
+   "color": "#5a6ad0",
+   "color2": "#c0d0ff",
+   "feature": "holo",
+   "blurb": "A tiny ink-drop sprite that writes a wobbly letter every time it sneezes."
+  },
+  {
+   "id": "tallybug",
+   "name": "Tallybug",
+   "element": "spark",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#f0b030",
+   "color2": "#fff3c0",
+   "feature": "gears",
+   "blurb": "Counts in fives and gets cross when you skip one."
+  },
+  {
+   "id": "pagepip",
+   "name": "Pagepip",
+   "element": "light",
+   "family": "star_elf",
+   "subject": "ela",
+   "color": "#fff0d0",
+   "color2": "#ff9ab8",
+   "feature": "wings",
+   "blurb": "A page-shaped bird that folds itself into little paper boats."
+  },
+  {
+   "id": "dewdot",
+   "name": "Dewdot",
+   "element": "water",
+   "family": "crystal_android",
+   "subject": "science",
+   "color": "#6ad0e8",
+   "color2": "#e8ffff",
+   "feature": "crystal",
+   "blurb": "Saves one drop of dew for every question it asks."
+  },
+  {
+   "id": "lumifly",
+   "name": "Lumifly",
+   "element": "light",
+   "family": "star_elf",
+   "subject": "health",
+   "color": "#ffe680",
+   "color2": "#ffffff",
+   "feature": "star",
+   "blurb": "Glows brighter when you drink water and stretch."
+  },
+  {
+   "id": "pebblewink",
+   "name": "Pebblewink",
+   "element": "earth",
+   "family": "crystal_android",
+   "subject": "science",
+   "color": "#a89080",
+   "color2": "#e8d8c0",
+   "feature": "none",
+   "blurb": "A pebble that winks once a day. Nobody knows why."
+  },
+  {
+   "id": "mapmoth",
+   "name": "Mapmoth",
+   "element": "wind",
+   "family": "holo_sprite",
+   "subject": "social",
+   "color": "#d8b070",
+   "color2": "#7fd0a0",
+   "feature": "wings",
+   "blurb": "Its wings are maps that redraw themselves when you wander."
+  },
+  {
+   "id": "cinderpup",
+   "name": "Cinderpup",
+   "element": "fire",
+   "family": "mecha_dragon",
+   "subject": "science",
+   "color": "#e86a3a",
+   "color2": "#ffd080",
+   "feature": "horns",
+   "blurb": "A toasty little pup-dragon that keeps your hands warm."
+  },
+  {
+   "id": "gizmoss",
+   "name": "Gizmoss",
+   "element": "plant",
+   "family": "clockwork_fairy",
+   "subject": "tech",
+   "color": "#5aa04a",
+   "color2": "#d0f0a0",
+   "feature": "gears",
+   "blurb": "A mossy clock-fairy that grows tiny gears like flowers."
+  },
+  {
+   "id": "snoozlet",
+   "name": "Snoozlet",
+   "element": "water",
+   "family": "holo_sprite",
+   "subject": "health",
+   "color": "#a8b8f0",
+   "color2": "#ffffff",
+   "feature": "none",
+   "blurb": "A sleepy cloud-bubble that reminds everyone to rest."
+  }
+ ]
+}

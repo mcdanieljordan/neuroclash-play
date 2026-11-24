@@ -1,0 +1,78 @@
+{
+ "start": {
+  "map": "ep2_dock",
+  "spawn": "default",
+  "cutscene": "ep2_opening",
+  "items": []
+ },
+ "steps": [
+  {
+   "id": "ep2_s1",
+   "title": "Meet Captain Pip",
+   "goal": "Talk to Captain Pip in the middle of Sky Dock.",
+   "done_flag": "ep2_met_pip",
+   "requires_items": []
+  },
+  {
+   "id": "ep2_s2",
+   "title": "Breezy Run",
+   "goal": "Wake Breezy Run and find the Breeze Charm.",
+   "done_flag": "ep2_r1_item",
+   "requires_items": []
+  },
+  {
+   "id": "ep2_s3",
+   "title": "Rope Loft",
+   "goal": "Wake Rope Loft with your Breeze Charm and find the Rope Charm.",
+   "done_flag": "ep2_r2_item",
+   "requires_items": [
+    "ep2_charm_1"
+   ]
+  },
+  {
+   "id": "ep2_s4",
+   "title": "Vane Valley",
+   "goal": "Wake Vane Valley with your Rope Charm and find the Vane Charm.",
+   "done_flag": "ep2_r3_item",
+   "requires_items": [
+    "ep2_charm_2"
+   ]
+  },
+  {
+   "id": "ep2_s5",
+   "title": "Crate Cove",
+   "goal": "Wake Crate Cove with your Vane Charm and find the Crate Charm.",
+   "done_flag": "ep2_r4_item",
+   "requires_items": [
+    "ep2_charm_3"
+   ]
+  },
+  {
+   "id": "ep2_s6",
+   "title": "Foghorn Reef",
+   "goal": "Wake Foghorn Reef with your Crate Charm and find the Foghorn Charm.",
+   "done_flag": "ep2_r5_item",
+   "requires_items": [
+    "ep2_charm_4"
+   ]
+  },
+  {
+   "id": "ep2_s7",
+   "title": "The Tangled Bell",
+   "goal": "Wake The Tangled Bell with your Foghorn Charm and find the Bell Charm.",
+   "done_flag": "ep2_r6_item",
+   "requires_items": [
+    "ep2_charm_5"
+   ]
+  },
+  {
+   "id": "ep2_s8",
+   "title": "Back to the Dock",
+   "goal": "Tell Captain Pip that the Dock Bell sings again.",
+   "done_flag": "ep2_done",
+   "requires_items": [
+    "ep2_charm_6"
+   ]
+  }
+ ]
+}

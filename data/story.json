@@ -1,0 +1,28 @@
+{
+ "world": "Lumeria: floating islands where science and magic grew into one thing. Everything runs on Sparks, the glow that learning makes.",
+ "problem": "A gray fog called the Hush drifts between the islands. Where it settles, things forget: numbers slip off signs, maps fade, machines stall.",
+ "hero": "A junior apprentice at the Spark Academy, with a baby companion creature that hatches on the first day.",
+ "twist": "The Hush is the lonely ghost of the First Archivist, Ellowen, who stored all knowledge and forgot how to stop. In the finale the hero teaches it back by answering questions, and it becomes a friend.",
+ "tone": "Warm, funny, curious. Nobody is hurt. Guardians are muddled, not mean.",
+ "start": { "map": "academy", "cutscene": "opening", "items": ["bubble_wand"] },
+ "steps": [
+  { "id": "s1", "title": "First Day", "goal": "Talk to Professor Quill in the plaza.", "done_flag": "met_prof", "requires_items": [] },
+  { "id": "s2", "title": "The Counting Cloister", "goal": "Pop the bubbles in the north-west and wake the Counting Cloister.", "done_flag": "t1_item", "requires_items": ["bubble_wand"] },
+  { "id": "s3", "title": "The Lantern Library", "goal": "Melt the fog with your Glow Lantern and enter the Lantern Library.", "done_flag": "t2_item", "requires_items": ["glow_lantern"] },
+  { "id": "s4", "title": "The Skip-Stone Sanctum", "goal": "Hop the gap in the north-east to reach the Skip-Stone Sanctum.", "done_flag": "t3_item", "requires_items": ["hop_boots"] },
+  { "id": "s5", "title": "Echo Hall", "goal": "Wake the far north-east gate with your Echo Whistle.", "done_flag": "t4_item", "requires_items": ["echo_whistle"] },
+  { "id": "s6", "title": "The Tide Vault", "goal": "Cross the water in the south-west to reach the Tide Vault.", "done_flag": "t5_item", "requires_items": ["tide_charm"] },
+  { "id": "s7", "title": "The Star Archive", "goal": "Follow the Star Compass to the south-east gate and meet the Hush.", "done_flag": "t6_item", "requires_items": ["star_compass"] }
+ ],
+ "outline": [
+  "Opening: the hero arrives at the Spark Academy as the Hush dims the morning bells. An egg in the hero's satchel wobbles.",
+  "Class choice: the hero picks a path (Mechanical Wizard, Code Scriber, Bio-Alchemist or Quantum Sage). The egg hatches into a baby companion that matches.",
+  "Temple 1, Counting Cloister (difficulty 1): Abacuss the Muddled has lost count. Reward: Glow Lantern.",
+  "Temple 2, Lantern Library (difficulty 2): Dimwick the moth forgot how to glow. Reward: Hop Boots.",
+  "Temple 3, Skip-Stone Sanctum (difficulty 3): Boingle cannot remember where to land. Reward: Echo Whistle.",
+  "Temple 4, Echo Hall (difficulty 4): the Hushaby Bell lost its ring. Reward: Tide Charm.",
+  "Temple 5, Tide Vault (difficulty 5): Old Driftwhirl forgot the current. The twist: the Hush is Archivist Ellowen's lonely ghost. Reward: Star Compass.",
+  "Temple 6, Star Archive (finale): the hero does not fight the Hush. They teach it back, one answered question at a time, until Ellowen remembers how to stop and how to share.",
+  "Ending: the fog lifts, the bells ring, and Ellowen becomes the Academy's librarian and the hero's friend."
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "prof_intro": {
+  "default": [
+   { "name": "Professor Quill", "portrait": "elder", "text": "Ah, {nick}! Our newest apprentice. And is that a hatchling? Splendid. {companion} already likes you." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "You have seen the gray fog. We call it the Hush. Where it settles, things forget. This morning the bell forgot how to ring." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Six Archive Temples keep Lumeria's Sparks. Wake them, and the fog lifts. Each one hides a tool that opens the way to the next." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Start with the Counting Cloister, north-west. Your Bubble Wand will pop the bubbles on the path. Off you go!" }
+  ],
+  "mechanical_wizard": [
+   { "name": "Professor Quill", "portrait": "elder", "text": "Ah, {nick}! A Mechanical Wizard. I can hear your pockets ticking. And {companion} is ticking along!" },
+   { "name": "Professor Quill", "portrait": "elder", "text": "The gray fog is called the Hush. Where it settles, things forget. This morning my abacus forgot what comes after seven." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Six Archive Temples keep Lumeria's Sparks. Wake them, and the fog lifts. Each hides a tool that opens the way to the next." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Start with the Counting Cloister, north-west. A place after your own heart! Your Bubble Wand pops the bubbles on the path." }
+  ],
+  "code_scriber": [
+   { "name": "Professor Quill", "portrait": "elder", "text": "Ah, {nick}! A Code Scriber. Mind the ink. And {companion} is flickering hello!" },
+   { "name": "Professor Quill", "portrait": "elder", "text": "The gray fog is called the Hush. Where it settles, things forget. This morning my favourite book forgot its own ending." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Six Archive Temples keep Lumeria's Sparks. Wake them, and the fog lifts. Each hides a tool that opens the way to the next." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Start with the Counting Cloister, north-west. Read every sign you see! Your Bubble Wand pops the bubbles on the path." }
+  ],
+  "bio_alchemist": [
+   { "name": "Professor Quill", "portrait": "elder", "text": "Ah, {nick}! A Bio-Alchemist. You smell pleasantly of mint. And {companion} is glowing already!" },
+   { "name": "Professor Quill", "portrait": "elder", "text": "The gray fog is called the Hush. Where it settles, things forget. This morning the sunflowers forgot which way the sun is." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Six Archive Temples keep Lumeria's Sparks. Wake them, and the fog lifts. Each hides a tool that opens the way to the next." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Start with the Counting Cloister, north-west. Be gentle with whatever you find. Your Bubble Wand pops the bubbles on the path." }
+  ],
+  "quantum_sage": [
+   { "name": "Professor Quill", "portrait": "elder", "text": "Ah, {nick}! A Quantum Sage. Here one blink, there the next. And {companion} is humming an island song!" },
+   { "name": "Professor Quill", "portrait": "elder", "text": "The gray fog is called the Hush. Where it settles, things forget. This morning the map room forgot where it was." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Six Archive Temples keep Lumeria's Sparks. Wake them, and the fog lifts. Each hides a tool that opens the way to the next." },
+   { "name": "Professor Quill", "portrait": "elder", "text": "Start with the Counting Cloister, north-west. Every place has a story. Your Bubble Wand pops the bubbles on the path." }
+  ]
+ },
+ "prof_hint": { "default": [ { "name": "Professor Quill", "portrait": "elder", "text": "Check your goal at the top of the screen, {nick}. And remember: a wrong answer is just a question that wants another visit." } ] },
+ "kid_pim": {
+  "default": [ { "name": "Pim", "portrait": "kid", "text": "I asked the Sparring Bot for a battle and it asked ME a question. Rude! ...I got it right though." } ],
+  "mechanical_wizard": [ { "name": "Pim", "portrait": "kid", "text": "Is it true Mechanical Wizards count their sandwiches? How many have you had today? ...Wow." } ],
+  "code_scriber": [ { "name": "Pim", "portrait": "kid", "text": "Code Scribers read EVERYTHING. I saw one read a cereal box twice." } ]
+ },
+ "keeper_oda": { "default": [
+   { "name": "Keeper Oda", "portrait": "keeper", "text": "I keep the temple doors. Six doors, six tools: wand, lantern, boots, whistle, charm, compass." },
+   { "name": "Keeper Oda", "portrait": "keeper", "text": "If a door will not open, you have not found its tool yet. No hurry. The doors are patient." } ] },
+ "mw_gears_offer": { "default": [ { "name": "Tinker Bram", "portrait": "bot", "text": "BZZT. Apprentice {nick}! Three of my Brass Gears rolled into the Counting Cloister. Could you bring them back? I rattle without them." } ] },
+ "mw_gears_done": { "default": [ { "name": "Tinker Bram", "portrait": "bot", "text": "One, two, three! No more rattle. Take this Gear Badge. You count as well as you tinker." } ] },
+ "mw_sharp_offer": { "default": [ { "name": "Tinker Bram's helper", "portrait": "bot", "text": "A sharp mind is the best tool. Answer 5 questions right on your first try, and I will share my Sparks." } ] },
+ "mw_sharp_done": { "default": [ { "name": "Tinker Bram's helper", "portrait": "bot", "text": "Five out of five! Sharp as a brand-new gear tooth." } ] },
+ "cs_pages_offer": { "default": [ { "name": "Scribe Lila", "portrait": "scholar", "text": "Oh, {nick}! The wind took three pages of my story into the Counting Cloister. Without them, the dragon never gets his hat back!" } ] },
+ "cs_pages_done": { "default": [ { "name": "Scribe Lila", "portrait": "scholar", "text": "All three pages! The dragon gets his hat. Take this Ink Ribbon, story saver." } ] },
+ "cs_greet_offer": { "default": [ { "name": "Scribe Lila's helper", "portrait": "scholar", "text": "Every person is a story. Go and talk with 4 people around Lumeria, then tell me what you heard." } ] },
+ "cs_greet_done": { "default": [ { "name": "Scribe Lila's helper", "portrait": "scholar", "text": "Four new stories! You listen as well as you read." } ] },
+ "ba_berries_offer": { "default": [ { "name": "Gardener Moss", "portrait": "gardener", "text": "The creatures are hungry, {nick}. Could you pick 4 Spark Berries in Glimmer Meadow? Only the glowing ones." } ] },
+ "ba_berries_done": { "default": [ { "name": "Gardener Moss", "portrait": "gardener", "text": "Perfectly ripe! Here is a Leaf Pin. You have a grower's patience." } ] },
+ "ba_friends_offer": { "default": [ { "name": "Gardener Moss's helper", "portrait": "gardener", "text": "Creatures trust a calm voice and a good answer. Befriend 2 of them in the meadow." } ] },
+ "ba_friends_done": { "default": [ { "name": "Gardener Moss's helper", "portrait": "gardener", "text": "Two new friends! They will love the habitat." } ] },
+ "qs_maps_offer": { "default": [ { "name": "Guide Nori", "portrait": "guide", "text": "The Hush faded my map of Lumeria, {nick}. Three pieces are still out in the corners of Glimmer Meadow. Will you find them?" } ] },
+ "qs_maps_done": { "default": [ { "name": "Guide Nori", "portrait": "guide", "text": "The map is whole again! Take this Atlas Pin. You always know the way." } ] },
+ "qs_ghost_offer": { "default": [ { "name": "Guide Nori's helper", "portrait": "guide", "text": "The ghosts in the Old Wing are only lonely. Help one of them: make a friend, or set it free." } ] },
+ "qs_ghost_done": { "default": [ { "name": "Guide Nori's helper", "portrait": "guide", "text": "You were kind to someone who needed it. That is the oldest lesson there is." } ] },
+ "ranger_intro": { "default": [ { "name": "Ranger Fennel", "portrait": "gardener", "text": "Welcome to Glimmer Meadow! Fancy a game of Critter Hide-and-Seek? Three critters hide in the bushes. Watch for the ones that rustle!" } ] },
+ "ranger_win": { "default": [ { "name": "Ranger Fennel", "portrait": "gardener", "text": "You found all three! The critters want to play again already." } ] }
+}

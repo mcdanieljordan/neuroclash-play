@@ -1,0 +1,11 @@
+{
+ "id": "ep1",
+ "title": "Episode 1: The Hush Rises",
+ "blurb": "Start at the Spark Academy, wake six temples and teach the Hush to remember.",
+ "requires": [],
+ "complete_flag": "t6_item",
+ "start": { "map": "academy", "spawn": "default" },
+ "core": true,
+ "maps": ["academy", "meadow", "habitat"],
+ "temples": ["t1", "t2", "t3", "t4", "t5", "t6"]
+}

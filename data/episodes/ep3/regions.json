@@ -1,0 +1,176 @@
+[
+ {
+  "id": "quince_grove",
+  "name": "Quince Grove",
+  "maps": [
+   "ep3_grove"
+  ],
+  "blurb": "Orchard rows humming with bees.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep3_honeybun",
+     "w": 3
+    },
+    {
+     "id": "ep3_quincelet",
+     "w": 3
+    },
+    {
+     "id": "glimbit",
+     "w": 1
+    },
+    {
+     "id": "tikwing",
+     "w": 1
+    },
+    {
+     "id": "ep3_seedpip",
+     "w": 2
+    },
+    {
+     "id": "ep3_applewick",
+     "w": 2
+    },
+    {
+     "id": "ep3_peartwist",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden",
+   "training"
+  ]
+ },
+ {
+  "id": "honey_hill",
+  "name": "Honey Hill",
+  "maps": [
+   "ep3_hill"
+  ],
+  "blurb": "Warm slopes of honey and sunshine.",
+  "wanderers": {
+   "count": 1,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep3_honeybun",
+     "w": 3
+    },
+    {
+     "id": "twinklet",
+     "w": 1
+    },
+    {
+     "id": "windlekey",
+     "w": 2
+    },
+    {
+     "id": "ep3_beeswhirl",
+     "w": 2
+    },
+    {
+     "id": "ep3_clover",
+     "w": 2
+    },
+    {
+     "id": "ep3_gourdling",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden"
+  ]
+ },
+ {
+  "id": "creek_bend",
+  "name": "Creek Bend",
+  "maps": [
+   "ep3_creek"
+  ],
+  "blurb": "Bubbling water and mossy banks.",
+  "wanderers": {
+   "count": 1,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep3_mossbell",
+     "w": 3
+    },
+    {
+     "id": "prismo",
+     "w": 2
+    },
+    {
+     "id": "ep2_buoyo",
+     "w": 2
+    },
+    {
+     "id": "ep3_creekling",
+     "w": 2
+    },
+    {
+     "id": "ep3_dewmoth",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden"
+  ]
+ },
+ {
+  "id": "mushroom_dell",
+  "name": "Mushroom Dell",
+  "maps": [
+   "ep3_dell"
+  ],
+  "blurb": "Quiet shade under giant mushrooms.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep3_mossbell",
+     "w": 3
+    },
+    {
+     "id": "shimmoo",
+     "w": 2
+    },
+    {
+     "id": "ep3_quincelet",
+     "w": 2
+    },
+    {
+     "id": "ep3_mushpuff",
+     "w": 2
+    },
+    {
+     "id": "ep3_fernlet",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden",
+   "trio"
+  ]
+ }
+]

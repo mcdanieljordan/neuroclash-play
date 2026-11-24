@@ -1,0 +1,171 @@
+{
+ "id": "t3",
+ "order": 3,
+ "name": "Skip-Stone Sanctum",
+ "difficulty": 3,
+ "requires_item": "hop_boots",
+ "item_reward": "echo_whistle",
+ "boss": {
+  "name": "Boingle",
+  "color": "#3fae5a",
+  "color2": "#ffe066",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Boingle the hop-bot forgot where to land, so it bounces everywhere. Dodge the ripples!",
+  "after": "Boingle practises tiny, careful hops and looks very proud.",
+  "patterns": [
+   {
+    "type": "rain",
+    "count": 4,
+    "speed": 140,
+    "every": 1.1
+   },
+   {
+    "type": "ring",
+    "count": 12,
+    "speed": 120,
+    "every": 3.2
+   }
+  ],
+  "element": "spark"
+ },
+ "cutscenes": {
+  "arrival": "t3_arrival",
+  "boss_intro": "t3_boss_intro",
+  "boss_defeated": "t3_boss_defeated",
+  "item": "t3_item"
+ },
+ "map": {
+  "id": "t3",
+  "name": "Skip-Stone Sanctum",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##ccc^ccccccccccccc^cc##",
+   "##ccc^ccccccccccccc^cc##",
+   "##ccc^ccccccccccccc^cc##",
+   "##ccc^ccccccccccccc^cc##",
+   "##ccc^ccccccccccccc^cc##",
+   "##ccc^ccccccccccccc^cc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "blocks",
+   "flag": "t3_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t3",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t3_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t3"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The Sanctum taught patterns: skip, hop, skip. The Hush made the stones forget their places."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "echo_whistle",
+    "if": "t3_boss_done",
+    "actions": [
+     {
+      "flag": "t3_item"
+     },
+     {
+      "cutscene": "t3_item"
+     }
+    ]
+   },
+   {
+    "type": "block",
+    "x": 10,
+    "y": 11
+   },
+   {
+    "type": "block",
+    "x": 13,
+    "y": 12
+   },
+   {
+    "type": "plate",
+    "x": 10,
+    "y": 13
+   },
+   {
+    "type": "plate",
+    "x": 16,
+    "y": 12
+   },
+   {
+    "type": "reset",
+    "x": 8,
+    "y": 9,
+    "verb": "Reset"
+   },
+   {
+    "type": "sign",
+    "x": 15,
+    "y": 9,
+    "text": "Push each stone block onto a glowing plate. Stuck? Use the reset crystal."
+   },
+   {
+    "type": "chest",
+    "id": "bonus_l",
+    "x": 3,
+    "y": 11,
+    "sparks": 10
+   },
+   {
+    "type": "chest",
+    "id": "bonus_r",
+    "x": 21,
+    "y": 11,
+    "sparks": 10
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "t3_arrived",
+    "flag": "t3_arrived",
+    "cutscene": "t3_arrival"
+   }
+  ]
+ }
+}

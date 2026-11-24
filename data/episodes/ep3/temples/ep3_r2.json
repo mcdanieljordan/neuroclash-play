@@ -1,0 +1,174 @@
+{
+ "id": "ep3_r2",
+ "order": 2,
+ "name": "Honey Hollow",
+ "difficulty": 2,
+ "requires_item": "ep3_charm_1",
+ "item_reward": "ep3_charm_2",
+ "boss": {
+  "name": "Buzzbelly",
+  "element": "wind",
+  "color": "#ffc84a",
+  "color2": "#fff3c0",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Buzzbelly the honey bee buzzes in loops and forgot which flower is which. Dodge the buzz!",
+  "after": "Buzzbelly lands on a flower and hums a happy tune.",
+  "patterns": [
+   {
+    "type": "spiral",
+    "count": 3,
+    "speed": 115,
+    "every": 0.6
+   },
+   {
+    "type": "wave",
+    "count": 9,
+    "speed": 100,
+    "every": 1.7
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep3_r2_arrival",
+  "boss_intro": "ep3_r2_boss_intro",
+  "boss_defeated": "ep3_r2_boss_defeated",
+  "item": "ep3_r2_item"
+ },
+ "map": {
+  "id": "ep3_r2",
+  "name": "Honey Hollow",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "sum",
+   "pick": 2,
+   "target": 20,
+   "hint": "Not 20 yet. Try another pair!",
+   "flag": "ep3_r2_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep3_grove",
+    "spawn": "from_r2",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep3_r2_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep3_r2"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Balance the baskets! Pick two baskets whose numbers add up to 20.."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Balance the baskets! Pick two baskets whose numbers add up to 20."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep3_charm_2",
+    "if": "ep3_r2_boss_done",
+    "actions": [
+     {
+      "flag": "ep3_r2_item"
+     },
+     {
+      "cutscene": "ep3_r2_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 3,
+    "y": 10,
+    "n": 0,
+    "value": 12,
+    "label": 12
+   },
+   {
+    "type": "pillar",
+    "x": 8,
+    "y": 13,
+    "n": 1,
+    "value": 7,
+    "label": 7
+   },
+   {
+    "type": "pillar",
+    "x": 12,
+    "y": 10,
+    "n": 2,
+    "value": 9,
+    "label": 9
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 3,
+    "value": 8,
+    "label": 8
+   },
+   {
+    "type": "pillar",
+    "x": 20,
+    "y": 10,
+    "n": 4,
+    "value": 14,
+    "label": 14
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep3_r2_arrived",
+    "flag": "ep3_r2_arrived",
+    "cutscene": "ep3_r2_arrival"
+   }
+  ]
+ }
+}

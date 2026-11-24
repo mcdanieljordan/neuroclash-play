@@ -1,0 +1,97 @@
+{
+ "id": "ep3_creek",
+ "name": "Creek Bend",
+ "music": "calm",
+ "background": "#3a8fd0",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tgggwggggggggggbgSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggg.ggggggSgt",
+  "tggggggwgg.gggbggSgt",
+  "tggggggggg.ggggggSgt",
+  "tggggggggg.ggggggSgt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep3_grove",
+   "spawn": "from_creek",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "Creek Bend. The water runs fast on the far side."
+  },
+  {
+   "type": "npc",
+   "id": "ep3_pia",
+   "x": 14,
+   "y": 6,
+   "sprite": "keeper",
+   "name": "Fisher Pia",
+   "quest": "ep3_q_berries"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 4,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 9,
+   "y": 3,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 16,
+   "y": 8,
+   "item": "spark_berry"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep3_mossbell",
+   "x": 5,
+   "y": 4,
+   "creature": "ep3_mossbell",
+   "unless": "friend_ep3_mossbell"
+  },
+  {
+   "type": "chest",
+   "id": "ep3_bank",
+   "x": 18,
+   "y": 5,
+   "sparks": 50,
+   "item": "brass_gear"
+  },
+  {
+   "type": "sign",
+   "x": 15,
+   "y": 3,
+   "text": "Rushing rapids! A Hover Skiff rides right over."
+  },
+  {
+   "type": "pickup",
+   "x": 6,
+   "y": 9,
+   "item": "brass_gear"
+  }
+ ]
+}

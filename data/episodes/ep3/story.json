@@ -1,0 +1,78 @@
+{
+ "start": {
+  "map": "ep3_grove",
+  "spawn": "default",
+  "cutscene": "ep3_opening",
+  "items": []
+ },
+ "steps": [
+  {
+   "id": "ep3_s1",
+   "title": "Meet Mother Quince",
+   "goal": "Talk to Mother Quince in the middle of Quince Grove.",
+   "done_flag": "ep3_met_quince",
+   "requires_items": []
+  },
+  {
+   "id": "ep3_s2",
+   "title": "Seedling Row",
+   "goal": "Wake Seedling Row and find the Sprout Charm.",
+   "done_flag": "ep3_r1_item",
+   "requires_items": []
+  },
+  {
+   "id": "ep3_s3",
+   "title": "Honey Hollow",
+   "goal": "Wake Honey Hollow with your Sprout Charm and find the Honey Charm.",
+   "done_flag": "ep3_r2_item",
+   "requires_items": [
+    "ep3_charm_1"
+   ]
+  },
+  {
+   "id": "ep3_s4",
+   "title": "Quince Maze",
+   "goal": "Wake Quince Maze with your Honey Charm and find the Quince Charm.",
+   "done_flag": "ep3_r3_item",
+   "requires_items": [
+    "ep3_charm_2"
+   ]
+  },
+  {
+   "id": "ep3_s5",
+   "title": "Greenhouse Glass",
+   "goal": "Wake Greenhouse Glass with your Quince Charm and find the Glass Charm.",
+   "done_flag": "ep3_r4_item",
+   "requires_items": [
+    "ep3_charm_3"
+   ]
+  },
+  {
+   "id": "ep3_s6",
+   "title": "Vine Cellar",
+   "goal": "Wake Vine Cellar with your Glass Charm and find the Gourd Charm.",
+   "done_flag": "ep3_r5_item",
+   "requires_items": [
+    "ep3_charm_4"
+   ]
+  },
+  {
+   "id": "ep3_s7",
+   "title": "The Overgrown Greenhouse",
+   "goal": "Wake The Overgrown Greenhouse with your Gourd Charm and find the Heart Charm.",
+   "done_flag": "ep3_r6_item",
+   "requires_items": [
+    "ep3_charm_5"
+   ]
+  },
+  {
+   "id": "ep3_s8",
+   "title": "Back to the Grove",
+   "goal": "Tell Mother Quince that the orchard blooms in order again.",
+   "done_flag": "ep3_done",
+   "requires_items": [
+    "ep3_charm_6"
+   ]
+  }
+ ]
+}

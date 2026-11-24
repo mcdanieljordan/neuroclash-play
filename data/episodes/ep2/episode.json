@@ -1,0 +1,37 @@
+{
+ "id": "ep2",
+ "title": "Episode 2: Sky Dock",
+ "blurb": "The wind-boats forgot their routes and the Dock Bell forgot its song. Wake six Route Temples with Captain Pip.",
+ "requires": [
+  "ep1"
+ ],
+ "complete_flag": "ep2_done",
+ "start": {
+  "map": "ep2_dock",
+  "spawn": "default",
+  "items": []
+ },
+ "files": [
+  "dialogue",
+  "cutscenes",
+  "story",
+  "items",
+  "quests",
+  "creatures",
+  "regions"
+ ],
+ "maps": [
+  "ep2_dock",
+  "ep2_light",
+  "ep2_yard",
+  "ep2_garden"
+ ],
+ "temples": [
+  "ep2_r1",
+  "ep2_r2",
+  "ep2_r3",
+  "ep2_r4",
+  "ep2_r5",
+  "ep2_r6"
+ ]
+}

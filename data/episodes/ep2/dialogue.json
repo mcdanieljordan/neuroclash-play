@@ -1,0 +1,366 @@
+{
+ "ep2_pip_intro": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Ahoy, {nick}! Pip Marlow, captain of the wind-boat \"Almost On Time\". Welcome to Sky Dock!"
+   },
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "The boats forgot their routes and the Dock Bell forgot its song. Six Route Temples, six little puzzles, and one very tangled bell."
+   },
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Start with Breezy Run, the door on the far left. {companion} looks ready!"
+   }
+  ]
+ },
+ "ep2_pip_h1": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Breezy Run is the first door on the left. Step on the plates in number order!"
+   }
+  ]
+ },
+ "ep2_pip_h2": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Your Breeze Charm opens the second gate: Rope Loft. Shortest rope first, remember!"
+   }
+  ]
+ },
+ "ep2_pip_h3": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Vane Valley next! Turn each vane to face the way the sign says."
+   }
+  ]
+ },
+ "ep2_pip_h4": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Crate Cove. Push gently, and use the reset bell if a crate gets stuck."
+   }
+  ]
+ },
+ "ep2_pip_h5": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Foghorn Reef is a quiet one. Ring the chime and watch the posts glow."
+   }
+  ]
+ },
+ "ep2_pip_h6": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Last one: the Tangled Bell! Fraction tags, smallest piece first. You can do it, {nick}."
+   }
+  ]
+ },
+ "ep2_pip_finale": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Listen... the Dock Bell! One clear golden note. Every boat just remembered its route!"
+   },
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "You are officially a Harbor Pilot, {nick}. Here is your badge, and I mean it with my whole hat."
+   },
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Hm? What is this in the lost-and-found? An old ship's log, with a signature: \"M.V.\" Curious..."
+   }
+  ]
+ },
+ "ep2_pip_after": {
+  "default": [
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "The boats are on time! Well, \"almost\" on time. That is my best kind."
+   },
+   {
+    "name": "Captain Pip",
+    "portrait": "keeper",
+    "text": "Keep an eye on that ship's log. M.V. sounds like a story for another island."
+   }
+  ]
+ },
+ "ep2_tess_intro": {
+  "default": [
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Hi there! I am Tess, the Sky Dock engineer. I turn spare gears, shells and berries into field gear!"
+   },
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Rocket Skates make you zip. A Wind Glider floats you over wind gaps, and a Skyberry Fizz does it for 45 seconds. My Hover Skiff rides over rapids, my Gadget Drill clears rubble, and the Sky Whistle calls Pip to fly you anywhere you have been!"
+   },
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Bring me what you find, and I will build it. Everything stays yours, and nothing is ever lost."
+   }
+  ]
+ },
+ "ep2_tess_again": {
+  "default": [
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Back for more tinkering? Show me what you have found!"
+   }
+  ]
+ },
+ "ep2_tam": {
+  "default": [
+   {
+    "name": "Old Tam",
+    "portrait": "elder",
+    "text": "I have sailed these skies for sixty years. The wind never forgets a friend."
+   },
+   {
+    "name": "Old Tam",
+    "portrait": "elder",
+    "text": "It did forget the routes for a while, though. Strange times."
+   }
+  ]
+ },
+ "ep2_dee": {
+  "default": [
+   {
+    "name": "Dockhand Dee",
+    "portrait": "kid",
+    "text": "I counted all the gulls this morning. Forty-two! Then they moved. Now I have no idea."
+   }
+  ]
+ },
+ "ep2_briar": {
+  "default": [
+   {
+    "name": "Keeper Briar",
+    "portrait": "keeper",
+    "text": "The lighthouse lamp is warm, but the wind keeps blowing it sideways."
+   },
+   {
+    "name": "Keeper Briar",
+    "portrait": "keeper",
+    "text": "Gullywick the cloud-gull loves reading the clouds. Say hello, gently."
+   }
+  ]
+ },
+ "ep2_kit": {
+  "default": [
+   {
+    "name": "Knot-Tier Kit",
+    "portrait": "kid",
+    "text": "I can tie nine different knots! Eight of them are the same knot."
+   }
+  ]
+ },
+ "ep2_q_shells_offer": {
+  "default": [
+   {
+    "name": "Dockhand Tully",
+    "portrait": "kid",
+    "text": "Lantern Rock is covered in shells, but my arms are too short to carry all of them."
+   },
+   {
+    "name": "Dockhand Tully",
+    "portrait": "kid",
+    "text": "Could you find 4 Sea Shells for the Harbor Museum? Check the island south of the dock."
+   }
+  ]
+ },
+ "ep2_q_shells_done": {
+  "default": [
+   {
+    "name": "Dockhand Tully",
+    "portrait": "kid",
+    "text": "Four perfect shells! The museum will love them. Thank you, {nick}!"
+   }
+  ]
+ },
+ "ep2_q_coils_offer": {
+  "default": [
+   {
+    "name": "Rigger Mabel",
+    "portrait": "scholar",
+    "text": "Rope coils keep rolling off the dock into the Rope Yard."
+   },
+   {
+    "name": "Rigger Mabel",
+    "portrait": "scholar",
+    "text": "Can you find 3 of them? The yard is south, past the middle gate."
+   }
+  ]
+ },
+ "ep2_q_coils_done": {
+  "default": [
+   {
+    "name": "Rigger Mabel",
+    "portrait": "scholar",
+    "text": "Three tidy coils! You are a natural. Take this Sailor Knot Pin."
+   }
+  ]
+ },
+ "ep2_q_chat_offer": {
+  "default": [
+   {
+    "name": "Harbormaster Orrin",
+    "portrait": "elder",
+    "text": "A harbor is only as friendly as its hellos. Five hellos, if you please!"
+   },
+   {
+    "name": "Harbormaster Orrin",
+    "portrait": "elder",
+    "text": "Talk to 5 people around Sky Dock, then come back and tell me who was the chattiest."
+   }
+  ]
+ },
+ "ep2_q_chat_done": {
+  "default": [
+   {
+    "name": "Harbormaster Orrin",
+    "portrait": "elder",
+    "text": "Five hellos! That is the friendliest thing I have heard all day."
+   }
+  ]
+ },
+ "ep2_q_sharp_offer": {
+  "default": [
+   {
+    "name": "Signal Sam",
+    "portrait": "bot",
+    "text": "Bzzt! My signal flags are mixed up. Sharp minds help."
+   },
+   {
+    "name": "Signal Sam",
+    "portrait": "bot",
+    "text": "Answer 6 questions correctly on the first try, anywhere, and I will sort the flags for you."
+   }
+  ]
+ },
+ "ep2_q_sharp_done": {
+  "default": [
+   {
+    "name": "Signal Sam",
+    "portrait": "bot",
+    "text": "Six clear signals! My flags are in perfect order."
+   }
+  ]
+ },
+ "ep2_q_friend_offer": {
+  "default": [
+   {
+    "name": "Net-Mender Wren",
+    "portrait": "gardener",
+    "text": "The creatures around the dock are shy. They like a calm hello."
+   },
+   {
+    "name": "Net-Mender Wren",
+    "portrait": "gardener",
+    "text": "Befriend 2 of them, and answer their question gently. They will be glad you came."
+   }
+  ]
+ },
+ "ep2_q_friend_done": {
+  "default": [
+   {
+    "name": "Net-Mender Wren",
+    "portrait": "gardener",
+    "text": "Two new friends! Aren't they just the sweetest?"
+   }
+  ]
+ },
+ "ep2_q_puzzle_offer": {
+  "default": [
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Ellowen says puzzles are just questions with doors. Can you solve two?"
+   },
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Any two temple puzzles will do. I will write it down in my list, neatly."
+   }
+  ]
+ },
+ "ep2_q_puzzle_done": {
+  "default": [
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Two puzzles, in alphabetical order of cleverness! Perfect."
+   }
+  ]
+ },
+ "ep2_q_berries_offer": {
+  "default": [
+   {
+    "name": "Gardener Pell",
+    "portrait": "gardener",
+    "text": "My Spark Berries drift off whenever there is a breeze."
+   },
+   {
+    "name": "Gardener Pell",
+    "portrait": "gardener",
+    "text": "Can you gather 3 for me? They are around the Cloud Garden."
+   }
+  ]
+ },
+ "ep2_q_berries_done": {
+  "default": [
+   {
+    "name": "Gardener Pell",
+    "portrait": "gardener",
+    "text": "Three juicy berries! The garden says thank you."
+   }
+  ]
+ },
+ "ep2_q_boss_offer": {
+  "default": [
+   {
+    "name": "Captain Pip's Mate",
+    "portrait": "keeper",
+    "text": "Some of the temples have muddled guardians who need a helping hand."
+   },
+   {
+    "name": "Captain Pip's Mate",
+    "portrait": "keeper",
+    "text": "Help 2 of them remember, and I will tell the whole harbor about it."
+   }
+  ]
+ },
+ "ep2_q_boss_done": {
+  "default": [
+   {
+    "name": "Captain Pip's Mate",
+    "portrait": "keeper",
+    "text": "Two guardians helped! You are a hero of the harbor."
+   }
+  ]
+ }
+}

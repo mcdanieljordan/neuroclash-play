@@ -1,0 +1,243 @@
+{
+ "#": {
+  "name": "stone wall",
+  "solid": true,
+  "style": "wall",
+  "color": "#5a5f8a",
+  "color2": "#3a3f6a",
+  "sprite": {
+   "sheet": "dungeon",
+   "i": [
+    40,
+    40,
+    57
+   ]
+  }
+ },
+ "B": {
+  "name": "academy wall",
+  "solid": true,
+  "style": "wall",
+  "color": "#b8703a",
+  "color2": "#7a4520",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    53,
+    65,
+    54,
+    66
+   ]
+  }
+ },
+ ".": {
+  "name": "path",
+  "solid": false,
+  "style": "floor",
+  "color": "#d9c9a0",
+  "color2": "#a89870",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    25
+   ]
+  }
+ },
+ "c": {
+  "name": "temple floor",
+  "solid": false,
+  "style": "floor",
+  "color": "#454a7a",
+  "color2": "#2a2f5a",
+  "sprite": {
+   "sheet": "dungeon",
+   "i": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "s": {
+  "name": "star floor",
+  "solid": false,
+  "style": "star",
+  "base": "#454a7a",
+  "color": "#ffe9a8",
+  "sprite": {
+   "sheet": "dungeon",
+   "i": [
+    0
+   ]
+  }
+ },
+ "g": {
+  "name": "grass",
+  "solid": false,
+  "style": "grass",
+  "color": "#4a9d5b",
+  "color2": "#3a7d48",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ },
+ "w": {
+  "name": "flowers",
+  "solid": false,
+  "style": "flower",
+  "base": "#4a9d5b",
+  "color": "#ff9ad7",
+  "color2": "#ffe066",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    2
+   ]
+  }
+ },
+ "t": {
+  "name": "tree",
+  "solid": true,
+  "style": "tree",
+  "base": "#4a9d5b",
+  "color": "#2f7a3f",
+  "color2": "#55b868",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    28,
+    28,
+    27
+   ],
+   "under": {
+    "sheet": "town",
+    "i": [
+     0
+    ]
+   }
+  }
+ },
+ "b": {
+  "name": "bush",
+  "solid": true,
+  "style": "bush",
+  "base": "#4a9d5b",
+  "color": "#3f8f4a",
+  "color2": "#6fca7a",
+  "sprite": {
+   "sheet": "town",
+   "i": [
+    5
+   ],
+   "under": {
+    "sheet": "town",
+    "i": [
+     0
+    ]
+   }
+  }
+ },
+ "~": {
+  "name": "water",
+  "solid": true,
+  "style": "water",
+  "anim": "wave",
+  "color": "#3a8fd0",
+  "color2": "#9ad7ff",
+  "pass_item": "tide_charm",
+  "pass_ability": "water"
+ },
+ "f": {
+  "name": "Hush fog",
+  "solid": true,
+  "style": "fog",
+  "base": "#8a8f9a",
+  "color": "#c9ccd6",
+  "pass_item": "glow_lantern",
+  "clear_to": "."
+ },
+ "F": {
+  "name": "Hush fog (temple)",
+  "solid": true,
+  "style": "fog",
+  "base": "#454a7a",
+  "color": "#c9ccd6",
+  "pass_item": "glow_lantern",
+  "clear_to": "c"
+ },
+ "^": {
+  "name": "gap",
+  "solid": true,
+  "style": "gap",
+  "color": "#0d1024",
+  "color2": "#9ad7ff",
+  "pass_item": "hop_boots",
+  "hop": true,
+  "pass_ability": "gap"
+ },
+ "o": {
+  "name": "bubble",
+  "solid": true,
+  "style": "bubble",
+  "base": "#d9c9a0",
+  "color": "#9ad7ff",
+  "pass_item": "bubble_wand",
+  "clear_to": "."
+ },
+ "O": {
+  "name": "bubble (temple)",
+  "solid": true,
+  "style": "bubble",
+  "base": "#454a7a",
+  "color": "#9ad7ff",
+  "pass_item": "bubble_wand",
+  "clear_to": "c"
+ },
+ "W": {
+  "name": "wind gap",
+  "solid": true,
+  "style": "gap",
+  "color": "#2a5f9a",
+  "color2": "#e8f6ff",
+  "pass_ability": "glide",
+  "hop": true
+ },
+ "S": {
+  "name": "rapids",
+  "solid": true,
+  "style": "water",
+  "anim": "rapids",
+  "color": "#2a6fc0",
+  "color2": "#ffffff",
+  "pass_ability": "rapids"
+ },
+ "R": {
+  "name": "rubble",
+  "solid": true,
+  "style": "floor",
+  "color": "#8a7a6a",
+  "color2": "#5a4a3a",
+  "pass_ability": "drill",
+  "clear_to": ".",
+  "sprite": {
+   "sheet": "dungeon",
+   "i": [
+    12
+   ],
+   "under": {
+    "sheet": "town",
+    "i": [
+     25
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+[
+ { "id": "mw_gears", "class": "mechanical_wizard", "name": "Gear Gathering", "giver": "Tinker Bram", "type": "collect", "target": "brass_gear", "count": 3,
+   "desc": "Find 3 Brass Gears. Some rolled into the Counting Cloister.", "offer": "mw_gears_offer", "done": "mw_gears_done", "reward": { "sparks": 20, "item": "gear_badge" } },
+ { "id": "mw_sharp", "class": "mechanical_wizard", "name": "Sharp Mind", "giver": "Tinker Bram's helper", "type": "answer", "target": "any", "count": 5,
+   "desc": "Answer 5 questions correctly on the first try.", "offer": "mw_sharp_offer", "done": "mw_sharp_done", "reward": { "sparks": 30 } },
+ { "id": "cs_pages", "class": "code_scriber", "name": "Lost Pages", "giver": "Scribe Lila", "type": "collect", "target": "lost_page", "count": 3,
+   "desc": "Find 3 Lost Pages. A few blew into the Counting Cloister.", "offer": "cs_pages_offer", "done": "cs_pages_done", "reward": { "sparks": 20, "item": "ink_ribbon" } },
+ { "id": "cs_greet", "class": "code_scriber", "name": "A Word With Everyone", "giver": "Scribe Lila's helper", "type": "talk", "target": "any", "count": 4,
+   "desc": "Talk with 4 people around Lumeria.", "offer": "cs_greet_offer", "done": "cs_greet_done", "reward": { "sparks": 30 } },
+ { "id": "ba_berries", "class": "bio_alchemist", "name": "Berry Basket", "giver": "Gardener Moss", "type": "collect", "target": "spark_berry", "count": 4,
+   "desc": "Pick 4 Spark Berries in Glimmer Meadow.", "offer": "ba_berries_offer", "done": "ba_berries_done", "reward": { "sparks": 20, "item": "leaf_pin" } },
+ { "id": "ba_friends", "class": "bio_alchemist", "name": "Gentle Hands", "giver": "Gardener Moss's helper", "type": "befriend", "target": "any", "count": 2,
+   "desc": "Befriend 2 creatures in Glimmer Meadow.", "offer": "ba_friends_offer", "done": "ba_friends_done", "reward": { "sparks": 30 } },
+ { "id": "qs_maps", "class": "quantum_sage", "name": "Map Menders", "giver": "Guide Nori", "type": "collect", "target": "old_map_piece", "count": 3,
+   "desc": "Find 3 Old Map Pieces in the corners of Glimmer Meadow.", "offer": "qs_maps_offer", "done": "qs_maps_done", "reward": { "sparks": 20, "item": "atlas_pin" } },
+ { "id": "qs_ghost", "class": "quantum_sage", "name": "Friendly Ghosts", "giver": "Guide Nori's helper", "type": "ghost", "target": "any", "count": 1,
+   "desc": "Help 1 ghost in the Old Wing (befriend it or set it free).", "offer": "qs_ghost_offer", "done": "qs_ghost_done", "reward": { "sparks": 30 } }
+]

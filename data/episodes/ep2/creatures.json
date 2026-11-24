@@ -1,0 +1,148 @@
+{
+ "families": [],
+ "creatures": [
+  {
+   "id": "ep2_sailsprite",
+   "name": "Sailsprite",
+   "element": "wind",
+   "family": "star_elf",
+   "subject": "social",
+   "color": "#f0f0ff",
+   "color2": "#ff7a8a",
+   "feature": "wings",
+   "blurb": "Sails along on a breeze and waves at every boat."
+  },
+  {
+   "id": "ep2_pennantail",
+   "name": "Pennantail",
+   "element": "light",
+   "family": "holo_sprite",
+   "subject": "social",
+   "color": "#ff6aa8",
+   "color2": "#ffe066",
+   "feature": "none",
+   "blurb": "Its tail is a flag that changes colour with its mood."
+  },
+  {
+   "id": "ep2_gullbolt",
+   "name": "Gullbolt",
+   "element": "spark",
+   "family": "mecha_dragon",
+   "subject": "tech",
+   "color": "#f0d040",
+   "color2": "#6aa0ff",
+   "feature": "wings",
+   "blurb": "A little mechanical gull that zips about carrying notes."
+  },
+  {
+   "id": "ep2_compasspin",
+   "name": "Compasspin",
+   "element": "spark",
+   "family": "clockwork_fairy",
+   "subject": "social",
+   "color": "#d0a040",
+   "color2": "#fff3c0",
+   "feature": "star",
+   "blurb": "Always spins to point at whoever is being kind."
+  },
+  {
+   "id": "ep2_pearlpuff",
+   "name": "Pearlpuff",
+   "element": "water",
+   "family": "holo_sprite",
+   "subject": "science",
+   "color": "#f0e8ff",
+   "color2": "#9ad7ff",
+   "feature": "none",
+   "blurb": "A soft pearl-bubble that hums when the tide comes in."
+  },
+  {
+   "id": "ep2_lanternfin",
+   "name": "Lanternfin",
+   "element": "light",
+   "family": "star_elf",
+   "subject": "science",
+   "color": "#ffb060",
+   "color2": "#fff0a0",
+   "feature": "crystal",
+   "blurb": "A fish with a lantern on its head and the calmest smile."
+  },
+  {
+   "id": "ep2_anchorbit",
+   "name": "Anchorbit",
+   "element": "water",
+   "family": "crystal_android",
+   "subject": "tech",
+   "color": "#4a7ab0",
+   "color2": "#c0e0ff",
+   "feature": "crystal",
+   "blurb": "A shy little anchor that holds on to friends it likes."
+  },
+  {
+   "id": "ep2_knotkit",
+   "name": "Knotkit",
+   "element": "earth",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#b08050",
+   "color2": "#ffe0a0",
+   "feature": "gears",
+   "blurb": "Ties knots in groups of three and checks them twice."
+  },
+  {
+   "id": "ep2_crateling",
+   "name": "Crateling",
+   "element": "earth",
+   "family": "crystal_android",
+   "subject": "math",
+   "color": "#c08a40",
+   "color2": "#ffe066",
+   "feature": "horns",
+   "blurb": "A crate with eyes that hides snacks for later and forgets where."
+  },
+  {
+   "id": "ep2_foghornet",
+   "name": "Foghornet",
+   "element": "wind",
+   "family": "mecha_dragon",
+   "subject": "ela",
+   "color": "#8a9ab8",
+   "color2": "#ffd080",
+   "feature": "horns",
+   "blurb": "A tiny dragon with a very big voice, learning to whisper."
+  },
+  {
+   "id": "ep2_gullywick",
+   "element": "wind",
+   "name": "Gullywick",
+   "family": "holo_sprite",
+   "subject": "ela",
+   "color": "#e8f2ff",
+   "color2": "#ffb0c8",
+   "feature": "wings",
+   "blurb": "A small cloud-gull that reads the wind like a book."
+  },
+  {
+   "id": "ep2_rigglet",
+   "element": "earth",
+   "name": "Rigglet",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#c9a26a",
+   "color2": "#ffe066",
+   "feature": "gears",
+   "blurb": "Ties knots in its own tail and is very proud of them."
+  },
+  {
+   "id": "ep2_buoyo",
+   "element": "water",
+   "name": "Buoyo",
+   "family": "crystal_android",
+   "subject": "science",
+   "color": "#ff8a6a",
+   "color2": "#ffffff",
+   "feature": "crystal",
+   "blurb": "A bobbing buoy-creature that glows when the sea is calm."
+  }
+ ]
+}

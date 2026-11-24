@@ -1,0 +1,172 @@
+{
+ "id": "ep3_r4",
+ "order": 4,
+ "name": "Greenhouse Glass",
+ "difficulty": 3,
+ "requires_item": "ep3_charm_3",
+ "item_reward": "ep3_charm_4",
+ "boss": {
+  "name": "Foggy Fern",
+  "element": "water",
+  "color": "#9ad7ff",
+  "color2": "#ffffff",
+  "hearts": 4,
+  "dizzy_after_sec": 9,
+  "intro": "Foggy Fern fogged up all the glass and cannot see out. Dodge the drips!",
+  "after": "Foggy Fern wipes a clear window and waves.",
+  "patterns": [
+   {
+    "type": "rain",
+    "count": 3,
+    "speed": 115,
+    "every": 1.4
+   },
+   {
+    "type": "sweep",
+    "count": 8,
+    "speed": 100,
+    "every": 2.6
+   },
+   {
+    "type": "ring",
+    "count": 10,
+    "speed": 100,
+    "every": 3
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep3_r4_arrival",
+  "boss_intro": "ep3_r4_boss_intro",
+  "boss_defeated": "ep3_r4_boss_defeated",
+  "item": "ep3_r4_item"
+ },
+ "map": {
+  "id": "ep3_r4",
+  "name": "Greenhouse Glass",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "memory",
+   "order": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "flag": "ep3_r4_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep3_grove",
+    "spawn": "from_r4",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep3_r4_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep3_r4"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Ring the chime and watch the glowing pots."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Ring the chime and watch the glowing pots. Then touch them in the same order."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep3_charm_4",
+    "if": "ep3_r4_boss_done",
+    "actions": [
+     {
+      "flag": "ep3_r4_item"
+     },
+     {
+      "cutscene": "ep3_r4_item"
+     }
+    ]
+   },
+   {
+    "type": "chime",
+    "x": 10,
+    "y": 11
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 10,
+    "n": 0
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 10,
+    "n": 1
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 2
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 13,
+    "n": 3
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep3_r4_arrived",
+    "flag": "ep3_r4_arrived",
+    "cutscene": "ep3_r4_arrival"
+   }
+  ]
+ }
+}

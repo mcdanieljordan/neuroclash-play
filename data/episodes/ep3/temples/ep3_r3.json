@@ -1,0 +1,159 @@
+{
+ "id": "ep3_r3",
+ "order": 3,
+ "name": "Quince Maze",
+ "difficulty": 3,
+ "requires_item": "ep3_charm_2",
+ "item_reward": "ep3_charm_3",
+ "boss": {
+  "name": "Quincy the Quince",
+  "element": "earth",
+  "color": "#e0c040",
+  "color2": "#fff3c0",
+  "hearts": 4,
+  "dizzy_after_sec": 9,
+  "intro": "Quincy the Quince rolls around the maze and cannot find the way out. Dodge the pips!",
+  "after": "Quincy finds the exit and rolls out, giggling.",
+  "patterns": [
+   {
+    "type": "wave",
+    "count": 9,
+    "speed": 105,
+    "every": 1.6
+   },
+   {
+    "type": "aimed",
+    "count": 4,
+    "speed": 110,
+    "every": 2.2
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep3_r3_arrival",
+  "boss_intro": "ep3_r3_boss_intro",
+  "boss_defeated": "ep3_r3_boss_defeated",
+  "item": "ep3_r3_item"
+ },
+ "map": {
+  "id": "ep3_r3",
+  "name": "Quince Maze",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "blocks",
+   "hint": "Push each crate down onto a plate.",
+   "flag": "ep3_r3_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep3_grove",
+    "spawn": "from_r3",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep3_r3_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep3_r3"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Push each crate onto a glowing plate."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Push each crate onto a glowing plate. Walk into a crate to push it. If one gets stuck, touch the reset bell."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep3_charm_3",
+    "if": "ep3_r3_boss_done",
+    "actions": [
+     {
+      "flag": "ep3_r3_item"
+     },
+     {
+      "cutscene": "ep3_r3_item"
+     }
+    ]
+   },
+   {
+    "type": "plate",
+    "x": 6,
+    "y": 13,
+    "n": 1
+   },
+   {
+    "type": "plate",
+    "x": 15,
+    "y": 13,
+    "n": 2
+   },
+   {
+    "type": "block",
+    "x": 6,
+    "y": 11
+   },
+   {
+    "type": "block",
+    "x": 15,
+    "y": 11
+   },
+   {
+    "type": "reset",
+    "x": 2,
+    "y": 9
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep3_r3_arrived",
+    "flag": "ep3_r3_arrived",
+    "cutscene": "ep3_r3_arrival"
+   }
+  ]
+ }
+}

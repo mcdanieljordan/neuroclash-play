@@ -1,0 +1,181 @@
+{
+ "id": "t6",
+ "order": 6,
+ "name": "Star Archive",
+ "difficulty": 5,
+ "requires_item": "star_compass",
+ "item_reward": "archive_key",
+ "boss": {
+  "name": "The Hush",
+  "color": "#c9ccd6",
+  "color2": "#7fe0ff",
+  "hearts": 5,
+  "dizzy_after_sec": 10,
+  "finale": true,
+  "weak_label": "Teach",
+  "intro": "The Hush is not angry. It is lost. Dodge the drifting pages, then teach it what it forgot!",
+  "after": "Archivist Ellowen is sorting books and humming.",
+  "patterns": [
+   {
+    "type": "ring",
+    "count": 12,
+    "speed": 110,
+    "every": 2.6
+   },
+   {
+    "type": "spiral",
+    "count": 4,
+    "speed": 120,
+    "every": 0.5
+   },
+   {
+    "type": "aimed",
+    "count": 2,
+    "speed": 150,
+    "every": 1.5
+   },
+   {
+    "type": "rain",
+    "count": 5,
+    "speed": 140,
+    "every": 1.3
+   }
+  ],
+  "element": "light"
+ },
+ "cutscenes": {
+  "boss_intro": "t6_boss_intro",
+  "boss_defeated": "t6_boss_defeated",
+  "item": "t6_ending"
+ },
+ "map": {
+  "id": "t6",
+  "name": "Star Archive",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccOccccccccccc^cccc##",
+   "##cccOccccccccccc^cccc##",
+   "##cccOccccccccccc^cccc##",
+   "##cccOcccFFFccccc^cccc##",
+   "##cccOcccFFFccccc^cccc##",
+   "##cccOcccFFFccccc^cccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "sequence",
+   "flag": "t6_puzzle",
+   "hint": "Count by tens: 10, 20, 30... Start again from 10."
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t6",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t6_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t6"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The Star Archive: every story, every number, every song. And in the middle, someone very tired who forgot how to stop."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "archive_key",
+    "if": "t6_boss_done",
+    "actions": [
+     {
+      "flag": "t6_item"
+     },
+     {
+      "cutscene": "t6_ending"
+     }
+    ]
+   },
+   {
+    "type": "plate",
+    "x": 8,
+    "y": 10,
+    "n": 1,
+    "label": 10
+   },
+   {
+    "type": "plate",
+    "x": 14,
+    "y": 13,
+    "n": 2,
+    "label": 20
+   },
+   {
+    "type": "plate",
+    "x": 20,
+    "y": 10,
+    "n": 3,
+    "label": 30
+   },
+   {
+    "type": "plate",
+    "x": 3,
+    "y": 13,
+    "n": 4,
+    "label": 40
+   },
+   {
+    "type": "plate",
+    "x": 15,
+    "y": 10,
+    "n": 5,
+    "label": 50
+   },
+   {
+    "type": "plate",
+    "x": 20,
+    "y": 14,
+    "n": 6,
+    "label": 60
+   },
+   {
+    "type": "sign",
+    "x": 13,
+    "y": 9,
+    "text": "The last lock. Step on the plates counting by tens: 10, 20, 30, 40, 50, 60."
+   }
+  ]
+ },
+ "finale": true
+}

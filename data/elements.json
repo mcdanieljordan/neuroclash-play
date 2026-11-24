@@ -1,0 +1,63 @@
+{
+ "multiplier": {
+  "strong": 1.5,
+  "weak": 0.75
+ },
+ "elements": [
+  {
+   "id": "fire",
+   "name": "Fire",
+   "color": "#ff7a3a"
+  },
+  {
+   "id": "water",
+   "name": "Water",
+   "color": "#3a9bff"
+  },
+  {
+   "id": "plant",
+   "name": "Plant",
+   "color": "#4ccf6a"
+  },
+  {
+   "id": "wind",
+   "name": "Wind",
+   "color": "#9fe8d0"
+  },
+  {
+   "id": "earth",
+   "name": "Earth",
+   "color": "#c9965a"
+  },
+  {
+   "id": "spark",
+   "name": "Spark",
+   "color": "#ffe14a"
+  },
+  {
+   "id": "light",
+   "name": "Light",
+   "color": "#ffffff"
+  }
+ ],
+ "beats": {
+  "fire": [
+   "plant"
+  ],
+  "plant": [
+   "water"
+  ],
+  "water": [
+   "fire"
+  ],
+  "wind": [
+   "earth"
+  ],
+  "earth": [
+   "spark"
+  ],
+  "spark": [
+   "wind"
+  ]
+ }
+}

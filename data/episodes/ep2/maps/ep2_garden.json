@@ -1,0 +1,97 @@
+{
+ "id": "ep2_garden",
+ "name": "The Cloud Garden",
+ "music": "calm",
+ "background": "#4a9d5b",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tgggwggggggggggbgSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggggggggggSgt",
+  "tggggggggg.ggggggSgt",
+  "tggggggwgg.gggbggSgt",
+  "tggggggggg.ggggggSgt",
+  "tggggggggg.ggggggSgt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep2_dock",
+   "spawn": "from_garden",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "The Cloud Garden. Berries grow where the wind is soft."
+  },
+  {
+   "type": "npc",
+   "id": "ep2_pell",
+   "x": 5,
+   "y": 6,
+   "sprite": "gardener",
+   "name": "Gardener Pell",
+   "quest": "ep2_q_berries"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 3,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 9,
+   "y": 4,
+   "item": "spark_berry"
+  },
+  {
+   "type": "pickup",
+   "x": 15,
+   "y": 8,
+   "item": "spark_berry"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep2_buoyo",
+   "x": 15,
+   "y": 4,
+   "creature": "ep2_buoyo",
+   "unless": "friend_ep2_buoyo"
+  },
+  {
+   "type": "chest",
+   "id": "ep2_bank",
+   "x": 18,
+   "y": 5,
+   "sparks": 40,
+   "item": "brass_gear"
+  },
+  {
+   "type": "sign",
+   "x": 15,
+   "y": 3,
+   "text": "Rushing rapids! Too fast to wade. A Hover Skiff rides right over."
+  },
+  {
+   "type": "pickup",
+   "x": 6,
+   "y": 9,
+   "item": "brass_gear"
+  }
+ ]
+}

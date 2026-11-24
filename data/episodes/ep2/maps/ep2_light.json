@@ -1,0 +1,103 @@
+{
+ "id": "ep2_light",
+ "name": "Lantern Rock",
+ "music": "calm",
+ "background": "#3a8fd0",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggRgggggggggggggggt",
+  "tggRgggggggggggggggt",
+  "tttgwggggggggggbgggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggwgg.gggbggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggggg.ggggggggt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep2_dock",
+   "spawn": "from_light",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "Lantern Rock. Shells wash up here every morning."
+  },
+  {
+   "type": "npc",
+   "id": "ep2_briar",
+   "x": 6,
+   "y": 5,
+   "sprite": "keeper",
+   "name": "Keeper Briar",
+   "dialogue": "ep2_briar"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 6,
+   "item": "ep2_shell"
+  },
+  {
+   "type": "pickup",
+   "x": 8,
+   "y": 3,
+   "item": "ep2_shell"
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 7,
+   "item": "ep2_shell"
+  },
+  {
+   "type": "pickup",
+   "x": 16,
+   "y": 5,
+   "item": "ep2_shell"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep2_gullywick",
+   "x": 14,
+   "y": 4,
+   "creature": "ep2_gullywick",
+   "unless": "friend_ep2_gullywick"
+  },
+  {
+   "type": "chest",
+   "id": "ep2_nook",
+   "x": 1,
+   "y": 1,
+   "sparks": 30,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "sign",
+   "x": 4,
+   "y": 3,
+   "text": "Rubble blocks the little nook. A Gadget Drill would clear it."
+  },
+  {
+   "type": "pickup",
+   "x": 15,
+   "y": 8,
+   "item": "brass_gear"
+  }
+ ]
+}

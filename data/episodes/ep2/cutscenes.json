@@ -1,0 +1,289 @@
+[
+ {
+  "id": "ep2_opening",
+  "title": "Episode 2: Sky Dock",
+  "description": "The hero sails to Sky Dock on Pip Marlow's wind-boat.",
+  "captions": [
+   "A little wind-boat bobs into a harbor of floating docks. The captain grins and tips a very crooked hat.",
+   "\"Welcome to Sky Dock, {nick}! The boats forgot their routes, and the Dock Bell forgot its song. Care to help?\""
+  ],
+  "duration_sec": 12,
+  "video": null
+ },
+ {
+  "id": "ep2_ending",
+  "music": "song_pip_harbor",
+  "title": "The Ship's Log",
+  "description": "Pip finds a clue after the Dock Bell rings again.",
+  "captions": [
+   "The bell rings and the wind-boats set sail, every one on the right route. Pip dances a jig on the dock.",
+   "In the lost-and-found, Pip finds an old ship's log with a neat little signature: \"M.V.\" Who left it here?"
+  ],
+  "duration_sec": 14,
+  "video": null
+ },
+ {
+  "id": "ep2_r1_arrival",
+  "title": "Breezy Run",
+  "description": "Breezy Run scene.",
+  "captions": [
+   "Breezy Run is a row of tiny docks. Every sail is flapping the wrong way.",
+   "Plates on the floor are numbered. Someone wants the boats to line up in order."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r1_boss_intro",
+  "title": "Weathervane Wob",
+  "description": "Breezy Run scene.",
+  "captions": [
+   "Wob the weathervane spins like a top and points at the sky, the sea and your hat.",
+   "It is not mean. It is dizzy. Dodge the gusts until it slows down."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r1_boss_defeated",
+  "title": "Weathervane Wob",
+  "description": "Breezy Run scene.",
+  "captions": [
+   "Wob stops spinning and points north, proud as can be.",
+   "All the boats line up in a neat row. The Breeze Charm drifts out of the wind."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r1_item",
+  "title": "Breezy Run: Breeze Charm",
+  "description": "Breezy Run scene.",
+  "captions": [
+   "A tiny sail unfurls in the chest: the Breeze Charm.",
+   "It hums when the wind is friendly. The way to Rope Loft opens."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r2_arrival",
+  "title": "Rope Loft",
+  "description": "Rope Loft scene.",
+  "captions": [
+   "Rope Loft is full of ropes in every size. Some are tied to rafters, some to nothing.",
+   "Number tags hang from them. The shortest one goes first."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r2_boss_intro",
+  "title": "Knotty Nell",
+  "description": "Rope Loft scene.",
+  "captions": [
+   "Knotty Nell the rope-spirit has tied herself into a very tangly knot.",
+   "She is not mean, only tangled. Dodge her ends until she wobbles loose."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r2_boss_defeated",
+  "title": "Knotty Nell",
+  "description": "Rope Loft scene.",
+  "captions": [
+   "Nell untangles with a happy \"ploink\" and coils up like a cat.",
+   "The Rope Charm falls neatly into your hand."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r2_item",
+  "title": "Rope Loft: Rope Charm",
+  "description": "Rope Loft scene.",
+  "captions": [
+   "The Rope Charm rests in the chest, coiled and tidy.",
+   "The Vane Valley gate swings open."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r3_arrival",
+  "title": "Vane Valley",
+  "description": "Vane Valley scene.",
+  "captions": [
+   "Vane Valley is full of wind-vanes pointing every which way.",
+   "Turn each one to face the right direction and the valley will remember its wind."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r3_boss_intro",
+  "title": "Gusty the Gale",
+  "description": "Vane Valley scene.",
+  "captions": [
+   "Gusty the Gale is a swirly cloud with a very big cheek-puff.",
+   "It blows in every direction at once. Dodge until it runs out of puff."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r3_boss_defeated",
+  "title": "Gusty the Gale",
+  "description": "Vane Valley scene.",
+  "captions": [
+   "Gusty sighs out a soft little breeze and wiggles happily.",
+   "A star-shaped charm spins down from the sky."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r3_item",
+  "title": "Vane Valley: Vane Charm",
+  "description": "Vane Valley scene.",
+  "captions": [
+   "The Vane Charm hangs in the chest, always pointing the way.",
+   "The way to Crate Cove opens."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r4_arrival",
+  "title": "Crate Cove",
+  "description": "Crate Cove scene.",
+  "captions": [
+   "Crate Cove is stacked with crates from end to end. Plates on the floor are waiting for two of them.",
+   "Push gently. Crates only go forward, never back."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r4_boss_intro",
+  "title": "Crabsby",
+  "description": "Crate Cove scene.",
+  "captions": [
+   "Crabsby the crate-crab sidesteps back and forth, counting crates and losing count.",
+   "It is not mean. It is muddled. Dodge the bubbles!"
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r4_boss_defeated",
+  "title": "Crabsby",
+  "description": "Crate Cove scene.",
+  "captions": [
+   "Crabsby counts all its crates out loud and gets it right.",
+   "The Crate Charm bubbles up from the sand."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r4_item",
+  "title": "Crate Cove: Crate Charm",
+  "description": "Crate Cove scene.",
+  "captions": [
+   "The Crate Charm is a little crate with a very big smile.",
+   "The path to Foghorn Reef opens."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r5_arrival",
+  "title": "Foghorn Reef",
+  "description": "Foghorn Reef scene.",
+  "captions": [
+   "Foghorn Reef is quiet and misty. Glowing posts rise out of the shallow water.",
+   "A chime stands nearby. Ring it and watch the order."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r5_boss_intro",
+  "title": "Foghorn Fran",
+  "description": "Foghorn Reef scene.",
+  "captions": [
+   "Fran the foghorn used to sing the whole harbor home. Now she only squeaks.",
+   "She is not mean, only squeaky. Dodge the toots!"
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r5_boss_defeated",
+  "title": "Foghorn Fran",
+  "description": "Foghorn Reef scene.",
+  "captions": [
+   "Fran toots one beautiful note, and the fog rolls back like a curtain.",
+   "A droplet-shaped charm bobs up from the water."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r5_item",
+  "title": "Foghorn Reef: Foghorn Charm",
+  "description": "Foghorn Reef scene.",
+  "captions": [
+   "The Foghorn Charm toots a happy note when you shake it.",
+   "Only the Tangled Bell is left."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r6_arrival",
+  "title": "The Tangled Bell",
+  "description": "The Tangled Bell scene.",
+  "captions": [
+   "The Tangled Bell hangs in the middle of the harbor, wrapped in ropes.",
+   "Each rope has a fraction tag. The smallest piece must come first."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r6_boss_intro",
+  "title": "The Tangled Bell",
+  "description": "The Tangled Bell scene.",
+  "captions": [
+   "The Dock Bell has rung so many notes at once that it tied itself in knots.",
+   "It is not mean. It is tangled. Dodge the music until it wobbles loose."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r6_boss_defeated",
+  "title": "The Tangled Bell",
+  "description": "The Tangled Bell scene.",
+  "captions": [
+   "The ropes fall away and the bell rings one clear, golden note.",
+   "Every wind-boat in Sky Dock turns toward the sound, ready to sail home."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep2_r6_item",
+  "title": "The Tangled Bell: Bell Charm",
+  "description": "The Tangled Bell scene.",
+  "captions": [
+   "The Bell Charm glows in the chest, humming the harbor song.",
+   "Captain Pip is waiting at the Dock!"
+  ],
+  "duration_sec": 10,
+  "video": null
+ }
+]

@@ -1,0 +1,288 @@
+[
+ {
+  "id": "ep3_opening",
+  "title": "Episode 3: The Orchard of Equations",
+  "description": "The hero arrives at Quince Grove.",
+  "captions": [
+   "A warm, honey-coloured island rolls into view, rows of trees stretching in every direction.",
+   "\"Welcome to Quince Grove, {nick}!\" says a smiling gardener. \"The trees used to bloom in perfect patterns. Now they bloom out of order. Care to help?\""
+  ],
+  "duration_sec": 12,
+  "video": null
+ },
+ {
+  "id": "ep3_ending",
+  "title": "The Missing Jar",
+  "description": "A clue after the Grove blooms in order again.",
+  "captions": [
+   "One by one, every tree blooms in a perfect pattern, and the whole orchard glows gold.",
+   "In the cellar, Mother Quince finds an empty shelf and a polite note: \"Borrowed with thanks. M.V.\" Where did the glowing jar go?"
+  ],
+  "duration_sec": 14,
+  "video": null
+ },
+ {
+  "id": "ep3_r1_arrival",
+  "title": "Seedling Row",
+  "description": "Seedling Row scene.",
+  "captions": [
+   "Seedling Row is a long garden bed. Numbered posts stand in the soil.",
+   "A pattern started here, but nobody finished it."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r1_boss_intro",
+  "title": "Sprout Sprite",
+  "description": "Seedling Row scene.",
+  "captions": [
+   "Sprout Sprite is a leafy little guardian that grows in random spurts.",
+   "It is not mean. It lost its pattern. Dodge the seeds until it slows down."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r1_boss_defeated",
+  "title": "Sprout Sprite",
+  "description": "Seedling Row scene.",
+  "captions": [
+   "Sprout Sprite counts by twos and grows perfectly, one step at a time.",
+   "A green sprout charm pops out of the soil."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r1_item",
+  "title": "Seedling Row: Sprout Charm",
+  "description": "Seedling Row scene.",
+  "captions": [
+   "The Sprout Charm wiggles in the chest.",
+   "The way to Honey Hollow opens."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r2_arrival",
+  "title": "Honey Hollow",
+  "description": "Honey Hollow scene.",
+  "captions": [
+   "Honey Hollow smells sweet. Baskets of honey hang from the branches, each with a number tag.",
+   "Two baskets must balance exactly."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r2_boss_intro",
+  "title": "Buzzbelly",
+  "description": "Honey Hollow scene.",
+  "captions": [
+   "Buzzbelly is a round, fuzzy bee that buzzes in loops.",
+   "It is not mean. It is muddled. Dodge the buzz until it settles."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r2_boss_defeated",
+  "title": "Buzzbelly",
+  "description": "Honey Hollow scene.",
+  "captions": [
+   "Buzzbelly finds the right flower and hums a thank-you song.",
+   "A drop of honey rolls into your hand."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r2_item",
+  "title": "Honey Hollow: Honey Charm",
+  "description": "Honey Hollow scene.",
+  "captions": [
+   "The Honey Charm gleams like a drop of sun.",
+   "Quince Maze is next."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r3_arrival",
+  "title": "Quince Maze",
+  "description": "Quince Maze scene.",
+  "captions": [
+   "Quince Maze is a leafy hedge maze with crates in the middle.",
+   "Plates on the floor need two crates."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r3_boss_intro",
+  "title": "Quincy the Quince",
+  "description": "Quince Maze scene.",
+  "captions": [
+   "Quincy the Quince is a big yellow fruit with a lost look.",
+   "It is not mean. It is lost. Dodge its pips!"
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r3_boss_defeated",
+  "title": "Quincy the Quince",
+  "description": "Quince Maze scene.",
+  "captions": [
+   "Quincy rolls straight out of the maze with a happy squeak.",
+   "A shiny little quince charm drops out of the hedge."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r3_item",
+  "title": "Quince Maze: Quince Charm",
+  "description": "Quince Maze scene.",
+  "captions": [
+   "The Quince Charm smiles wisely.",
+   "The Greenhouse Glass is open."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r4_arrival",
+  "title": "Greenhouse Glass",
+  "description": "Greenhouse Glass scene.",
+  "captions": [
+   "The Greenhouse Glass is warm and foggy. Four glowing flower pots sit in a row.",
+   "A chime will show their order."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r4_boss_intro",
+  "title": "Foggy Fern",
+  "description": "Greenhouse Glass scene.",
+  "captions": [
+   "Foggy Fern is a leafy fern wrapped in misty fog.",
+   "It is not mean. It cannot see. Dodge the drips."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r4_boss_defeated",
+  "title": "Foggy Fern",
+  "description": "Greenhouse Glass scene.",
+  "captions": [
+   "The fog lifts and Foggy Fern waves with a frond.",
+   "A clear glass bead rolls out of the pot."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r4_item",
+  "title": "Greenhouse Glass: Glass Charm",
+  "description": "Greenhouse Glass scene.",
+  "captions": [
+   "The Glass Charm fogs up when it is happy.",
+   "The Vine Cellar is next."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r5_arrival",
+  "title": "Vine Cellar",
+  "description": "Vine Cellar scene.",
+  "captions": [
+   "The Vine Cellar is cool and dim, with glowing orange gourds on shelves.",
+   "Numbers glow on the vines."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r5_boss_intro",
+  "title": "Grumpy Gourd",
+  "description": "Vine Cellar scene.",
+  "captions": [
+   "Grumpy Gourd is a big orange gourd with a very big frown.",
+   "It is not mean. It is just lonely. Dodge the sparks."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r5_boss_defeated",
+  "title": "Grumpy Gourd",
+  "description": "Vine Cellar scene.",
+  "captions": [
+   "Grumpy Gourd giggles and rattles like a drum.",
+   "A little gourd-shaped charm rolls over to you."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r5_item",
+  "title": "Vine Cellar: Gourd Charm",
+  "description": "Vine Cellar scene.",
+  "captions": [
+   "The Gourd Charm rattles like a tiny drum.",
+   "Only the Overgrown Greenhouse is left."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r6_arrival",
+  "title": "The Overgrown Greenhouse",
+  "description": "The Overgrown Greenhouse scene.",
+  "captions": [
+   "The Overgrown Greenhouse is wrapped in vines and glowing blossoms.",
+   "Baskets hang everywhere. Three of them must balance."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r6_boss_intro",
+  "title": "The Greenhouse Heart",
+  "description": "The Overgrown Greenhouse scene.",
+  "captions": [
+   "The Greenhouse Heart is a giant glowing blossom with a heartbeat.",
+   "It is not mean. It lost its rhythm. Dodge the leaves until it slows."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r6_boss_defeated",
+  "title": "The Greenhouse Heart",
+  "description": "The Overgrown Greenhouse scene.",
+  "captions": [
+   "The Heart beats in a steady, gentle rhythm and the vines relax.",
+   "Every tree in the orchard blooms in order, one by one."
+  ],
+  "duration_sec": 10,
+  "video": null
+ },
+ {
+  "id": "ep3_r6_item",
+  "title": "The Overgrown Greenhouse: Heart Charm",
+  "description": "The Overgrown Greenhouse scene.",
+  "captions": [
+   "The Heart Charm beats softly in the chest.",
+   "Mother Quince is waiting at the Grove!"
+  ],
+  "duration_sec": 10,
+  "video": null
+ }
+]

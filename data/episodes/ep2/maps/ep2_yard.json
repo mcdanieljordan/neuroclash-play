@@ -1,0 +1,89 @@
+{
+ "id": "ep2_yard",
+ "name": "The Rope Yard",
+ "music": "calm",
+ "background": "#8a6a4a",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tgggwggggggggggbgggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggwgg.gggbggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggggg.ggggggggt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep2_dock",
+   "spawn": "from_yard",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "The Rope Yard. Coils get lost here all the time."
+  },
+  {
+   "type": "npc",
+   "id": "ep2_knotty",
+   "x": 14,
+   "y": 6,
+   "sprite": "kid",
+   "name": "Knot-Tier Kit",
+   "dialogue": "ep2_kit"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 4,
+   "item": "ep2_coil"
+  },
+  {
+   "type": "pickup",
+   "x": 9,
+   "y": 3,
+   "item": "ep2_coil"
+  },
+  {
+   "type": "pickup",
+   "x": 16,
+   "y": 8,
+   "item": "ep2_coil"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep2_rigglet",
+   "x": 5,
+   "y": 4,
+   "creature": "ep2_rigglet",
+   "unless": "friend_ep2_rigglet"
+  },
+  {
+   "type": "pickup",
+   "x": 6,
+   "y": 8,
+   "item": "brass_gear"
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 4,
+   "item": "brass_gear"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "ep2_r2",
+ "order": 2,
+ "name": "Rope Loft",
+ "difficulty": 2,
+ "requires_item": "ep2_charm_1",
+ "item_reward": "ep2_charm_2",
+ "boss": {
+  "name": "Knotty Nell",
+  "element": "plant",
+  "color": "#c9a26a",
+  "color2": "#fff3c0",
+  "hearts": 3,
+  "dizzy_after_sec": 10,
+  "intro": "Nell tied herself in a knot and cannot untie it. Dodge the dangling ends!",
+  "after": "Nell unspools into a long, happy rope and hums.",
+  "patterns": [
+   {
+    "type": "rain",
+    "count": 3,
+    "speed": 110,
+    "every": 1.4
+   },
+   {
+    "type": "ring",
+    "count": 10,
+    "speed": 100,
+    "every": 3
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep2_r2_arrival",
+  "boss_intro": "ep2_r2_boss_intro",
+  "boss_defeated": "ep2_r2_boss_defeated",
+  "item": "ep2_r2_item"
+ },
+ "map": {
+  "id": "ep2_r2",
+  "name": "Rope Loft",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "rope",
+   "hint": "Not that one yet. Start with the shortest rope.",
+   "flag": "ep2_r2_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep2_dock",
+    "spawn": "from_r2",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep2_r2_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep2_r2"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Tie the ropes from shortest to longest."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Tie the ropes from shortest to longest. Touch the shortest rope first!"
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep2_charm_2",
+    "if": "ep2_r2_boss_done",
+    "actions": [
+     {
+      "flag": "ep2_r2_item"
+     },
+     {
+      "cutscene": "ep2_r2_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 4,
+    "y": 10,
+    "n": 0,
+    "value": 36,
+    "label": 36
+   },
+   {
+    "type": "pillar",
+    "x": 8,
+    "y": 13,
+    "n": 1,
+    "value": 9,
+    "label": 9
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 10,
+    "n": 2,
+    "value": 27,
+    "label": 27
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 13,
+    "n": 3,
+    "value": 18,
+    "label": 18
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep2_r2_arrived",
+    "flag": "ep2_r2_arrived",
+    "cutscene": "ep2_r2_arrival"
+   }
+  ]
+ }
+}

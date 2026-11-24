@@ -1,0 +1,148 @@
+{
+ "families": [],
+ "creatures": [
+  {
+   "id": "ep3_seedpip",
+   "name": "Seedpip",
+   "element": "plant",
+   "family": "star_elf",
+   "subject": "math",
+   "color": "#8acf4a",
+   "color2": "#ffe9a0",
+   "feature": "none",
+   "blurb": "Counts its own stripes and always gets a different answer."
+  },
+  {
+   "id": "ep3_applewick",
+   "name": "Applewick",
+   "element": "fire",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#e8403a",
+   "color2": "#ffd070",
+   "feature": "star",
+   "blurb": "An apple with a candle stem that glows when you add well."
+  },
+  {
+   "id": "ep3_peartwist",
+   "name": "Peartwist",
+   "element": "plant",
+   "family": "holo_sprite",
+   "subject": "ela",
+   "color": "#b8d84a",
+   "color2": "#ffffff",
+   "feature": "holo",
+   "blurb": "Twirls when it hears a rhyme and falls over giggling."
+  },
+  {
+   "id": "ep3_beeswhirl",
+   "name": "Beeswhirl",
+   "element": "wind",
+   "family": "mecha_dragon",
+   "subject": "science",
+   "color": "#f0c030",
+   "color2": "#2b1d2e",
+   "feature": "wings",
+   "blurb": "Spins in loops and draws tiny hexagons in the air."
+  },
+  {
+   "id": "ep3_clover",
+   "name": "Clovery",
+   "element": "spark",
+   "family": "star_elf",
+   "subject": "math",
+   "color": "#4ac870",
+   "color2": "#e0ffe8",
+   "feature": "star",
+   "blurb": "Has four leaves, and counts them aloud, in a different order each time."
+  },
+  {
+   "id": "ep3_gourdling",
+   "name": "Gourdling",
+   "element": "earth",
+   "family": "crystal_android",
+   "subject": "math",
+   "color": "#e8a040",
+   "color2": "#fff0c0",
+   "feature": "none",
+   "blurb": "Rattles like a drum and keeps perfect time."
+  },
+  {
+   "id": "ep3_creekling",
+   "name": "Creekling",
+   "element": "water",
+   "family": "holo_sprite",
+   "subject": "science",
+   "color": "#4ab8e0",
+   "color2": "#e0ffff",
+   "feature": "none",
+   "blurb": "A ripple that learned to walk and loves to splash."
+  },
+  {
+   "id": "ep3_dewmoth",
+   "name": "Dewmoth",
+   "element": "light",
+   "family": "star_elf",
+   "subject": "science",
+   "color": "#d8f0ff",
+   "color2": "#a0c0ff",
+   "feature": "wings",
+   "blurb": "Sleeps in the fog and wakes with every drop of dew."
+  },
+  {
+   "id": "ep3_mushpuff",
+   "name": "Mushpuff",
+   "element": "earth",
+   "family": "crystal_android",
+   "subject": "health",
+   "color": "#c86a8a",
+   "color2": "#fff0f0",
+   "feature": "none",
+   "blurb": "A mushroom that puffs out a sleepy little yawn."
+  },
+  {
+   "id": "ep3_fernlet",
+   "name": "Fernlet",
+   "element": "plant",
+   "family": "clockwork_fairy",
+   "subject": "ela",
+   "color": "#3a9a5a",
+   "color2": "#c0ffc8",
+   "feature": "crystal",
+   "blurb": "Unrolls a new curl every time you read a new word."
+  },
+  {
+   "id": "ep3_honeybun",
+   "element": "light",
+   "name": "Honeybun",
+   "family": "star_elf",
+   "subject": "science",
+   "color": "#ffd566",
+   "color2": "#fff3c0",
+   "feature": "wings",
+   "blurb": "A round honey-bee bun that hums a different tune for every flower."
+  },
+  {
+   "id": "ep3_quincelet",
+   "element": "plant",
+   "name": "Quincelet",
+   "family": "clockwork_fairy",
+   "subject": "math",
+   "color": "#e8d34a",
+   "color2": "#9bd05a",
+   "feature": "horns",
+   "blurb": "A little quince that counts its own seeds, twice, to be sure."
+  },
+  {
+   "id": "ep3_mossbell",
+   "element": "earth",
+   "name": "Mossbell",
+   "family": "crystal_android",
+   "subject": "ela",
+   "color": "#7fae6a",
+   "color2": "#f0ffd0",
+   "feature": "crystal",
+   "blurb": "A mossy bell-creature that rings a soft note when you read to it."
+  }
+ ]
+}

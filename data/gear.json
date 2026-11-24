@@ -1,0 +1,142 @@
+{
+ "abilities": [
+  "water",
+  "gap",
+  "glide",
+  "sprint",
+  "rapids",
+  "drill",
+  "fly"
+ ],
+ "recipes": [
+  {
+   "id": "rocket_skates",
+   "name": "Rocket Skates",
+   "kind": "gear",
+   "result": "rocket_skates",
+   "verb": "Build",
+   "cost": {
+    "brass_gear": 2,
+    "spark_berry": 2
+   },
+   "blurb": "Zip around faster."
+  },
+  {
+   "id": "wind_glider",
+   "name": "Wind Glider",
+   "kind": "gear",
+   "result": "wind_glider",
+   "verb": "Build",
+   "cost": {
+    "brass_gear": 1,
+    "ep2_coil": 1,
+    "ep2_shell": 2
+   },
+   "blurb": "Glide across wind gaps, forever."
+  },
+  {
+   "id": "hover_skiff",
+   "name": "Hover Skiff",
+   "kind": "gear",
+   "result": "hover_skiff",
+   "verb": "Build",
+   "cost": {
+    "brass_gear": 2,
+    "ep2_coil": 2,
+    "dew_crystal": 1
+   },
+   "blurb": "Ride over water and rushing rapids."
+  },
+  {
+   "id": "gadget_drill",
+   "name": "Gadget Drill",
+   "kind": "gear",
+   "result": "gadget_drill",
+   "verb": "Build",
+   "cost": {
+    "brass_gear": 2,
+    "dew_crystal": 1,
+    "spark_berry": 1
+   },
+   "blurb": "Drill through rubble."
+  },
+  {
+   "id": "sky_whistle",
+   "name": "Sky Whistle",
+   "kind": "gear",
+   "result": "sky_whistle",
+   "verb": "Build",
+   "cost": {
+    "brass_gear": 1,
+    "ep2_shell": 2,
+    "lost_page": 1
+   },
+   "blurb": "Fly to places you have visited."
+  },
+  {
+   "id": "skyberry_fizz",
+   "name": "Skyberry Fizz",
+   "kind": "potion",
+   "result": "skyberry_fizz",
+   "ability": "glide",
+   "seconds": 45,
+   "verb": "Brew",
+   "cost": {
+    "spark_berry": 2,
+    "dew_crystal": 1
+   },
+   "blurb": "Glide across wind gaps for 45 seconds."
+  }
+ ],
+ "upgrades": [
+  {
+   "id": "skates_2",
+   "gear": "rocket_skates",
+   "level": 2,
+   "name": "Rocket Skates Mk II",
+   "cost": {
+    "brass_gear": 1,
+    "spark_berry": 3
+   },
+   "blurb": "Faster boosters: speed 1.7x."
+  },
+  {
+   "id": "skates_3",
+   "gear": "rocket_skates",
+   "level": 3,
+   "name": "Rocket Skates Mk III",
+   "cost": {
+    "dew_crystal": 1,
+    "spark_berry": 3
+   },
+   "blurb": "Turbo boosters: speed 1.95x."
+  },
+  {
+   "id": "skiff_2",
+   "gear": "hover_skiff",
+   "level": 2,
+   "name": "Hover Skiff Mk II",
+   "cost": {
+    "ep2_shell": 1,
+    "dew_crystal": 1
+   },
+   "blurb": "Jet engines: 1.5x speed on water and rapids."
+  },
+  {
+   "id": "bottle_2",
+   "gear": "skyberry_fizz",
+   "level": 2,
+   "name": "Bigger Bottles",
+   "cost": {
+    "spark_berry": 2,
+    "lost_page": 1
+   },
+   "blurb": "Potions last 15 seconds longer."
+  }
+ ],
+ "sprint": {
+  "1": 1.45,
+  "2": 1.7,
+  "3": 1.95
+ }
+}

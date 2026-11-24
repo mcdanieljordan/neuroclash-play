@@ -1,0 +1,115 @@
+[
+ {
+  "id": "ep3_q_honey",
+  "name": "Honey Gatherer",
+  "giver": "Beekeeper Bao",
+  "type": "collect",
+  "target": "ep3_honey",
+  "count": 4,
+  "desc": "Find 4 Honey Drops on Honey Hill.",
+  "offer": "ep3_q_honey_offer",
+  "done": "ep3_q_honey_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep3_q_seeds",
+  "name": "Seed Sorter",
+  "giver": "Farmer Rue",
+  "type": "collect",
+  "target": "ep3_seed",
+  "count": 3,
+  "desc": "Find 3 Orchard Seeds in Mushroom Dell.",
+  "offer": "ep3_q_seeds_offer",
+  "done": "ep3_q_seeds_done",
+  "reward": {
+   "sparks": 20,
+   "item": "ep3_basket_pin"
+  }
+ },
+ {
+  "id": "ep3_q_chat",
+  "name": "Grove Hello",
+  "giver": "Grandpa Thyme",
+  "type": "talk",
+  "target": "any",
+  "count": 5,
+  "desc": "Say hello to 5 people around Quince Grove.",
+  "offer": "ep3_q_chat_offer",
+  "done": "ep3_q_chat_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep3_q_sharp",
+  "name": "Counting Fruit",
+  "giver": "Tally the Counter",
+  "type": "answer",
+  "target": "any",
+  "count": 6,
+  "desc": "Answer 6 questions correctly on the first try.",
+  "offer": "ep3_q_sharp_offer",
+  "done": "ep3_q_sharp_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep3_q_friend",
+  "name": "Grove Friends",
+  "giver": "Forager Fig",
+  "type": "befriend",
+  "target": "any",
+  "count": 2,
+  "desc": "Befriend 2 creatures around Quince Grove.",
+  "offer": "ep3_q_friend_offer",
+  "done": "ep3_q_friend_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep3_q_puzzle",
+  "name": "Pattern Pilot",
+  "giver": "Nib",
+  "type": "puzzle",
+  "target": "any",
+  "count": 2,
+  "desc": "Solve 2 temple puzzles.",
+  "offer": "ep3_q_puzzle_offer",
+  "done": "ep3_q_puzzle_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep3_q_berries",
+  "name": "Pie Berries",
+  "giver": "Fisher Pia",
+  "type": "collect",
+  "target": "spark_berry",
+  "count": 3,
+  "desc": "Find 3 Spark Berries at Creek Bend.",
+  "offer": "ep3_q_berries_offer",
+  "done": "ep3_q_berries_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep3_q_boss",
+  "name": "Calm the Garden",
+  "giver": "Gardener Ivy",
+  "type": "boss",
+  "target": "any",
+  "count": 2,
+  "desc": "Help 2 muddled guardians remember.",
+  "offer": "ep3_q_boss_offer",
+  "done": "ep3_q_boss_done",
+  "reward": {
+   "sparks": 40
+  }
+ }
+]

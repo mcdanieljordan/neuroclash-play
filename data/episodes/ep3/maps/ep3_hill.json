@@ -1,0 +1,103 @@
+{
+ "id": "ep3_hill",
+ "name": "Honey Hill",
+ "music": "calm",
+ "background": "#e0b040",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggRgggggggggggggggt",
+  "tggRgggggggggggggggt",
+  "tttgwggggggggggbgggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggggggggggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggwgg.gggbggggt",
+  "tggggggggg.ggggggggt",
+  "tggggggggg.ggggggggt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep3_grove",
+   "spawn": "from_hill",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "Honey Hill. Honey gathers here when the sun is warm."
+  },
+  {
+   "type": "npc",
+   "id": "ep3_bree",
+   "x": 6,
+   "y": 5,
+   "sprite": "kid",
+   "name": "Hill-hand Bree",
+   "dialogue": "ep3_bree"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 6,
+   "item": "ep3_honey"
+  },
+  {
+   "type": "pickup",
+   "x": 8,
+   "y": 3,
+   "item": "ep3_honey"
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 7,
+   "item": "ep3_honey"
+  },
+  {
+   "type": "pickup",
+   "x": 16,
+   "y": 5,
+   "item": "ep3_honey"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep3_honeybun",
+   "x": 14,
+   "y": 4,
+   "creature": "ep3_honeybun",
+   "unless": "friend_ep3_honeybun"
+  },
+  {
+   "type": "chest",
+   "id": "ep3_nook",
+   "x": 1,
+   "y": 1,
+   "sparks": 40,
+   "item": "dew_crystal"
+  },
+  {
+   "type": "sign",
+   "x": 4,
+   "y": 3,
+   "text": "Rubble blocks the little nook. A Gadget Drill would clear it."
+  },
+  {
+   "type": "pickup",
+   "x": 15,
+   "y": 8,
+   "item": "brass_gear"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+[
+ { "id": "old_wing_hall", "name": "Old Wing: Reading Hall", "start": [2, 2], "dir": 0,
+   "grid": ["############", "#....B.....#", "#....B..#..#", "#.......#..#", "###.#####..#", "#.....#....#", "#.B...#..B.#", "#.B........D", "#.....#....#", "############"],
+   "ghosts": [
+    { "name": "Mumble", "x": 9, "y": 2, "color": "#dfe8ff", "line": "Oh! A visitor! I have been reading the same page for a hundred years. I forgot how the story ends." },
+    { "name": "Dusty", "x": 3, "y": 6, "color": "#ffe9c0", "line": "Achoo! Sorry. I only wanted someone to sneeze near. It gets quiet in here." },
+    { "name": "Wisp", "x": 8, "y": 7, "color": "#c0ffe0", "line": "Were you looking for me? Nobody has looked for me in ages!" } ] },
+ { "id": "old_wing_attic", "name": "Old Wing: Star Attic", "start": [1, 1], "dir": 0,
+   "grid": ["##########", "#...#....#", "#...#..B.#", "#........#", "#.B.##.###", "#...#....#", "#...#..B.D", "##########"],
+   "ghosts": [
+    { "name": "Flicker", "x": 7, "y": 1, "color": "#d0d0ff", "line": "I keep the attic stars polished. Would you like to see my favourite one?" },
+    { "name": "Hum", "x": 2, "y": 5, "color": "#ffd0e8", "line": "Hmm hm hmm... oh! I was humming to myself. I do that when I am lonely." },
+    { "name": "Nook", "x": 6, "y": 5, "color": "#e0ffd0", "line": "This is my best hiding corner. You found it! You must be very clever." } ] }
+]

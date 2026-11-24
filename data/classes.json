@@ -1,0 +1,210 @@
+[
+ {
+  "id": "mechanical_wizard",
+  "name": "Mechanical Wizard",
+  "subject": "math",
+  "subject_name": "Math",
+  "color": "#e07a30",
+  "color2": "#7a3a10",
+  "companion": "tikwing",
+  "blurb": "Builds clever gadgets powered by numbers.",
+  "flavor": "counts everything, even sandwiches",
+  "ability": {
+   "id": "gadget_drop",
+   "name": "Gadget Drop",
+   "effect": "decoy",
+   "cooldown_sec": 12,
+   "duration_sec": 4,
+   "desc": "Drop a spinning gadget. Boss sparks chase it instead of you for a moment."
+  },
+  "battle": {
+   "element": "spark",
+   "strike": {
+    "name": "Strike",
+    "power": 12
+   },
+   "skills": [
+    {
+     "id": "spark_gadget",
+     "name": "Spark Gadget",
+     "element": "spark",
+     "power": 18,
+     "focus": 0
+    },
+    {
+     "id": "flare_bolt",
+     "name": "Flare Bolt",
+     "element": "fire",
+     "power": 26,
+     "focus": 2
+    }
+   ]
+  }
+ },
+ {
+  "id": "code_scriber",
+  "name": "Code Scriber",
+  "subject": "ela",
+  "subject_name": "Reading",
+  "color": "#3a7bd5",
+  "color2": "#1a3a7a",
+  "companion": "pixlet",
+  "blurb": "Writes glowing glyphs that make words come alive.",
+  "flavor": "reads signs out loud in funny voices",
+  "ability": {
+   "id": "glyph_mark",
+   "name": "Glyph Mark",
+   "effect": "mark",
+   "cooldown_sec": 12,
+   "duration_sec": 4,
+   "desc": "Draw a glowing glyph. Boss sparks fizzle when they cross it."
+  },
+  "battle": {
+   "element": "wind",
+   "strike": {
+    "name": "Strike",
+    "power": 12
+   },
+   "skills": [
+    {
+     "id": "gust_glyph",
+     "name": "Gust Glyph",
+     "element": "wind",
+     "power": 18,
+     "focus": 0
+    },
+    {
+     "id": "bright_verse",
+     "name": "Bright Verse",
+     "element": "light",
+     "power": 26,
+     "focus": 2
+    }
+   ]
+  }
+ },
+ {
+  "id": "bio_alchemist",
+  "name": "Bio-Alchemist",
+  "subject": "science",
+  "subject_name": "Science",
+  "color": "#3fae5a",
+  "color2": "#1a5a2a",
+  "companion": "glimbit",
+  "blurb": "Mixes plants, potions and patience.",
+  "flavor": "keeps a snack for every creature",
+  "ability": {
+   "id": "calm_cloud",
+   "name": "Calm Cloud",
+   "effect": "calm",
+   "cooldown_sec": 14,
+   "duration_sec": 4,
+   "desc": "Puff a calming cloud. Everything nearby slows down for a moment."
+  },
+  "battle": {
+   "element": "plant",
+   "strike": {
+    "name": "Strike",
+    "power": 12
+   },
+   "skills": [
+    {
+     "id": "vine_whip",
+     "name": "Vine Whip",
+     "element": "plant",
+     "power": 18,
+     "focus": 0
+    },
+    {
+     "id": "bubble_burst",
+     "name": "Bubble Burst",
+     "element": "water",
+     "power": 26,
+     "focus": 2
+    }
+   ]
+  }
+ },
+ {
+  "id": "quantum_sage",
+  "name": "Quantum Sage",
+  "subject": "social",
+  "subject_name": "Social Studies",
+  "color": "#b06ad9",
+  "color2": "#4a2a7a",
+  "companion": "twinklet",
+  "blurb": "Studies people, places and the paths between them.",
+  "flavor": "knows a story about every island",
+  "ability": {
+   "id": "blink_step",
+   "name": "Blink Step",
+   "effect": "blink",
+   "cooldown_sec": 8,
+   "duration_sec": 0,
+   "desc": "Blink a short way forward in a twinkle. It never passes walls or gaps."
+  },
+  "battle": {
+   "element": "earth",
+   "strike": {
+    "name": "Strike",
+    "power": 12
+   },
+   "skills": [
+    {
+     "id": "rock_roll",
+     "name": "Rock Roll",
+     "element": "earth",
+     "power": 18,
+     "focus": 0
+    },
+    {
+     "id": "star_beam",
+     "name": "Star Beam",
+     "element": "light",
+     "power": 26,
+     "focus": 2
+    }
+   ]
+  }
+ },
+ {
+  "id": "signal_smith",
+  "name": "Signal Smith",
+  "subject": "tech",
+  "subject_name": "Technology",
+  "color": "#30b8c9",
+  "color2": "#105a6a",
+  "companion": "boltlet",
+  "stub": true,
+  "blurb": "Coming later: tunes signals and circuits.",
+  "flavor": "hums in dial tones",
+  "ability": {
+   "id": "ping_pulse",
+   "name": "Ping Pulse",
+   "effect": "calm",
+   "cooldown_sec": 14,
+   "duration_sec": 4,
+   "desc": "Coming later."
+  }
+ },
+ {
+  "id": "pulse_mender",
+  "name": "Pulse Mender",
+  "subject": "health",
+  "subject_name": "Health",
+  "color": "#e36fa8",
+  "color2": "#7a2a50",
+  "companion": "glimbit",
+  "stub": true,
+  "blurb": "Coming later: keeps everyone feeling their best.",
+  "flavor": "reminds you to drink water",
+  "ability": {
+   "id": "steady_beat",
+   "name": "Steady Beat",
+   "effect": "calm",
+   "cooldown_sec": 14,
+   "duration_sec": 4,
+   "desc": "Coming later."
+  }
+ }
+]

@@ -1,0 +1,96 @@
+{
+ "enemies": [
+  {
+   "id": "glitchbyte",
+   "name": "Glitchbyte",
+   "element": "spark",
+   "hp": 60,
+   "power": 9,
+   "color": "#8f9bb8",
+   "color2": "#9ad7ff",
+   "feature": "holo",
+   "blurb": "A cheeky glitchy blob."
+  },
+  {
+   "id": "mossling",
+   "name": "Mossling",
+   "element": "plant",
+   "hp": 55,
+   "power": 8,
+   "color": "#4ccf6a",
+   "color2": "#d8ffc0",
+   "feature": "horns",
+   "blurb": "A fluffy moss monster."
+  },
+  {
+   "id": "dripple",
+   "name": "Dripple",
+   "element": "water",
+   "hp": 50,
+   "power": 8,
+   "color": "#3a9bff",
+   "color2": "#c0e8ff",
+   "feature": "crystal",
+   "blurb": "A bouncy water blob."
+  },
+  {
+   "id": "emberpup",
+   "name": "Emberpup",
+   "element": "fire",
+   "hp": 55,
+   "power": 10,
+   "color": "#ff7a3a",
+   "color2": "#ffe066",
+   "feature": "horns",
+   "blurb": "A warm, wiggly fire pup."
+  },
+  {
+   "id": "gustling",
+   "name": "Gustling",
+   "element": "wind",
+   "hp": 50,
+   "power": 8,
+   "color": "#9fe8d0",
+   "color2": "#ffffff",
+   "feature": "wings",
+   "blurb": "A breezy puff with wings."
+  },
+  {
+   "id": "pebblit",
+   "name": "Pebblit",
+   "element": "earth",
+   "hp": 65,
+   "power": 9,
+   "color": "#c9965a",
+   "color2": "#ffe9b0",
+   "feature": "gears",
+   "blurb": "A grumpy-cute rock critter."
+  }
+ ],
+ "formations": [
+  {
+   "id": "training",
+   "name": "Training Match",
+   "enemies": [
+    "glitchbyte"
+   ]
+  },
+  {
+   "id": "garden",
+   "name": "Garden Gang",
+   "enemies": [
+    "mossling",
+    "dripple"
+   ]
+  },
+  {
+   "id": "trio",
+   "name": "Elemental Trio",
+   "enemies": [
+    "emberpup",
+    "gustling",
+    "pebblit"
+   ]
+  }
+ ]
+}

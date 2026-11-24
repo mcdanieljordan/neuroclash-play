@@ -1,0 +1,183 @@
+[
+ {
+  "id": "sky_dock",
+  "name": "Sky Dock",
+  "maps": [
+   "ep2_dock"
+  ],
+  "blurb": "Gulls, gusts and wind-boats.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep2_gullywick",
+     "w": 3
+    },
+    {
+     "id": "windlekey",
+     "w": 2
+    },
+    {
+     "id": "novaling",
+     "w": 2
+    },
+    {
+     "id": "cometkin",
+     "w": 1
+    },
+    {
+     "id": "ep2_sailsprite",
+     "w": 2
+    },
+    {
+     "id": "ep2_pennantail",
+     "w": 2
+    },
+    {
+     "id": "ep2_gullbolt",
+     "w": 2
+    },
+    {
+     "id": "ep2_compasspin",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "training",
+   "garden"
+  ]
+ },
+ {
+  "id": "lantern_rock",
+  "name": "Lantern Rock",
+  "maps": [
+   "ep2_light"
+  ],
+  "blurb": "Shells, lantern light and calm water.",
+  "wanderers": {
+   "count": 1,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "prismo",
+     "w": 3
+    },
+    {
+     "id": "ep2_buoyo",
+     "w": 3
+    },
+    {
+     "id": "shimmoo",
+     "w": 1
+    },
+    {
+     "id": "twinklet",
+     "w": 1
+    },
+    {
+     "id": "ep2_pearlpuff",
+     "w": 2
+    },
+    {
+     "id": "ep2_lanternfin",
+     "w": 2
+    },
+    {
+     "id": "ep2_anchorbit",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden"
+  ]
+ },
+ {
+  "id": "rope_yard",
+  "name": "The Rope Yard",
+  "maps": [
+   "ep2_yard"
+  ],
+  "blurb": "Knots, coils and clanking critters.",
+  "wanderers": {
+   "count": 1,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "ep2_rigglet",
+     "w": 3
+    },
+    {
+     "id": "cogletta",
+     "w": 2
+    },
+    {
+     "id": "quartzee",
+     "w": 2
+    },
+    {
+     "id": "ep2_knotkit",
+     "w": 2
+    },
+    {
+     "id": "ep2_crateling",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "trio"
+  ]
+ },
+ {
+  "id": "cloud_garden",
+  "name": "The Cloud Garden",
+  "maps": [
+   "ep2_garden"
+  ],
+  "blurb": "Berries and breezes above the clouds.",
+  "wanderers": {
+   "count": 2,
+   "tiles": [
+    "g",
+    "w"
+   ],
+   "pool": [
+    {
+     "id": "glimbit",
+     "w": 2
+    },
+    {
+     "id": "flickerby",
+     "w": 3
+    },
+    {
+     "id": "novaling",
+     "w": 2
+    },
+    {
+     "id": "pixlet",
+     "w": 1
+    },
+    {
+     "id": "ep2_foghornet",
+     "w": 2
+    }
+   ]
+  },
+  "formations": [
+   "garden"
+  ]
+ }
+]

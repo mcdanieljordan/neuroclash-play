@@ -1,0 +1,44 @@
+{
+ "id": "habitat",
+ "name": "Cozy Habitat",
+ "music": "calm",
+ "background": "#2f7a3f",
+ "habitat": true,
+ "goal": "Your befriended creatures live here. Say hello!",
+ "tiles": [
+  "bbbbbbbbbbbbbbbbbbbb",
+  "bggggggggggggggggggb",
+  "bggwggggggggggggwggb",
+  "bggggggggggggggggggb",
+  "bggggggggwgggggggggb",
+  "bggggggggggggggggggb",
+  "bggggggggggggggggggb",
+  "bggggggggggggggggggb",
+  "bgggwggggggggggwgggb",
+  "bggggggg....gggggggb",
+  "bggggggg....gggggggb",
+  "bbbbbbbbbbbbbbbbbbbb"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   9
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "academy",
+   "spawn": "from_habitat",
+   "color": "#ffe9a8"
+  },
+  {
+   "type": "sign",
+   "x": 12,
+   "y": 9,
+   "text": "Friends you make in Glimmer Meadow and the Old Wing come to live here."
+  }
+ ]
+}

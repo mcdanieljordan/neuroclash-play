@@ -1,0 +1,115 @@
+[
+ {
+  "id": "ep2_q_shells",
+  "name": "Shell Collector",
+  "giver": "Dockhand Tully",
+  "type": "collect",
+  "target": "ep2_shell",
+  "count": 4,
+  "desc": "Find 4 Sea Shells on Lantern Rock.",
+  "offer": "ep2_q_shells_offer",
+  "done": "ep2_q_shells_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep2_q_coils",
+  "name": "Coil the Ropes",
+  "giver": "Rigger Mabel",
+  "type": "collect",
+  "target": "ep2_coil",
+  "count": 3,
+  "desc": "Find 3 Rope Coils in the Rope Yard.",
+  "offer": "ep2_q_coils_offer",
+  "done": "ep2_q_coils_done",
+  "reward": {
+   "sparks": 20,
+   "item": "ep2_sailor_knot"
+  }
+ },
+ {
+  "id": "ep2_q_chat",
+  "name": "Dock Hello",
+  "giver": "Harbormaster Orrin",
+  "type": "talk",
+  "target": "any",
+  "count": 5,
+  "desc": "Say hello to 5 people around Sky Dock.",
+  "offer": "ep2_q_chat_offer",
+  "done": "ep2_q_chat_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep2_q_sharp",
+  "name": "Sharp Signals",
+  "giver": "Signal Sam",
+  "type": "answer",
+  "target": "any",
+  "count": 6,
+  "desc": "Answer 6 questions correctly on the first try.",
+  "offer": "ep2_q_sharp_offer",
+  "done": "ep2_q_sharp_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep2_q_friend",
+  "name": "Harbor Friends",
+  "giver": "Net-Mender Wren",
+  "type": "befriend",
+  "target": "any",
+  "count": 2,
+  "desc": "Befriend 2 creatures around Sky Dock.",
+  "offer": "ep2_q_friend_offer",
+  "done": "ep2_q_friend_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep2_q_puzzle",
+  "name": "Puzzle Pilot",
+  "giver": "Nib",
+  "type": "puzzle",
+  "target": "any",
+  "count": 2,
+  "desc": "Solve 2 temple puzzles.",
+  "offer": "ep2_q_puzzle_offer",
+  "done": "ep2_q_puzzle_done",
+  "reward": {
+   "sparks": 30
+  }
+ },
+ {
+  "id": "ep2_q_berries",
+  "name": "Garden Snacks",
+  "giver": "Gardener Pell",
+  "type": "collect",
+  "target": "spark_berry",
+  "count": 3,
+  "desc": "Find 3 Spark Berries in the Cloud Garden.",
+  "offer": "ep2_q_berries_offer",
+  "done": "ep2_q_berries_done",
+  "reward": {
+   "sparks": 20
+  }
+ },
+ {
+  "id": "ep2_q_boss",
+  "name": "Calm the Bells",
+  "giver": "Captain Pip",
+  "type": "boss",
+  "target": "any",
+  "count": 2,
+  "desc": "Help 2 muddled guardians remember.",
+  "offer": "ep2_q_boss_offer",
+  "done": "ep2_q_boss_done",
+  "reward": {
+   "sparks": 40
+  }
+ }
+]

@@ -1,0 +1,97 @@
+{
+ "id": "ep3_dell",
+ "name": "Mushroom Dell",
+ "music": "calm",
+ "background": "#4a9d5b",
+ "tiles": [
+  "tttttttttttttttttttt",
+  "tggggggggggggggggWgt",
+  "tggggggggggggggggWgt",
+  "tgggwggggggggggbgWgt",
+  "tggggggggggggggggWgt",
+  "tggggggggggggggggWgt",
+  "tggggggggggggggggWgt",
+  "tggggggggg.ggggggWgt",
+  "tggggggwgg.gggbggWgt",
+  "tggggggggg.ggggggWgt",
+  "tggggggggg.ggggggWgt",
+  "tttttttttttttttttttt"
+ ],
+ "spawn": {
+  "default": [
+   10,
+   8
+  ]
+ },
+ "objects": [
+  {
+   "type": "door",
+   "x": 10,
+   "y": 10,
+   "to": "ep3_grove",
+   "spawn": "from_dell",
+   "color": "#9ff0b8"
+  },
+  {
+   "type": "sign",
+   "x": 11,
+   "y": 8,
+   "text": "Mushroom Dell. Seeds hide under the mushroom caps."
+  },
+  {
+   "type": "npc",
+   "id": "ep3_moss",
+   "x": 5,
+   "y": 6,
+   "sprite": "gardener",
+   "name": "Forager Moss",
+   "dialogue": "ep3_moss"
+  },
+  {
+   "type": "pickup",
+   "x": 3,
+   "y": 3,
+   "item": "ep3_seed"
+  },
+  {
+   "type": "pickup",
+   "x": 9,
+   "y": 4,
+   "item": "ep3_seed"
+  },
+  {
+   "type": "pickup",
+   "x": 15,
+   "y": 8,
+   "item": "ep3_seed"
+  },
+  {
+   "type": "creature",
+   "id": "wild_ep3_quincelet",
+   "x": 15,
+   "y": 4,
+   "creature": "ep3_quincelet",
+   "unless": "friend_ep3_quincelet"
+  },
+  {
+   "type": "chest",
+   "id": "ep3_glen",
+   "x": 18,
+   "y": 5,
+   "sparks": 50,
+   "item": "lost_page"
+  },
+  {
+   "type": "sign",
+   "x": 15,
+   "y": 3,
+   "text": "A wind gap! A Wind Glider or a Skyberry Fizz would carry you over."
+  },
+  {
+   "type": "pickup",
+   "x": 13,
+   "y": 4,
+   "item": "brass_gear"
+  }
+ ]
+}

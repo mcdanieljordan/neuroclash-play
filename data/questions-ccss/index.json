@@ -1,0 +1,48 @@
+{
+ "math": {
+  "name": "Mathematics",
+  "count": 197,
+  "byGrade": {
+   "3": 197
+  }
+ },
+ "science": {
+  "name": "Science",
+  "count": 1,
+  "byGrade": {
+   "3": 1
+  }
+ },
+ "ela": {
+  "name": "English Language Arts and Reading",
+  "count": 1,
+  "byGrade": {
+   "3": 1
+  }
+ },
+ "social": {
+  "name": "Social Studies",
+  "count": 0,
+  "byGrade": {}
+ },
+ "tech": {
+  "name": "Technology Applications",
+  "count": 0,
+  "byGrade": {}
+ },
+ "health": {
+  "name": "Health Education",
+  "count": 0,
+  "byGrade": {}
+ },
+ "arts": {
+  "name": "Fine Arts",
+  "count": 0,
+  "byGrade": {}
+ },
+ "pe": {
+  "name": "Physical Education",
+  "count": 0,
+  "byGrade": {}
+ }
+}

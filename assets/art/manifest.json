@@ -1,0 +1,1094 @@
+{
+ "files": [
+  {
+   "id": "battle_bg_academy_grounds",
+   "file": "battle_bg_academy_grounds.webp"
+  },
+  {
+   "id": "battle_bg_cloud_garden",
+   "file": "battle_bg_cloud_garden.webp"
+  },
+  {
+   "id": "battle_bg_creek_bend",
+   "file": "battle_bg_creek_bend.webp"
+  },
+  {
+   "id": "battle_bg_glimmer_meadow",
+   "file": "battle_bg_glimmer_meadow.webp"
+  },
+  {
+   "id": "battle_bg_habitat_dome",
+   "file": "battle_bg_habitat_dome.webp"
+  },
+  {
+   "id": "battle_bg_honey_hill",
+   "file": "battle_bg_honey_hill.webp"
+  },
+  {
+   "id": "battle_bg_lantern_rock",
+   "file": "battle_bg_lantern_rock.webp"
+  },
+  {
+   "id": "battle_bg_mushroom_dell",
+   "file": "battle_bg_mushroom_dell.webp"
+  },
+  {
+   "id": "battle_bg_quince_grove",
+   "file": "battle_bg_quince_grove.webp"
+  },
+  {
+   "id": "battle_bg_rope_yard",
+   "file": "battle_bg_rope_yard.webp"
+  },
+  {
+   "id": "battle_bg_sky_dock",
+   "file": "battle_bg_sky_dock.webp"
+  },
+  {
+   "id": "battle_bg_temple",
+   "file": "battle_bg_temple.webp"
+  },
+  {
+   "id": "battle_foe",
+   "file": "battle_foe.webp"
+  },
+  {
+   "id": "battle_hero",
+   "file": "battle_hero.webp"
+  },
+  {
+   "id": "boss_ep2_r1",
+   "file": "boss_ep2_r1.webp"
+  },
+  {
+   "id": "boss_ep2_r2",
+   "file": "boss_ep2_r2.webp"
+  },
+  {
+   "id": "boss_ep2_r3",
+   "file": "boss_ep2_r3.webp"
+  },
+  {
+   "id": "boss_ep2_r4",
+   "file": "boss_ep2_r4.webp"
+  },
+  {
+   "id": "boss_ep2_r5",
+   "file": "boss_ep2_r5.webp"
+  },
+  {
+   "id": "boss_ep2_r6",
+   "file": "boss_ep2_r6.webp"
+  },
+  {
+   "id": "boss_ep3_r1",
+   "file": "boss_ep3_r1.webp"
+  },
+  {
+   "id": "boss_ep3_r2",
+   "file": "boss_ep3_r2.webp"
+  },
+  {
+   "id": "boss_ep3_r3",
+   "file": "boss_ep3_r3.webp"
+  },
+  {
+   "id": "boss_ep3_r4",
+   "file": "boss_ep3_r4.webp"
+  },
+  {
+   "id": "boss_ep3_r5",
+   "file": "boss_ep3_r5.webp"
+  },
+  {
+   "id": "boss_ep3_r6",
+   "file": "boss_ep3_r6.webp"
+  },
+  {
+   "id": "boss_t1",
+   "file": "boss_t1.webp"
+  },
+  {
+   "id": "boss_t2",
+   "file": "boss_t2.webp"
+  },
+  {
+   "id": "boss_t3",
+   "file": "boss_t3.webp"
+  },
+  {
+   "id": "boss_t4",
+   "file": "boss_t4.webp"
+  },
+  {
+   "id": "boss_t5",
+   "file": "boss_t5.webp"
+  },
+  {
+   "id": "boss_t6",
+   "file": "boss_t6.webp"
+  },
+  {
+   "id": "creature_boltlet",
+   "file": "creature_boltlet.webp"
+  },
+  {
+   "id": "creature_cinderpup",
+   "file": "creature_cinderpup.webp"
+  },
+  {
+   "id": "creature_cogletta",
+   "file": "creature_cogletta.webp"
+  },
+  {
+   "id": "creature_cometkin",
+   "file": "creature_cometkin.webp"
+  },
+  {
+   "id": "creature_dewdot",
+   "file": "creature_dewdot.webp"
+  },
+  {
+   "id": "creature_embergear",
+   "file": "creature_embergear.webp"
+  },
+  {
+   "id": "creature_ep2_anchorbit",
+   "file": "creature_ep2_anchorbit.webp"
+  },
+  {
+   "id": "creature_ep2_buoyo",
+   "file": "creature_ep2_buoyo.webp"
+  },
+  {
+   "id": "creature_ep2_compasspin",
+   "file": "creature_ep2_compasspin.webp"
+  },
+  {
+   "id": "creature_ep2_crateling",
+   "file": "creature_ep2_crateling.webp"
+  },
+  {
+   "id": "creature_ep2_foghornet",
+   "file": "creature_ep2_foghornet.webp"
+  },
+  {
+   "id": "creature_ep2_gullbolt",
+   "file": "creature_ep2_gullbolt.webp"
+  },
+  {
+   "id": "creature_ep2_gullywick",
+   "file": "creature_ep2_gullywick.webp"
+  },
+  {
+   "id": "creature_ep2_knotkit",
+   "file": "creature_ep2_knotkit.webp"
+  },
+  {
+   "id": "creature_ep2_lanternfin",
+   "file": "creature_ep2_lanternfin.webp"
+  },
+  {
+   "id": "creature_ep2_pearlpuff",
+   "file": "creature_ep2_pearlpuff.webp"
+  },
+  {
+   "id": "creature_ep2_pennantail",
+   "file": "creature_ep2_pennantail.webp"
+  },
+  {
+   "id": "creature_ep2_rigglet",
+   "file": "creature_ep2_rigglet.webp"
+  },
+  {
+   "id": "creature_ep2_sailsprite",
+   "file": "creature_ep2_sailsprite.webp"
+  },
+  {
+   "id": "creature_ep3_applewick",
+   "file": "creature_ep3_applewick.webp"
+  },
+  {
+   "id": "creature_ep3_honeybun",
+   "file": "creature_ep3_honeybun.webp"
+  },
+  {
+   "id": "creature_ep3_mossbell",
+   "file": "creature_ep3_mossbell.webp"
+  },
+  {
+   "id": "creature_ep3_peartwist",
+   "file": "creature_ep3_peartwist.webp"
+  },
+  {
+   "id": "creature_ep3_quincelet",
+   "file": "creature_ep3_quincelet.webp"
+  },
+  {
+   "id": "creature_ep3_seedpip",
+   "file": "creature_ep3_seedpip.webp"
+  },
+  {
+   "id": "creature_flickerby",
+   "file": "creature_flickerby.webp"
+  },
+  {
+   "id": "creature_gizmoss",
+   "file": "creature_gizmoss.webp"
+  },
+  {
+   "id": "creature_glimbit",
+   "file": "creature_glimbit.webp"
+  },
+  {
+   "id": "creature_inkling",
+   "file": "creature_inkling.webp"
+  },
+  {
+   "id": "creature_lumifly",
+   "file": "creature_lumifly.webp"
+  },
+  {
+   "id": "creature_mapmoth",
+   "file": "creature_mapmoth.webp"
+  },
+  {
+   "id": "creature_novaling",
+   "file": "creature_novaling.webp"
+  },
+  {
+   "id": "creature_pagepip",
+   "file": "creature_pagepip.webp"
+  },
+  {
+   "id": "creature_pebblewink",
+   "file": "creature_pebblewink.webp"
+  },
+  {
+   "id": "creature_pixlet",
+   "file": "creature_pixlet.webp"
+  },
+  {
+   "id": "creature_prismo",
+   "file": "creature_prismo.webp"
+  },
+  {
+   "id": "creature_quartzee",
+   "file": "creature_quartzee.webp"
+  },
+  {
+   "id": "creature_rivetail",
+   "file": "creature_rivetail.webp"
+  },
+  {
+   "id": "creature_shimmoo",
+   "file": "creature_shimmoo.webp"
+  },
+  {
+   "id": "creature_snoozlet",
+   "file": "creature_snoozlet.webp"
+  },
+  {
+   "id": "creature_tallybug",
+   "file": "creature_tallybug.webp"
+  },
+  {
+   "id": "creature_tikwing",
+   "file": "creature_tikwing.webp"
+  },
+  {
+   "id": "creature_twinklet",
+   "file": "creature_twinklet.webp"
+  },
+  {
+   "id": "creature_windlekey",
+   "file": "creature_windlekey.webp"
+  },
+  {
+   "id": "ghost",
+   "file": "ghost.webp"
+  },
+  {
+   "id": "hero_bio_alchemist_boy",
+   "file": "hero_bio_alchemist_boy.webp"
+  },
+  {
+   "id": "hero_bio_alchemist_girl",
+   "file": "hero_bio_alchemist_girl.webp"
+  },
+  {
+   "id": "hero_code_scriber_boy",
+   "file": "hero_code_scriber_boy.webp"
+  },
+  {
+   "id": "hero_code_scriber_girl",
+   "file": "hero_code_scriber_girl.webp"
+  },
+  {
+   "id": "hero_mechanical_wizard_boy",
+   "file": "hero_mechanical_wizard_boy.webp"
+  },
+  {
+   "id": "hero_mechanical_wizard_girl",
+   "file": "hero_mechanical_wizard_girl.webp"
+  },
+  {
+   "id": "hero_quantum_sage_boy",
+   "file": "hero_quantum_sage_boy.webp"
+  },
+  {
+   "id": "hero_quantum_sage_girl",
+   "file": "hero_quantum_sage_girl.webp"
+  },
+  {
+   "id": "interior_classroom",
+   "file": "interior_classroom.webp"
+  },
+  {
+   "id": "interior_house",
+   "file": "interior_house.webp"
+  },
+  {
+   "id": "interior_library",
+   "file": "interior_library.webp"
+  },
+  {
+   "id": "interior_shop",
+   "file": "interior_shop.webp"
+  },
+  {
+   "id": "interior_workshop",
+   "file": "interior_workshop.webp"
+  },
+  {
+   "id": "item_archive_key",
+   "file": "item_archive_key.webp"
+  },
+  {
+   "id": "item_atlas_pin",
+   "file": "item_atlas_pin.webp"
+  },
+  {
+   "id": "item_brass_gear",
+   "file": "item_brass_gear.webp"
+  },
+  {
+   "id": "item_bubble_wand",
+   "file": "item_bubble_wand.webp"
+  },
+  {
+   "id": "item_dew_crystal",
+   "file": "item_dew_crystal.webp"
+  },
+  {
+   "id": "item_echo_whistle",
+   "file": "item_echo_whistle.webp"
+  },
+  {
+   "id": "item_ep2_charm_1",
+   "file": "item_ep2_charm_1.webp"
+  },
+  {
+   "id": "item_ep2_charm_2",
+   "file": "item_ep2_charm_2.webp"
+  },
+  {
+   "id": "item_ep2_charm_3",
+   "file": "item_ep2_charm_3.webp"
+  },
+  {
+   "id": "item_ep2_charm_4",
+   "file": "item_ep2_charm_4.webp"
+  },
+  {
+   "id": "item_ep2_charm_5",
+   "file": "item_ep2_charm_5.webp"
+  },
+  {
+   "id": "item_ep2_charm_6",
+   "file": "item_ep2_charm_6.webp"
+  },
+  {
+   "id": "item_ep2_coil",
+   "file": "item_ep2_coil.webp"
+  },
+  {
+   "id": "item_ep2_harbor_pilot",
+   "file": "item_ep2_harbor_pilot.webp"
+  },
+  {
+   "id": "item_ep2_sailor_knot",
+   "file": "item_ep2_sailor_knot.webp"
+  },
+  {
+   "id": "item_ep2_shell",
+   "file": "item_ep2_shell.webp"
+  },
+  {
+   "id": "item_ep3_basket_pin",
+   "file": "item_ep3_basket_pin.webp"
+  },
+  {
+   "id": "item_ep3_charm_1",
+   "file": "item_ep3_charm_1.webp"
+  },
+  {
+   "id": "item_ep3_charm_2",
+   "file": "item_ep3_charm_2.webp"
+  },
+  {
+   "id": "item_ep3_charm_3",
+   "file": "item_ep3_charm_3.webp"
+  },
+  {
+   "id": "item_ep3_charm_4",
+   "file": "item_ep3_charm_4.webp"
+  },
+  {
+   "id": "item_ep3_charm_5",
+   "file": "item_ep3_charm_5.webp"
+  },
+  {
+   "id": "item_ep3_charm_6",
+   "file": "item_ep3_charm_6.webp"
+  },
+  {
+   "id": "item_ep3_honey",
+   "file": "item_ep3_honey.webp"
+  },
+  {
+   "id": "item_ep3_orchard_keeper",
+   "file": "item_ep3_orchard_keeper.webp"
+  },
+  {
+   "id": "item_ep3_seed",
+   "file": "item_ep3_seed.webp"
+  },
+  {
+   "id": "item_gadget_drill",
+   "file": "item_gadget_drill.webp"
+  },
+  {
+   "id": "item_gear_badge",
+   "file": "item_gear_badge.webp"
+  },
+  {
+   "id": "item_glow_lantern",
+   "file": "item_glow_lantern.webp"
+  },
+  {
+   "id": "item_hop_boots",
+   "file": "item_hop_boots.webp"
+  },
+  {
+   "id": "item_hover_skiff",
+   "file": "item_hover_skiff.webp"
+  },
+  {
+   "id": "item_ink_ribbon",
+   "file": "item_ink_ribbon.webp"
+  },
+  {
+   "id": "item_leaf_pin",
+   "file": "item_leaf_pin.webp"
+  },
+  {
+   "id": "item_lost_page",
+   "file": "item_lost_page.webp"
+  },
+  {
+   "id": "item_old_map_piece",
+   "file": "item_old_map_piece.webp"
+  },
+  {
+   "id": "item_rocket_skates",
+   "file": "item_rocket_skates.webp"
+  },
+  {
+   "id": "item_sky_whistle",
+   "file": "item_sky_whistle.webp"
+  },
+  {
+   "id": "item_skyberry_fizz",
+   "file": "item_skyberry_fizz.webp"
+  },
+  {
+   "id": "item_spark_berry",
+   "file": "item_spark_berry.webp"
+  },
+  {
+   "id": "item_star_compass",
+   "file": "item_star_compass.webp"
+  },
+  {
+   "id": "item_tide_charm",
+   "file": "item_tide_charm.webp"
+  },
+  {
+   "id": "item_wind_glider",
+   "file": "item_wind_glider.webp"
+  },
+  {
+   "id": "npc_archivist",
+   "file": "npc_archivist.webp"
+  },
+  {
+   "id": "npc_bot",
+   "file": "npc_bot.webp"
+  },
+  {
+   "id": "npc_elder",
+   "file": "npc_elder.webp"
+  },
+  {
+   "id": "npc_gardener",
+   "file": "npc_gardener.webp"
+  },
+  {
+   "id": "npc_guide",
+   "file": "npc_guide.webp"
+  },
+  {
+   "id": "npc_keeper",
+   "file": "npc_keeper.webp"
+  },
+  {
+   "id": "npc_kid",
+   "file": "npc_kid.webp"
+  },
+  {
+   "id": "npc_scholar",
+   "file": "npc_scholar.webp"
+  },
+  {
+   "id": "obj_block",
+   "file": "obj_block.webp"
+  },
+  {
+   "id": "obj_boss",
+   "file": "obj_boss.webp"
+  },
+  {
+   "id": "obj_bush",
+   "file": "obj_bush.webp"
+  },
+  {
+   "id": "obj_chest",
+   "file": "obj_chest.webp"
+  },
+  {
+   "id": "obj_chest_open",
+   "file": "obj_chest_open.webp"
+  },
+  {
+   "id": "obj_chime",
+   "file": "obj_chime.webp"
+  },
+  {
+   "id": "obj_door",
+   "file": "obj_door.webp"
+  },
+  {
+   "id": "obj_egg",
+   "file": "obj_egg.webp"
+  },
+  {
+   "id": "obj_gate",
+   "file": "obj_gate.webp"
+  },
+  {
+   "id": "obj_pillar",
+   "file": "obj_pillar.webp"
+  },
+  {
+   "id": "obj_pillar_on",
+   "file": "obj_pillar_on.webp"
+  },
+  {
+   "id": "obj_plate",
+   "file": "obj_plate.webp"
+  },
+  {
+   "id": "obj_plate_on",
+   "file": "obj_plate_on.webp"
+  },
+  {
+   "id": "obj_portal",
+   "file": "obj_portal.webp"
+  },
+  {
+   "id": "obj_sign",
+   "file": "obj_sign.webp"
+  },
+  {
+   "id": "obj_vane",
+   "file": "obj_vane.webp"
+  },
+  {
+   "id": "obj_vane_on",
+   "file": "obj_vane_on.webp"
+  },
+  {
+   "id": "prop_academy",
+   "file": "prop_academy.webp"
+  },
+  {
+   "id": "prop_bush_flowers",
+   "file": "prop_bush_flowers.webp"
+  },
+  {
+   "id": "prop_crates",
+   "file": "prop_crates.webp"
+  },
+  {
+   "id": "prop_dock",
+   "file": "prop_dock.webp"
+  },
+  {
+   "id": "prop_house_blue",
+   "file": "prop_house_blue.webp"
+  },
+  {
+   "id": "prop_house_green",
+   "file": "prop_house_green.webp"
+  },
+  {
+   "id": "prop_house_red",
+   "file": "prop_house_red.webp"
+  },
+  {
+   "id": "prop_lamp_post",
+   "file": "prop_lamp_post.webp"
+  },
+  {
+   "id": "prop_lighthouse",
+   "file": "prop_lighthouse.webp"
+  },
+  {
+   "id": "prop_rocks",
+   "file": "prop_rocks.webp"
+  },
+  {
+   "id": "prop_shop",
+   "file": "prop_shop.webp"
+  },
+  {
+   "id": "prop_temple_entrance",
+   "file": "prop_temple_entrance.webp"
+  },
+  {
+   "id": "prop_tree_green",
+   "file": "prop_tree_green.webp"
+  },
+  {
+   "id": "prop_tree_orange",
+   "file": "prop_tree_orange.webp"
+  },
+  {
+   "id": "prop_tree_pine",
+   "file": "prop_tree_pine.webp"
+  },
+  {
+   "id": "prop_windboat",
+   "file": "prop_windboat.webp"
+  },
+  {
+   "id": "prop_workshop",
+   "file": "prop_workshop.webp"
+  },
+  {
+   "id": "tile_academy_wall",
+   "file": "tile_academy_wall.webp"
+  },
+  {
+   "id": "tile_bubble",
+   "file": "tile_bubble.webp"
+  },
+  {
+   "id": "tile_bubble_temple",
+   "file": "tile_bubble_temple.webp"
+  },
+  {
+   "id": "tile_bush",
+   "file": "tile_bush.webp"
+  },
+  {
+   "id": "tile_flowers",
+   "file": "tile_flowers.webp"
+  },
+  {
+   "id": "tile_gap",
+   "file": "tile_gap.webp"
+  },
+  {
+   "id": "tile_grass",
+   "file": "tile_grass.webp"
+  },
+  {
+   "id": "tile_hush_fog",
+   "file": "tile_hush_fog.webp"
+  },
+  {
+   "id": "tile_hush_fog_temple",
+   "file": "tile_hush_fog_temple.webp"
+  },
+  {
+   "id": "tile_path",
+   "file": "tile_path.webp"
+  },
+  {
+   "id": "tile_rapids",
+   "file": "tile_rapids.webp"
+  },
+  {
+   "id": "tile_rubble",
+   "file": "tile_rubble.webp"
+  },
+  {
+   "id": "tile_star_floor",
+   "file": "tile_star_floor.webp"
+  },
+  {
+   "id": "tile_stone_wall",
+   "file": "tile_stone_wall.webp"
+  },
+  {
+   "id": "tile_temple_floor",
+   "file": "tile_temple_floor.webp"
+  },
+  {
+   "id": "tile_tree",
+   "file": "tile_tree.webp"
+  },
+  {
+   "id": "tile_water",
+   "file": "tile_water.webp"
+  },
+  {
+   "id": "tile_wind_gap",
+   "file": "tile_wind_gap.webp"
+  },
+  {
+   "id": "title_bg",
+   "file": "title_bg.webp"
+  },
+  {
+   "id": "vehicle_glider",
+   "file": "vehicle_glider.webp"
+  },
+  {
+   "id": "vehicle_skiff",
+   "file": "vehicle_skiff.webp"
+  }
+ ],
+ "lazy": [
+  {
+   "id": "cut_class_choice",
+   "file": "cut_class_choice.webp"
+  },
+  {
+   "id": "cut_ep2_ending",
+   "file": "cut_ep2_ending.webp"
+  },
+  {
+   "id": "cut_ep2_opening",
+   "file": "cut_ep2_opening.webp"
+  },
+  {
+   "id": "cut_ep2_r1_arrival",
+   "file": "cut_ep2_r1_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r1_boss_defeated",
+   "file": "cut_ep2_r1_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r1_boss_intro",
+   "file": "cut_ep2_r1_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r1_item",
+   "file": "cut_ep2_r1_item.webp"
+  },
+  {
+   "id": "cut_ep2_r2_arrival",
+   "file": "cut_ep2_r2_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r2_boss_defeated",
+   "file": "cut_ep2_r2_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r2_boss_intro",
+   "file": "cut_ep2_r2_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r2_item",
+   "file": "cut_ep2_r2_item.webp"
+  },
+  {
+   "id": "cut_ep2_r3_arrival",
+   "file": "cut_ep2_r3_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r3_boss_defeated",
+   "file": "cut_ep2_r3_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r3_boss_intro",
+   "file": "cut_ep2_r3_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r3_item",
+   "file": "cut_ep2_r3_item.webp"
+  },
+  {
+   "id": "cut_ep2_r4_arrival",
+   "file": "cut_ep2_r4_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r4_boss_defeated",
+   "file": "cut_ep2_r4_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r4_boss_intro",
+   "file": "cut_ep2_r4_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r4_item",
+   "file": "cut_ep2_r4_item.webp"
+  },
+  {
+   "id": "cut_ep2_r5_arrival",
+   "file": "cut_ep2_r5_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r5_boss_defeated",
+   "file": "cut_ep2_r5_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r5_boss_intro",
+   "file": "cut_ep2_r5_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r5_item",
+   "file": "cut_ep2_r5_item.webp"
+  },
+  {
+   "id": "cut_ep2_r6_arrival",
+   "file": "cut_ep2_r6_arrival.webp"
+  },
+  {
+   "id": "cut_ep2_r6_boss_defeated",
+   "file": "cut_ep2_r6_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep2_r6_boss_intro",
+   "file": "cut_ep2_r6_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep2_r6_item",
+   "file": "cut_ep2_r6_item.webp"
+  },
+  {
+   "id": "cut_ep3_ending",
+   "file": "cut_ep3_ending.webp"
+  },
+  {
+   "id": "cut_ep3_opening",
+   "file": "cut_ep3_opening.webp"
+  },
+  {
+   "id": "cut_ep3_r1_arrival",
+   "file": "cut_ep3_r1_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r1_boss_defeated",
+   "file": "cut_ep3_r1_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r1_boss_intro",
+   "file": "cut_ep3_r1_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r1_item",
+   "file": "cut_ep3_r1_item.webp"
+  },
+  {
+   "id": "cut_ep3_r2_arrival",
+   "file": "cut_ep3_r2_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r2_boss_defeated",
+   "file": "cut_ep3_r2_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r2_boss_intro",
+   "file": "cut_ep3_r2_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r2_item",
+   "file": "cut_ep3_r2_item.webp"
+  },
+  {
+   "id": "cut_ep3_r3_arrival",
+   "file": "cut_ep3_r3_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r3_boss_defeated",
+   "file": "cut_ep3_r3_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r3_boss_intro",
+   "file": "cut_ep3_r3_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r3_item",
+   "file": "cut_ep3_r3_item.webp"
+  },
+  {
+   "id": "cut_ep3_r4_arrival",
+   "file": "cut_ep3_r4_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r4_boss_defeated",
+   "file": "cut_ep3_r4_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r4_boss_intro",
+   "file": "cut_ep3_r4_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r4_item",
+   "file": "cut_ep3_r4_item.webp"
+  },
+  {
+   "id": "cut_ep3_r5_arrival",
+   "file": "cut_ep3_r5_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r5_boss_defeated",
+   "file": "cut_ep3_r5_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r5_boss_intro",
+   "file": "cut_ep3_r5_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r5_item",
+   "file": "cut_ep3_r5_item.webp"
+  },
+  {
+   "id": "cut_ep3_r6_arrival",
+   "file": "cut_ep3_r6_arrival.webp"
+  },
+  {
+   "id": "cut_ep3_r6_boss_defeated",
+   "file": "cut_ep3_r6_boss_defeated.webp"
+  },
+  {
+   "id": "cut_ep3_r6_boss_intro",
+   "file": "cut_ep3_r6_boss_intro.webp"
+  },
+  {
+   "id": "cut_ep3_r6_item",
+   "file": "cut_ep3_r6_item.webp"
+  },
+  {
+   "id": "cut_opening",
+   "file": "cut_opening.webp"
+  },
+  {
+   "id": "cut_t1_arrival",
+   "file": "cut_t1_arrival.webp"
+  },
+  {
+   "id": "cut_t1_boss_defeated",
+   "file": "cut_t1_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t1_boss_intro",
+   "file": "cut_t1_boss_intro.webp"
+  },
+  {
+   "id": "cut_t1_item",
+   "file": "cut_t1_item.webp"
+  },
+  {
+   "id": "cut_t2_arrival",
+   "file": "cut_t2_arrival.webp"
+  },
+  {
+   "id": "cut_t2_boss_defeated",
+   "file": "cut_t2_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t2_boss_intro",
+   "file": "cut_t2_boss_intro.webp"
+  },
+  {
+   "id": "cut_t2_item",
+   "file": "cut_t2_item.webp"
+  },
+  {
+   "id": "cut_t3_arrival",
+   "file": "cut_t3_arrival.webp"
+  },
+  {
+   "id": "cut_t3_boss_defeated",
+   "file": "cut_t3_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t3_boss_intro",
+   "file": "cut_t3_boss_intro.webp"
+  },
+  {
+   "id": "cut_t3_item",
+   "file": "cut_t3_item.webp"
+  },
+  {
+   "id": "cut_t4_arrival",
+   "file": "cut_t4_arrival.webp"
+  },
+  {
+   "id": "cut_t4_boss_defeated",
+   "file": "cut_t4_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t4_boss_intro",
+   "file": "cut_t4_boss_intro.webp"
+  },
+  {
+   "id": "cut_t4_item",
+   "file": "cut_t4_item.webp"
+  },
+  {
+   "id": "cut_t5_arrival",
+   "file": "cut_t5_arrival.webp"
+  },
+  {
+   "id": "cut_t5_boss_defeated",
+   "file": "cut_t5_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t5_boss_intro",
+   "file": "cut_t5_boss_intro.webp"
+  },
+  {
+   "id": "cut_t5_item",
+   "file": "cut_t5_item.webp"
+  },
+  {
+   "id": "cut_t6_boss_defeated",
+   "file": "cut_t6_boss_defeated.webp"
+  },
+  {
+   "id": "cut_t6_boss_intro",
+   "file": "cut_t6_boss_intro.webp"
+  },
+  {
+   "id": "cut_t6_ending",
+   "file": "cut_t6_ending.webp"
+  }
+ ]
+}

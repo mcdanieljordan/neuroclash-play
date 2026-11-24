@@ -1,0 +1,184 @@
+{
+ "id": "ep2_r6",
+ "order": 6,
+ "name": "The Tangled Bell",
+ "difficulty": 5,
+ "requires_item": "ep2_charm_5",
+ "item_reward": "ep2_charm_6",
+ "boss": {
+  "name": "The Tangled Bell",
+  "element": "light",
+  "color": "#ffd23f",
+  "color2": "#fff7c0",
+  "hearts": 5,
+  "dizzy_after_sec": 8,
+  "intro": "The Dock Bell tangled its own ropes and now rings three notes at once. Dodge the music!",
+  "after": "The Dock Bell rings one clear, golden note across the whole harbor.",
+  "patterns": [
+   {
+    "type": "wave",
+    "count": 9,
+    "speed": 115,
+    "every": 1.5
+   },
+   {
+    "type": "spiral",
+    "count": 3,
+    "speed": 120,
+    "every": 0.6
+   },
+   {
+    "type": "ring",
+    "count": 10,
+    "speed": 100,
+    "every": 3
+   },
+   {
+    "type": "aimed",
+    "count": 4,
+    "speed": 115,
+    "every": 2.2
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep2_r6_arrival",
+  "boss_intro": "ep2_r6_boss_intro",
+  "boss_defeated": "ep2_r6_boss_defeated",
+  "item": "ep2_r6_item"
+ },
+ "map": {
+  "id": "ep2_r6",
+  "name": "The Tangled Bell",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "rope",
+   "hint": "Not that one yet. Which fraction is the smallest piece?",
+   "flag": "ep2_r6_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep2_dock",
+    "spawn": "from_r6",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep2_r6_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep2_r6"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The bell ropes have fraction tags."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "The bell ropes have fraction tags. Touch them from the smallest piece to the largest."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep2_charm_6",
+    "if": "ep2_r6_boss_done",
+    "actions": [
+     {
+      "flag": "ep2_r6_item"
+     },
+     {
+      "cutscene": "ep2_r6_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 3,
+    "y": 10,
+    "n": 0,
+    "value": 0.125,
+    "label": "1/8"
+   },
+   {
+    "type": "pillar",
+    "x": 8,
+    "y": 13,
+    "n": 1,
+    "value": 0.5,
+    "label": "1/2"
+   },
+   {
+    "type": "pillar",
+    "x": 12,
+    "y": 10,
+    "n": 2,
+    "value": 0.25,
+    "label": "1/4"
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 3,
+    "value": 0.625,
+    "label": "5/8"
+   },
+   {
+    "type": "pillar",
+    "x": 18,
+    "y": 10,
+    "n": 4,
+    "value": 0.75,
+    "label": "3/4"
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep2_r6_arrived",
+    "flag": "ep2_r6_arrived",
+    "cutscene": "ep2_r6_arrival"
+   }
+  ]
+ }
+}

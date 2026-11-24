@@ -1,0 +1,179 @@
+{
+ "id": "t5",
+ "order": 5,
+ "name": "Tide Vault",
+ "difficulty": 5,
+ "requires_item": "tide_charm",
+ "item_reward": "star_compass",
+ "boss": {
+  "name": "Old Driftwhirl",
+  "color": "#3a8fd0",
+  "color2": "#c0ecff",
+  "hearts": 4,
+  "dizzy_after_sec": 12,
+  "intro": "Old Driftwhirl the tide turtle forgot which way the current goes. Dodge the swirls!",
+  "after": "Old Driftwhirl drifts in slow, happy circles.",
+  "patterns": [
+   {
+    "type": "spiral",
+    "count": 4,
+    "speed": 130,
+    "every": 0.45
+   },
+   {
+    "type": "rain",
+    "count": 5,
+    "speed": 150,
+    "every": 1.2
+   },
+   {
+    "type": "sweep",
+    "count": 8,
+    "speed": 140,
+    "every": 2.2
+   }
+  ],
+  "element": "water"
+ },
+ "cutscenes": {
+  "arrival": "t5_arrival",
+  "boss_intro": "t5_boss_intro",
+  "boss_defeated": "t5_boss_defeated",
+  "item": "t5_item"
+ },
+ "map": {
+  "id": "t5",
+  "name": "Tide Vault",
+  "music": "temple",
+  "background": "#1a1d3a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##ccccccccccc~~ccccccc##",
+   "##ccccccccccc~~ccccccc##",
+   "##ccccccccccc~~ccccccc##",
+   "##ccccccccccc~~ccccccc##",
+   "##ccccccccccc~~ccccccc##",
+   "##ccccccccccc~~ccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "memory",
+   "flag": "t5_puzzle",
+   "order": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ]
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "academy",
+    "spawn": "from_t5",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "t5_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "t5"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "The Vault kept the oldest memories safe under the tide. Someone has been here, storing more and more and more."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "star_compass",
+    "if": "t5_boss_done",
+    "actions": [
+     {
+      "flag": "t5_item"
+     },
+     {
+      "cutscene": "t5_item"
+     }
+    ]
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 10,
+    "n": 0
+   },
+   {
+    "type": "pillar",
+    "x": 18,
+    "y": 12,
+    "n": 1
+   },
+   {
+    "type": "pillar",
+    "x": 20,
+    "y": 10,
+    "n": 2
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 14,
+    "n": 3
+   },
+   {
+    "type": "pillar",
+    "x": 20,
+    "y": 14,
+    "n": 4
+   },
+   {
+    "type": "chime",
+    "x": 8,
+    "y": 11
+   },
+   {
+    "type": "sign",
+    "x": 10,
+    "y": 9,
+    "text": "Ring the chime, watch the five tide stones, then touch them in the same order. The Tide Charm lets you cross the water."
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "t5_arrived",
+    "flag": "t5_arrived",
+    "cutscene": "t5_arrival"
+   }
+  ]
+ }
+}

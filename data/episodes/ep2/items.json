@@ -1,0 +1,92 @@
+[
+ {
+  "id": "ep2_charm_1",
+  "name": "Breeze Charm",
+  "kind": "key",
+  "shape": "leaf",
+  "color": "#9ad7ff",
+  "color2": "#ffffff",
+  "desc": "A tiny sail that hums when the wind is friendly."
+ },
+ {
+  "id": "ep2_charm_2",
+  "name": "Rope Charm",
+  "kind": "key",
+  "shape": "gear",
+  "color": "#c9a26a",
+  "color2": "#fff3c0",
+  "desc": "A neat coil of rope that never tangles."
+ },
+ {
+  "id": "ep2_charm_3",
+  "name": "Vane Charm",
+  "kind": "key",
+  "shape": "star",
+  "color": "#ffe066",
+  "color2": "#ffffff",
+  "desc": "It always points the way the wind is going."
+ },
+ {
+  "id": "ep2_charm_4",
+  "name": "Crate Charm",
+  "kind": "key",
+  "shape": "gem",
+  "color": "#e0a030",
+  "color2": "#fff3c0",
+  "desc": "A little crate with a very big smile."
+ },
+ {
+  "id": "ep2_charm_5",
+  "name": "Foghorn Charm",
+  "kind": "key",
+  "shape": "drop",
+  "color": "#7fe0ff",
+  "color2": "#ffffff",
+  "desc": "It toots a happy note when the sea is calm."
+ },
+ {
+  "id": "ep2_charm_6",
+  "name": "Bell Charm",
+  "kind": "key",
+  "shape": "orb",
+  "color": "#ffd23f",
+  "color2": "#fff7c0",
+  "desc": "The Dock Bell sings through this charm."
+ },
+ {
+  "id": "ep2_shell",
+  "name": "Sea Shell",
+  "kind": "material",
+  "shape": "drop",
+  "color": "#ffb0c8",
+  "color2": "#ffffff",
+  "desc": "A pearly shell from Lantern Rock."
+ },
+ {
+  "id": "ep2_coil",
+  "name": "Rope Coil",
+  "kind": "material",
+  "shape": "gear",
+  "color": "#c9a26a",
+  "color2": "#fff3c0",
+  "desc": "A coil of good rope from the Rope Yard."
+ },
+ {
+  "id": "ep2_harbor_pilot",
+  "name": "Harbor Pilot Badge",
+  "kind": "badge",
+  "shape": "star",
+  "color": "#3a8fd0",
+  "color2": "#ffe066",
+  "desc": "Earned by waking all six Route Temples at Sky Dock."
+ },
+ {
+  "id": "ep2_sailor_knot",
+  "name": "Sailor Knot Pin",
+  "kind": "badge",
+  "shape": "gear",
+  "color": "#c9a26a",
+  "color2": "#ffffff",
+  "desc": "A pin for anyone who helps with the ropes."
+ }
+]

@@ -1,0 +1,172 @@
+{
+ "id": "ep2_r5",
+ "order": 5,
+ "name": "Foghorn Reef",
+ "difficulty": 4,
+ "requires_item": "ep2_charm_4",
+ "item_reward": "ep2_charm_5",
+ "boss": {
+  "name": "Foghorn Fran",
+  "element": "earth",
+  "color": "#7fe0ff",
+  "color2": "#ffffff",
+  "hearts": 4,
+  "dizzy_after_sec": 9,
+  "intro": "Fran the foghorn forgot her one big note and keeps squeaking. Dodge the toots!",
+  "after": "Fran takes a deep breath and toots one beautiful, round note.",
+  "patterns": [
+   {
+    "type": "wave",
+    "count": 9,
+    "speed": 110,
+    "every": 1.5
+   },
+   {
+    "type": "rain",
+    "count": 3,
+    "speed": 115,
+    "every": 1.4
+   },
+   {
+    "type": "sweep",
+    "count": 8,
+    "speed": 100,
+    "every": 2.6
+   }
+  ]
+ },
+ "cutscenes": {
+  "arrival": "ep2_r5_arrival",
+  "boss_intro": "ep2_r5_boss_intro",
+  "boss_defeated": "ep2_r5_boss_defeated",
+  "item": "ep2_r5_item"
+ },
+ "map": {
+  "id": "ep2_r5",
+  "name": "Foghorn Reef",
+  "music": "temple",
+  "background": "#1a2a4a",
+  "tiles": [
+   "########################",
+   "########################",
+   "#######sccccccccs#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######cccccccccc#######",
+   "#######sccccccccs#######",
+   "############c###########",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "##cccccccccccccccccccc##",
+   "########################"
+  ],
+  "spawn": {
+   "default": [
+    12,
+    12
+   ]
+  },
+  "puzzle": {
+   "type": "memory",
+   "order": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "flag": "ep2_r5_puzzle"
+  },
+  "objects": [
+   {
+    "type": "door",
+    "x": 12,
+    "y": 14,
+    "to": "ep2_dock",
+    "spawn": "from_r5",
+    "color": "#9ff0b8"
+   },
+   {
+    "type": "gate",
+    "id": "puzzle_gate",
+    "x": 12,
+    "y": 8,
+    "opens_on": "ep2_r5_puzzle",
+    "color": "#ffe066"
+   },
+   {
+    "type": "boss",
+    "x": 12,
+    "y": 2,
+    "temple": "ep2_r5"
+   },
+   {
+    "type": "sign",
+    "x": 9,
+    "y": 3,
+    "text": "Ring the chime and watch the glowing posts."
+   },
+   {
+    "type": "sign",
+    "x": 11,
+    "y": 10,
+    "text": "Ring the chime and watch the glowing posts. Then touch them in the same order."
+   },
+   {
+    "type": "chest",
+    "id": "reward",
+    "x": 15,
+    "y": 3,
+    "item": "ep2_charm_5",
+    "if": "ep2_r5_boss_done",
+    "actions": [
+     {
+      "flag": "ep2_r5_item"
+     },
+     {
+      "cutscene": "ep2_r5_item"
+     }
+    ]
+   },
+   {
+    "type": "chime",
+    "x": 10,
+    "y": 11
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 10,
+    "n": 0
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 10,
+    "n": 1
+   },
+   {
+    "type": "pillar",
+    "x": 16,
+    "y": 13,
+    "n": 2
+   },
+   {
+    "type": "pillar",
+    "x": 19,
+    "y": 13,
+    "n": 3
+   }
+  ],
+  "on_enter": [
+   {
+    "unless": "ep2_r5_arrived",
+    "flag": "ep2_r5_arrived",
+    "cutscene": "ep2_r5_arrival"
+   }
+  ]
+ }
+}

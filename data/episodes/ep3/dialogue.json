@@ -1,0 +1,346 @@
+{
+ "ep3_quince_intro": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Welcome, {nick}! I am Mother Quince, keeper of Quince Grove."
+   },
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Our trees always bloomed in patterns: two, four, six, eight. Now they bloom out of order, and the whole orchard is in a muddle."
+   },
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Six Grove Temples hold the old patterns. Start with Seedling Row, the door on the far left. {companion} will help."
+   }
+  ]
+ },
+ "ep3_quince_h1": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Seedling Row is the first door on the left. Count by twos, and touch the next numbers in order!"
+   }
+  ]
+ },
+ "ep3_quince_h2": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Your Sprout Charm opens Honey Hollow. Pick two baskets that add up to 20."
+   }
+  ]
+ },
+ "ep3_quince_h3": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Quince Maze next. Push the crates onto the plates, and use the reset bell if you get stuck."
+   }
+  ]
+ },
+ "ep3_quince_h4": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "The Greenhouse Glass is foggy. Ring the chime and watch the pots glow in order."
+   }
+  ]
+ },
+ "ep3_quince_h5": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Vine Cellar! The numbers there are square numbers: 1, 4, 9, 16, and onward."
+   }
+  ]
+ },
+ "ep3_quince_h6": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "The last temple is the Overgrown Greenhouse. Three baskets must balance at 30. You can do it, {nick}."
+   }
+  ]
+ },
+ "ep3_quince_finale": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Look! Every tree is blooming in order again. The whole grove is humming!"
+   },
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "You are officially an Orchard Keeper, {nick}. Wear this badge with pride."
+   },
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "Oh dear. Our glowing jar of orchard fruit is gone from the cellar, and there is a polite note: \"Borrowed with thanks. M.V.\" Who is M.V.?"
+   }
+  ]
+ },
+ "ep3_quince_after": {
+  "default": [
+   {
+    "name": "Mother Quince",
+    "portrait": "gardener",
+    "text": "The orchard has never looked so tidy. Keep an eye out for that M.V., would you?"
+   }
+  ]
+ },
+ "ep3_tess_intro": {
+  "default": [
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Tess here! I followed the wind-boats over to set up a workshop at Quince Grove."
+   },
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "Bring me gears, crystals, shells and seeds, and I will build gear and brew potions. Nothing is ever lost."
+   }
+  ]
+ },
+ "ep3_tess_again": {
+  "default": [
+   {
+    "name": "Engineer Tess",
+    "portrait": "guide",
+    "text": "More tinkering? Show me what you have found."
+   }
+  ]
+ },
+ "ep3_pear": {
+  "default": [
+   {
+    "name": "Auntie Pear",
+    "portrait": "elder",
+    "text": "In my day the trees bloomed on time. Now they bloom whenever they please! Lovely, but confusing."
+   }
+  ]
+ },
+ "ep3_olly": {
+  "default": [
+   {
+    "name": "Orchard-hand Olly",
+    "portrait": "kid",
+    "text": "I counted forty-two apples this morning. Then one fell and rolled away. Forty-one? Forty-three? Ugh."
+   }
+  ]
+ },
+ "ep3_bree": {
+  "default": [
+   {
+    "name": "Hill-hand Bree",
+    "portrait": "kid",
+    "text": "The bees here hum in perfect pairs. Two buzzes, two buzzes, two buzzes. It is very soothing."
+   }
+  ]
+ },
+ "ep3_moss": {
+  "default": [
+   {
+    "name": "Forager Moss",
+    "portrait": "gardener",
+    "text": "The seeds hide under the mushroom caps. They like to play hide and seek."
+   }
+  ]
+ },
+ "ep3_q_honey_offer": {
+  "default": [
+   {
+    "name": "Beekeeper Bao",
+    "portrait": "keeper",
+    "text": "The bees have gone quiet. Maybe they miss their honey."
+   },
+   {
+    "name": "Beekeeper Bao",
+    "portrait": "keeper",
+    "text": "Could you find 4 Honey Drops on Honey Hill and bring them to me?"
+   }
+  ]
+ },
+ "ep3_q_honey_done": {
+  "default": [
+   {
+    "name": "Beekeeper Bao",
+    "portrait": "keeper",
+    "text": "Four sweet drops! The bees are humming again. Thank you, {nick}!"
+   }
+  ]
+ },
+ "ep3_q_seeds_offer": {
+  "default": [
+   {
+    "name": "Farmer Rue",
+    "portrait": "gardener",
+    "text": "My seed basket tipped over in the dell."
+   },
+   {
+    "name": "Farmer Rue",
+    "portrait": "gardener",
+    "text": "Please find 3 Orchard Seeds in Mushroom Dell. They love to hide under mushrooms."
+   }
+  ]
+ },
+ "ep3_q_seeds_done": {
+  "default": [
+   {
+    "name": "Farmer Rue",
+    "portrait": "gardener",
+    "text": "Three plump seeds! Take this Basket Pin, you earned it."
+   }
+  ]
+ },
+ "ep3_q_chat_offer": {
+  "default": [
+   {
+    "name": "Grandpa Thyme",
+    "portrait": "elder",
+    "text": "A grove is only as friendly as its hellos."
+   },
+   {
+    "name": "Grandpa Thyme",
+    "portrait": "elder",
+    "text": "Say hello to 5 people around Quince Grove, then come tell me who was the chattiest."
+   }
+  ]
+ },
+ "ep3_q_chat_done": {
+  "default": [
+   {
+    "name": "Grandpa Thyme",
+    "portrait": "elder",
+    "text": "Five hellos! What a friendly bunch."
+   }
+  ]
+ },
+ "ep3_q_sharp_offer": {
+  "default": [
+   {
+    "name": "Tally the Counter",
+    "portrait": "bot",
+    "text": "Bzzt! I keep losing count of the fruit."
+   },
+   {
+    "name": "Tally the Counter",
+    "portrait": "bot",
+    "text": "Answer 6 questions correctly on the first try, and I will recount everything."
+   }
+  ]
+ },
+ "ep3_q_sharp_done": {
+  "default": [
+   {
+    "name": "Tally the Counter",
+    "portrait": "bot",
+    "text": "Six sharp answers! The fruit is counted at last."
+   }
+  ]
+ },
+ "ep3_q_friend_offer": {
+  "default": [
+   {
+    "name": "Forager Fig",
+    "portrait": "guide",
+    "text": "The creatures around the grove are shy but friendly."
+   },
+   {
+    "name": "Forager Fig",
+    "portrait": "guide",
+    "text": "Befriend 2 of them, and answer their question kindly."
+   }
+  ]
+ },
+ "ep3_q_friend_done": {
+  "default": [
+   {
+    "name": "Forager Fig",
+    "portrait": "guide",
+    "text": "Two new friends! How lovely."
+   }
+  ]
+ },
+ "ep3_q_puzzle_offer": {
+  "default": [
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Ellowen says a pattern is just a question that wants an answer."
+   },
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Solve any two temple puzzles, and I will write it down, neatly."
+   }
+  ]
+ },
+ "ep3_q_puzzle_done": {
+  "default": [
+   {
+    "name": "Nib",
+    "portrait": "archivist",
+    "text": "Two patterns solved! I will file that under \"brilliant\"."
+   }
+  ]
+ },
+ "ep3_q_berries_offer": {
+  "default": [
+   {
+    "name": "Fisher Pia",
+    "portrait": "keeper",
+    "text": "I want to bake a berry pie, but the berries drift off in the creek breeze."
+   },
+   {
+    "name": "Fisher Pia",
+    "portrait": "keeper",
+    "text": "Can you find 3 Spark Berries around Creek Bend?"
+   }
+  ]
+ },
+ "ep3_q_berries_done": {
+  "default": [
+   {
+    "name": "Fisher Pia",
+    "portrait": "keeper",
+    "text": "Three juicy berries! I will bake the best pie in Lumeria."
+   }
+  ]
+ },
+ "ep3_q_boss_offer": {
+  "default": [
+   {
+    "name": "Gardener Ivy",
+    "portrait": "gardener",
+    "text": "Some of the temple guardians are muddled, not mean."
+   },
+   {
+    "name": "Gardener Ivy",
+    "portrait": "gardener",
+    "text": "Help 2 of them remember, and the whole grove will thank you."
+   }
+  ]
+ },
+ "ep3_q_boss_done": {
+  "default": [
+   {
+    "name": "Gardener Ivy",
+    "portrait": "gardener",
+    "text": "Two guardians helped! You are a hero of the grove."
+   }
+  ]
+ }
+}
